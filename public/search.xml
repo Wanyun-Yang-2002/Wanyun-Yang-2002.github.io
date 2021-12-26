@@ -39,8 +39,7 @@
   <entry>
     <title>JS基础学习笔记</title>
     <url>/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h4 id="看的视频是翁恺老师讲的Javascript-视频不是很长，不过了解js基础足够了，想深入学还得看别的-多多练习"><a href="#看的视频是翁恺老师讲的Javascript-视频不是很长，不过了解js基础足够了，想深入学还得看别的-多多练习" class="headerlink" title="看的视频是翁恺老师讲的Javascript,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习"></a>看的视频是<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习</h4><br>
-
+    <content><![CDATA[<p><b> 看的视频是<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习<br></b></p>
 <h1 id="一开始在代码中记的笔记"><a href="#一开始在代码中记的笔记" class="headerlink" title="一开始在代码中记的笔记:"></a>一开始在代码中记的笔记:</h1><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS学习<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;alert(&#x27;hi&#x27;)&quot;</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 网页打开出现hi的提示 --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- alert产生对话框 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(<span class="string">&quot;hello world!&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="comment">// document是浏览器的页面（称为对象）</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// .表示左边的做右边的动作</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// write表示“写”</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//hello 是字符串，放在&quot;&quot;里面</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//结尾要加分号</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> hello;</span></span><br><span class="line"><span class="javascript">            <span class="comment">//一个名叫hello的变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//var 定义变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中变量没有类型，赋给变量的值有类型</span></span></span><br><span class="line"><span class="javascript">            hello = <span class="string">&quot;hello&quot;</span>;    <span class="comment">//赋值</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello+<span class="string">&quot;&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age = <span class="number">16</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> ot = <span class="literal">true</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello + age+<span class="string">&quot;&lt;br/&gt;&quot;</span>);    <span class="comment">//对于字符串“+”就是字符串连接，输出hello16</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//加减乘除取模，比较大小，++--什么的都和C差不多</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中数字不区分整数浮点数啥的，但是内部有范围</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age1 = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age2 = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(age1 &lt;= age2+<span class="string">&quot;&lt;br/&gt;&quot;</span>);   <span class="comment">//输出true</span></span></span><br><span class="line"><span class="javascript">            </span></span><br><span class="line"><span class="javascript">            <span class="comment">//判断语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//if-else语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;成年啦&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;还小呢&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span></span><br><span class="line"><span class="javascript">            <span class="comment">//switch-case语句</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> t = <span class="number">2</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">switch</span> (t) &#123;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">1</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;你好&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">2</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;早&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">default</span>:    <span class="comment">//默认</span></span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;WTF???&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span></span><br><span class="line"><span class="javascript">            o.name = <span class="string">&quot;John&quot;</span>;</span></span><br><span class="line"><span class="javascript">            o.age = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            o.salary = <span class="number">300</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span></span><br><span class="line"><span class="javascript">                alert(x);</span></span><br><span class="line"><span class="javascript">                alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (confirm(<span class="string">&quot;还继续吗？&quot;</span>))&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;继续&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;再见&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> name = prompt(<span class="string">&quot;你的名字是： &quot;</span>);</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;hello&quot;</span>+name);</span></span><br><span class="line"><span class="javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <h1 id="JavaScript介绍-后面用markdown做的笔记"><a href="#JavaScript介绍-后面用markdown做的笔记" class="headerlink" title="JavaScript介绍(后面用markdown做的笔记)"></a>JavaScript介绍(后面用markdown做的笔记)</h1><ul>
 <li>是一种可以在浏览器中运行的脚本语言</li>
@@ -64,7 +63,9 @@
 </ul>
 <h1 id="变量和计算"><a href="#变量和计算" class="headerlink" title="变量和计算"></a>变量和计算</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><ul>
 <li>用于存放数据的东西</li>
-<li>var：用于定义变量<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h1 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h1><h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2></li>
+<li>var：用于定义变量</li>
+</ul>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h1 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h1><h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><ul>
 <li>if-else语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span><br><span class="line">  <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span><br><span class="line">      alert(<span class="string">&quot;成年啦&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span>&#123;</span><br><span class="line">      alert(<span class="string">&quot;还小呢&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span><br></pre></td></tr></table></figure></li>
 <li>switch-case语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">switch</span> (t) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">        alert(<span class="string">&quot;你好&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">        alert(<span class="string">&quot;早&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:    <span class="comment">//默认</span></span><br><span class="line">        alert(<span class="string">&quot;WTF???&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li>逻辑计算<ul>
@@ -80,17 +81,87 @@
 </li>
 <li>条件运算符（三元运算符）<ul>
 <li>格式：&lt;exp&gt;?&lt;v1&gt;:&lt;v2&gt;</li>
-<li>解释：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (exp)&#123;</span><br><span class="line">    v1;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">    v2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2></li>
+<li>解释：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (exp)&#123;</span><br><span class="line">    v1;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">    v2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
+</ul>
+<h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><ul>
 <li>while语句<ul>
 <li>while语句让同一段代码可以重复执行很多次<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先判断再循环</span></span><br><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">var</span> count = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> LIMIT = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">while</span> (count &lt;= LIMIT)&#123;</span><br><span class="line">    alert(count);</span><br><span class="line">    count = count + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 <li>do-while语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//循环一次之后才开始判断</span></span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;<span class="keyword">while</span>();</span><br></pre></td></tr></table></figure></li>
-<li>for语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">  <span class="comment">//举例</span></span><br><span class="line">  <span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">5</span>; i=i+<span class="number">1</span>)&#123;</span><br><span class="line">      alert(i);</span><br><span class="line">  &#125;</span><br><span class="line"># 函数</span><br><span class="line">- 函数就是一段代码，我们给它起个名字，放起来，以后可以用</span><br><span class="line">- JavaScript有很多内置函数，能帮助我们实现很多有用的功能</span><br><span class="line">- 定义函数</span><br><span class="line">  - <span class="function"><span class="keyword">function</span> <span class="title">fun_name</span>(<span class="params"></span>)</span>&#123;&#125;</span><br><span class="line">  - <span class="keyword">var</span> f = <span class="keyword">new</span> <span class="built_in">Function</span>(<span class="string">&quot;x&quot;</span>,<span class="string">&quot;y&quot;</span>,<span class="string">&quot;return x\*y&quot;</span>); 等价于 <span class="function"><span class="keyword">function</span> <span class="title">f</span>(<span class="params">x,y</span>)</span>&#123;<span class="keyword">return</span> x\*y;&#125;</span><br><span class="line">  - 其他的和其他语言都差不多的样子...</span><br><span class="line">- 变量空间</span><br><span class="line">  - 定义在函数外的变量在整个页面中都有效</span><br><span class="line">  - 定义在函数内部的变量只在函数内有效</span><br><span class="line"># 数组</span><br><span class="line">- <span class="keyword">var</span> marks = <span class="keyword">new</span> <span class="built_in">Array</span>(); 创建一个数组marks</span><br><span class="line">- marks[<span class="number">0</span>] ：[]可以访问数组，数组从<span class="number">0</span>开始</span><br><span class="line">- 数组长度：marks.length给出数组marks的长度</span><br><span class="line">  - .length可写</span><br><span class="line">- 堆栈操作</span><br><span class="line">  - .push</span><br><span class="line">  - .pop</span><br><span class="line">- 队列操作</span><br><span class="line">  - .push</span><br><span class="line">  - .shift</span><br><span class="line">- 排序操作</span><br><span class="line">  - .sort</span><br><span class="line">  - .reverse    按顺序颠倒</span><br><span class="line">- 其他操作</span><br><span class="line">  - .concat 连接</span><br><span class="line">  - .slice 取出某一部分作为新数组</span><br><span class="line">  - .splice(开始位置，删除个数，插入元素)</span><br><span class="line"># 对象</span><br><span class="line">- 对象是JavaScript的一种复合数据类型，它可以把多个数据集中在一个变量中，并且给其中的每个数据起名字</span><br><span class="line">- 或者说，对象是一个属性集合，每个属性有自己的名字和值</span><br><span class="line">  - JavaScript并不像其他OOP语言那样有类的概念，不是先设计类再制造对象</span><br><span class="line">- 创建对象</span><br><span class="line">  - <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">  - <span class="keyword">var</span> ciclr = &#123;<span class="attr">x</span>:<span class="number">0</span>,<span class="attr">y</span>:<span class="number">0</span>,<span class="attr">radius</span>:<span class="number">2</span>&#125;;</span><br><span class="line">- 访问对象属性</span><br><span class="line">  - .运算符</span><br><span class="line">- 删除对象属性</span><br><span class="line">  - <span class="keyword">delete</span> book.chapter1;</span><br><span class="line">- 遍历所有属性</span><br><span class="line">  - <span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)...</span><br><span class="line">  <span class="string">``</span><span class="string">`javascript</span></span><br><span class="line"><span class="string">  var o = new Object();</span></span><br><span class="line"><span class="string">  o.name = &quot;John&quot;;</span></span><br><span class="line"><span class="string">  o.age = 30;</span></span><br><span class="line"><span class="string">  o.salary = 300;</span></span><br><span class="line"><span class="string">  for (var x in o)&#123;</span></span><br><span class="line"><span class="string">    alert(x);</span></span><br><span class="line"><span class="string">    alert(x + &quot;=&quot; + o[x]);</span></span><br><span class="line"><span class="string">  &#125;</span></span><br></pre></td></tr></table></figure>
-<h1 id="浏览器里的JavaScript"><a href="#浏览器里的JavaScript" class="headerlink" title="浏览器里的JavaScript"></a>浏览器里的JavaScript</h1><h2 id="window"><a href="#window" class="headerlink" title="window"></a>window</h2></li>
+<li>for语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">5</span>; i=i+<span class="number">1</span>)&#123;</span><br><span class="line">    alert(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><ul>
+<li>函数就是一段代码，我们给它起个名字，放起来，以后可以用</li>
+<li>JavaScript有很多内置函数，能帮助我们实现很多有用的功能</li>
+<li>定义函数<ul>
+<li>function fun_name(){}</li>
+<li>var f = new Function(“x”,”y”,”return x*y”); 等价于 function f(x,y){return x*y;}</li>
+<li>其他的和其他语言都差不多的样子…</li>
+</ul>
+</li>
+<li>变量空间<ul>
+<li>定义在函数外的变量在整个页面中都有效</li>
+<li>定义在函数内部的变量只在函数内有效</li>
+</ul>
+</li>
+</ul>
+<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><ul>
+<li>var marks = new Array(); 创建一个数组marks</li>
+<li>marks[0] ：[]可以访问数组，数组从0开始</li>
+<li>数组长度：marks.length给出数组marks的长度<ul>
+<li>.length可写</li>
+</ul>
+</li>
+<li>堆栈操作<ul>
+<li>.push</li>
+<li>.pop</li>
+</ul>
+</li>
+<li>队列操作<ul>
+<li>.push</li>
+<li>.shift</li>
+</ul>
+</li>
+<li>排序操作<ul>
+<li>.sort</li>
+<li>.reverse    按顺序颠倒</li>
+</ul>
+</li>
+<li>其他操作<ul>
+<li>.concat 连接</li>
+<li>.slice 取出某一部分作为新数组</li>
+<li>.splice(开始位置，删除个数，插入元素)</li>
+</ul>
+</li>
+</ul>
+<h1 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h1><ul>
+<li>对象是JavaScript的一种复合数据类型，它可以把多个数据集中在一个变量中，并且给其中的每个数据起名字</li>
+<li>或者说，对象是一个属性集合，每个属性有自己的名字和值<ul>
+<li>JavaScript并不像其他OOP语言那样有类的概念，不是先设计类再制造对象</li>
+</ul>
+</li>
+<li>创建对象<ul>
+<li>var o = new Object();</li>
+<li>var ciclr = {x:0,y:0,radius:2};</li>
+</ul>
+</li>
+<li>访问对象属性<ul>
+<li>.运算符</li>
+</ul>
+</li>
+<li>删除对象属性<ul>
+<li>delete book.chapter1;</li>
+</ul>
+</li>
+<li>遍历所有属性<ul>
+<li>for (var x in o)…<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">o.name = <span class="string">&quot;John&quot;</span>;</span><br><span class="line">o.age = <span class="number">30</span>;</span><br><span class="line">o.salary = <span class="number">300</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span><br><span class="line">  alert(x);</span><br><span class="line">  alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h1 id="浏览器里的JavaScript"><a href="#浏览器里的JavaScript" class="headerlink" title="浏览器里的JavaScript"></a>浏览器里的JavaScript</h1><h2 id="window"><a href="#window" class="headerlink" title="window"></a>window</h2><ul>
 <li>浏览器的全局对象是window</li>
 <li>所有全局的变量实际上是window的成员<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var answer = 12;</span><br><span class="line">alert(window.answer);</span><br></pre></td></tr></table></figure></li>
 <li>window.document表示浏览器窗口中的HTML页面</li>
@@ -135,9 +206,11 @@
 </ul>
 </li>
 <li>location对象<ul>
-<li>window.location代表当前文档的URL<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2></li>
+<li>window.location代表当前文档的URL</li>
 </ul>
 </li>
+</ul>
+<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><ul>
 <li>document的成员<ul>
 <li>anchors[]</li>
 <li>forms[]</li>
