@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/12/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Blog搭建过程(Hexo)</title>
     <url>/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/</url>
     <content><![CDATA[<p>一开始是按照网上搜索到的教程开始制作的，中途出了不少差错，于是便搁置了，直到今天才想起来。</p>
@@ -232,6 +214,156 @@
       <tags>
         <tag>笔记</tag>
         <tag>Javascript</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文梗收集（be）</title>
+    <url>/2022/05/04/%E6%96%87%E6%A2%97%E6%94%B6%E9%9B%86%EF%BC%88be%EF%BC%89/</url>
+    <content><![CDATA[<p>来源于林朵的<a href="https://forestandflower.lofter.com/post/1cbe1712_12e672886">虐梗</a></p>
+<ol>
+<li>还没来得及公开就已结束的恋情</li>
+<li>刚刚获得便又失去的希望</li>
+<li>至死都未能解开的惨痛误会</li>
+<li>已经找不到道歉对象的愧疚</li>
+<li>只差一点就能避免的永远错过</li>
+<li>一直被当成是谎言的诚恳坦白</li>
+<li>至始至终无人知晓的自我牺牲</li>
+<li>在对方眼中不值一提的重大付出</li>
+<li>即使说出口也已经没用了的事实真相</li>
+<li>无论怎么选都是错的魔鬼抉择</li>
+<li>很久之后才知道自己当初真正失去了什么</li>
+<li>始终牢记的人早把自己忘了</li>
+<li>初衷便是欺骗的虚假情谊</li>
+<li>看似还有希望之时其实已经没有希望了</li>
+<li>原来很在意的愿望在达成时早就不在意了</li>
+<li>自己于在意之人眼中并无特别</li>
+<li>两人的约定只有一个人记得</li>
+<li>两人共同的誓言只有一个人遵守</li>
+<li>只差一步便能挽回的糟糕局面</li>
+<li>满腔怨怒委屈却找不到可以为之负责的对象</li>
+<li>不懂真正代价的糊涂交换</li>
+<li>两人间无能为力的渐行渐远</li>
+<li>情愿自我欺骗也不愿正视的真相</li>
+<li>转瞬即逝的人生巅峰</li>
+<li>身处热闹的极端孤独</li>
+<li>因为再没有什么期待才表现出的释然</li>
+<li>没有其他选择而不得不接受的结果</li>
+<li>无论如何都得不到认可的努力</li>
+<li>两人最后都没等到对方的道歉</li>
+<li>走到终点才发现路一开始便选错了</li>
+<li>见识过光明之后却得继续忍受黑暗</li>
+<li>维系情谊的脆弱平衡遭到破坏且无法修复</li>
+<li>不被感激反被误解与嫌弃的善意</li>
+<li>都为对方好但却不知道对方真正想要什么</li>
+<li>自己的痛苦在对方眼中只是好玩的笑话</li>
+<li>发现并没有人真的站在自己这边</li>
+<li>造成更加严重后果的善意欺骗</li>
+<li>爱恋产生的基础一开始就不存在</li>
+<li>怨恨产生的基础一开始也不存在</li>
+<li>从未真正拥有过失去后会令人痛苦的东西</li>
+</ol>
+]]></content>
+      <categories>
+        <category>写文相关</category>
+      </categories>
+      <tags>
+        <tag>素材</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/12/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>文梗收集（he）</title>
+    <url>/2022/05/04/%E6%96%87%E6%A2%97%E6%94%B6%E9%9B%86%EF%BC%88he%EF%BC%89/</url>
+    <content><![CDATA[<p>来源于林朵的<a href="https://forestandflower.lofter.com/post/1cbe1712_12e699bed">甜梗</a></p>
+<ol>
+<li>你暗恋的对象正好也暗恋着你</li>
+<li>向来无人在意的优点得到对方的真诚欣赏</li>
+<li>自卑之人开始发自内心地接纳与喜欢自己</li>
+<li>本以为事情已无望之时重获转机</li>
+<li>长久的努力获得了在意之人的认可</li>
+<li>在茫茫人海之中互相找寻的两人没有错过彼此</li>
+<li>故作轻松的玩笑话却被对方读懂了真心</li>
+<li>被孤立时有人愿意一直站在自己这边</li>
+<li>诚恳的道歉与弥补得到真正的原谅</li>
+<li>深切的误会能够彻底解开</li>
+<li>对方即使知晓你一切缺陷与不堪也依然爱你</li>
+<li>平凡如你却在喜欢你的人眼中闪闪发亮</li>
+<li>对方能察觉并真心感激你的默默付出</li>
+<li>对方的未来计划里总是包括了你</li>
+<li>对方盛怒之时仍然在意你的感受</li>
+<li>对方愿意倾听你深埋心中的秘密与伤痛</li>
+<li>双方都因遇到对的人而变成更好的自己</li>
+<li>两人说到彼此才能听懂的梗时会心一笑</li>
+<li>突然回头时发现对方正好也在看着自己</li>
+<li>分开的两人在各自成长后又重新走到了一起</li>
+<li>两人即便分别多年再见面时依然能无话不谈</li>
+<li>比起相遇之后产生的巨大麻烦，两人更害怕此生会遇不到彼此</li>
+<li>痛苦与孤单之时有人愿意给予陪伴</li>
+<li>能与喜欢的人分享自己的秘密基地</li>
+<li>贴心地记住恋人的喜好并为之制造惊喜</li>
+<li>平常小事会因为一起经历的人而变得特别</li>
+<li>在一起的两人互相尊重彼此的差异</li>
+<li>两人都会为了对方而主动做出改变</li>
+<li>两人无论在什么情况下都不会选择牺牲对方</li>
+<li>即使立场对立，两人也依然认可彼此的品格和能力</li>
+<li>两人都始终恪守最初的誓言</li>
+<li>在日常生活里自然而然的互相称赞</li>
+<li>在潦倒困境之中的相互扶持</li>
+<li>两人追求与前进的方向始终一致</li>
+<li>深夜时分两人一起压马路</li>
+<li>藏匿许久的秘密恋情终于能够自信满满地公开</li>
+<li>彼此都为对方好并且也知道对方真正想要什么</li>
+<li>因为信任将自己的软肋展露给对方知晓</li>
+<li>知晓你软肋之人也绝不会用此来伤害你</li>
+<li>真正拥有那些失去后会令人痛苦的东西</li>
+</ol>
+]]></content>
+      <categories>
+        <category>写文相关</category>
+      </categories>
+      <tags>
+        <tag>素材</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>角色塑造</title>
+    <url>/2022/05/04/%E8%A7%92%E8%89%B2%E5%A1%91%E9%80%A0/</url>
+    <content><![CDATA[<p><a href="https://forestandflower.lofter.com/post/1cbe1712_123209be">角色塑造小技巧（林朵）</a></p>
+<ol>
+<li>想要让某个角色形象更复杂更丰满，可以设置另外两个角色，在与这个角色各自打过交道后，得出对他她完全不同的评价，由此证明，这个角色内涵丰富，不同的人只能体会其中的一部分。</li>
+<li>想要使反派角色更立体，可以给他/她增加一段悲惨/发人深省的童年经历，或者将其做事动机设定为不是为了自己，而是为了帮助另一群无辜的人，总之得加入具有反差效果的成分，突破第一印象。</li>
+<li>想要让立场敌对的角色互生好感，可以创造一个必须由两人联手克服的困境，或者增加同时与二人为敌的第三方，总之，合作是两人之间产生情谊的好契机。</li>
+<li>想要表现一个角色有坚定的信念，可以先点明该角色在安逸环境中所持观点，再安排一次使其动摇纠结的波折事件，事件过后，该角色即使认识到了这个世界的复杂与残酷之处，依然坚持原有的信念，这才是真的坚定。</li>
+<li>想要让两个陌生角色迅速了解彼此，可以将他们放入一个与世隔绝的环境，暂时屏蔽其他事物的干扰，让角色可以放心展示各自不为人知的一面，特殊的共同经历将让两个陌生人产生独特而深刻的交集。</li>
+<li>想让一对情侣角色加深感情，可以设置一场涉及两人核心价值观的矛盾与和解，但不要简单地靠一方容忍退步来掩盖矛盾，而是至少让一方角色精神内核有所转变，这样矛盾的解决就意味着两人的灵魂将靠的更拢。</li>
+<li>想要表现角色的强大，请给他/她安排同样强大的对手，对手的锋芒是角色形象的最好陪衬，千万别把对手们写的太蠢，那只能说明打败他们的角色水平也不怎么样。</li>
+<li>想要体现角色的成长，可以在故事开头与结尾分别安排一场情况相似的艰难抉择，让角色面对相同的岔路口时，选择不同的方向，以此表现他/她内在的转变。</li>
+<li>想要表现某个角色对恋人的深情，可以安排该角色为恋人做出了某种牺牲，但不要直接描写该行为的发生，让恋人自己去发现这件事，侧面烘托其深情与隐忍。</li>
+<li>想要调和两个角色的关系僵局，可以设定其中一方失忆。但调和矛盾的方法不仅限于未失忆的一方后悔、自责、做出弥补，同时也该让失忆方跳出原有的认知局限，得到一次“旁观者清”的机会，以全新角度审视两人过去的纠葛，寻求新出路。这样就能确保即使其恢复记忆，矛盾也能从根本上得以缓和。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>写文相关</category>
+      </categories>
+      <tags>
+        <tag>素材</tag>
       </tags>
   </entry>
 </search>
