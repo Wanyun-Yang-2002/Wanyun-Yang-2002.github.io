@@ -19,30 +19,6 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo博客使用方法</title>
-    <url>/2022/05/04/hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>今天想给博客里加内容的时候，完全忘记了要怎么做，所以赶紧搜了一下怎么增加、上传文章，顺便给自己做了一个教程。</p>
-<h3 id="在博客根目录打开命令行"><a href="#在博客根目录打开命令行" class="headerlink" title="在博客根目录打开命令行"></a>在博客根目录打开命令行</h3><p>可以用cmd也可以用git bash（个人感觉这个方便一点）</p>
-<h3 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h3><figure class="highlight haxe"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="type"></span>文章标题</span><br></pre></td></tr></table></figure>
-<h3 id="编辑文章"><a href="#编辑文章" class="headerlink" title="编辑文章"></a>编辑文章</h3><p>在sourse/_posts中找到生成的md文件，打开后就可以写文章了</p>
-<h3 id="生成文章"><a href="#生成文章" class="headerlink" title="生成文章"></a>生成文章</h3><p>先清理旧的数据</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
-<p>生成新的页面</p>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>
-<h3 id="预览生成的页面"><a href="#预览生成的页面" class="headerlink" title="预览生成的页面"></a>预览生成的页面</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
-<p>预览结束后关闭预览输入<code>ctrl+c</code>就可以了</p>
-<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
-<p>如果不想预览想直接生成并发布的话，也可以直接用</p>
-<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">hexo g <span class="meta">&amp;&amp; hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>JS基础学习笔记</title>
     <url>/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p><b> 看的视频是<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习<br></b></p>
@@ -257,5 +233,29 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>hexo博客使用方法</title>
+    <url>/2022/05/04/hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<p>今天想给博客里加内容的时候，完全忘记了要怎么做，所以赶紧搜了一下怎么增加、上传文章，顺便给自己做了一个教程。</p>
+<h3 id="在博客根目录打开命令行"><a href="#在博客根目录打开命令行" class="headerlink" title="在博客根目录打开命令行"></a>在博客根目录打开命令行</h3><p>可以用cmd也可以用git bash（个人感觉这个方便一点）</p>
+<h3 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h3><figure class="highlight haxe"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="type"></span>文章标题</span><br></pre></td></tr></table></figure>
+<h3 id="编辑文章"><a href="#编辑文章" class="headerlink" title="编辑文章"></a>编辑文章</h3><p>在sourse/_posts中找到生成的md文件，打开后就可以写文章了</p>
+<h3 id="生成文章"><a href="#生成文章" class="headerlink" title="生成文章"></a>生成文章</h3><p>先清理旧的数据</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
+<p>生成新的页面</p>
+<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>
+<h3 id="预览生成的页面"><a href="#预览生成的页面" class="headerlink" title="预览生成的页面"></a>预览生成的页面</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<p>预览结束后关闭预览输入<code>ctrl+c</code>就可以了</p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+<p>如果不想预览想直接生成并发布的话，也可以直接用</p>
+<figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">hexo g <span class="meta">&amp;&amp; hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
   </entry>
 </search>
