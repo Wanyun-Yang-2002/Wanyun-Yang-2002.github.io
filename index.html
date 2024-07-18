@@ -155,7 +155,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -166,7 +166,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -195,6 +195,101 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Wanyun Yang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="杨">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">指针问题</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-07-18 17:05:55 / 修改时间：17:17:31" itemprop="dateCreated datePublished" datetime="2024-07-18T17:05:55+08:00">2024-07-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>&#x505A;&#x9898;&#x7684;&#x65F6;&#x5019;&#x7A81;&#x7136;&#x4EA7;&#x751F;&#x7684;&#x7591;&#x95EE;&#xFF1A;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<p>&#x4E3A;&#x4EC0;&#x4E48;left &#x548C; right &#x7684;&#x6539;&#x53D8;&#x4F1A;&#x5F71;&#x54CD;dumpy?</p>
+<p><strong>&#x53D8;&#x91CF;&#x548C;&#x5F15;&#x7528;</strong></p>
+<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;&#x5F53;&#x4F60;&#x6267;&#x884C;&#x8D4B;&#x503C;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5C06;&#x53D8;&#x91CF;&#x540D;&#x7ED1;&#x5B9A;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<p><code>dumpy = ListNode(next=head)</code>&#xFF1A;&#x8FD9;&#x91CC;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684; ListNode &#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x5C06; dumpy &#x53D8;&#x91CF;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;<br><code>left, right = dumpy, dumpy</code>&#xFF1A;&#x8FD9;&#x91CC;&#x5C06; left &#x548C; right &#x90FD;&#x6307;&#x5411; dumpy &#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5373;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684; ListNode &#x5BF9;&#x8C61;&#x3002;</p>
+<p><strong>&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x793A;&#x4F8B;</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x5F53; b = a &#x65F6;&#xFF0C;b &#x548C; a &#x90FD;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9; b &#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF08;&#x5982; b.append(4)&#xFF09;&#x4E5F;&#x4F1A;&#x5F71;&#x54CD; a&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x540C;&#x7406;&#xFF0C;&#x5728;&#x94FE;&#x8868;&#x64CD;&#x4F5C;&#x4E2D;&#xFF1A;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>dumpy</code> &#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684; <code>ListNode</code> &#x5BF9;&#x8C61;&#x3002;</li>
+<li><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x6307;&#x5411;&#x8FD9;&#x4E2A; <code>dumpy</code> &#x5BF9;&#x8C61;&#x3002;</li>
+<li>&#x4EFB;&#x4F55;&#x5BF9; <code>left</code> &#x6216; <code>right</code> &#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x5982;&#x79FB;&#x52A8;&#x6307;&#x9488;&#xFF09;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5728;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x94FE;&#x8868;&#x8282;&#x70B9;&#x4E0A;&#x3002;</li>
+</ul>
+<p><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x662F;&#x6307;&#x5411; <code>dumpy</code> &#x94FE;&#x8868;&#x4E2D;&#x7684;&#x8282;&#x70B9;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x79FB;&#x52A8;&#x5B83;&#x4EEC;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x8282;&#x70B9;&#x5728;&#x94FE;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x6539;&#x53D8;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x4FEE;&#x6539; <code>left.next</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5728;&#x4FEE;&#x6539; <code>dumpy</code> &#x94FE;&#x8868;&#x7684;&#x7ED3;&#x6784;&#x3002;</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 

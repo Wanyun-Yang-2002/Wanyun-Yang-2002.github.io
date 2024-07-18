@@ -20,29 +20,29 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wanyun-yang-2002.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/./public/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="&amp;#x6D45;&amp;#x62F7;&amp;#x8D1D;&amp;#xFF1A;&amp;#x590D;&amp;#x5236;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF0C;&amp;#x4F46;&amp;#x4E0D;&amp;#x590D;&amp;#x5236;&amp;#x5305;&amp;#x542B;&amp;#x7684;&amp;#x5B50;&amp;#x5BF9;&amp;#x8C61;&amp;#x3002;&amp;#x4FEE;&amp;#x6539;&amp;#x590D;&amp;#x5236;&amp;#x540E">
+<meta name="description" content="&amp;#x505A;&amp;#x9898;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x7A81;&amp;#x7136;&amp;#x4EA7;&amp;#x751F;&amp;#x7684;&amp;#x7591;&amp;#x95EE;&amp;#xFF1A; 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  &amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;left &amp;#x548C;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python中的深拷贝与浅拷贝">
-<meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/index.html">
+<meta property="og:title" content="指针问题">
+<meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="杨">
-<meta property="og:description" content="&amp;#x6D45;&amp;#x62F7;&amp;#x8D1D;&amp;#xFF1A;&amp;#x590D;&amp;#x5236;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF0C;&amp;#x4F46;&amp;#x4E0D;&amp;#x590D;&amp;#x5236;&amp;#x5305;&amp;#x542B;&amp;#x7684;&amp;#x5B50;&amp;#x5BF9;&amp;#x8C61;&amp;#x3002;&amp;#x4FEE;&amp;#x6539;&amp;#x590D;&amp;#x5236;&amp;#x540E">
+<meta property="og:description" content="&amp;#x505A;&amp;#x9898;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x7A81;&amp;#x7136;&amp;#x4EA7;&amp;#x751F;&amp;#x7684;&amp;#x7591;&amp;#x95EE;&amp;#xFF1A; 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  &amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;left &amp;#x548C;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-07-18T08:51:12.000Z">
-<meta property="article:modified_time" content="2024-07-18T08:59:05.330Z">
+<meta property="article:published_time" content="2024-07-18T09:05:55.000Z">
+<meta property="article:modified_time" content="2024-07-18T09:17:31.490Z">
 <meta property="article:author" content="Wanyun Yang">
-<meta property="article:tag" content="笔记">
 <meta property="article:tag" content="Python">
+<meta property="article:tag" content="指针">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/">
+<link rel="canonical" href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/","path":"2024/07/18/Python中的深拷贝与浅拷贝/","title":"Python中的深拷贝与浅拷贝"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/","path":"2024/07/18/指针问题/","title":"指针问题"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Python中的深拷贝与浅拷贝 | 杨</title>
+<title>指针问题 | 杨</title>
   
 
 
@@ -211,7 +211,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -224,7 +224,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Python中的深拷贝与浅拷贝
+          指针问题
         </h1>
 
         <div class="post-meta-container">
@@ -236,7 +236,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-07-18 16:51:12 / 修改时间：16:59:05" itemprop="dateCreated datePublished" datetime="2024-07-18T16:51:12+08:00">2024-07-18</time>
+      <time title="创建时间：2024-07-18 17:05:55 / 修改时间：17:17:31" itemprop="dateCreated datePublished" datetime="2024-07-18T17:05:55+08:00">2024-07-18</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -258,21 +258,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <ul>
-<li>&#x6D45;&#x62F7;&#x8D1D;&#xFF1A;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#xFF0C;&#x4F46;&#x4E0D;&#x590D;&#x5236;&#x5305;&#x542B;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x4FEE;&#x6539;&#x590D;&#x5236;&#x540E;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x3002;</li>
-<li>&#x6DF1;&#x62F7;&#x8D1D;&#xFF1A;&#x9012;&#x5F52;&#x5730;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x5305;&#x542B;&#x7684;&#x6240;&#x6709;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x590D;&#x5236;&#x540E;&#x7684;&#x5BF9;&#x8C61;&#x4E0E;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x5B8C;&#x5168;&#x72EC;&#x7ACB;&#x3002;</li>
-</ul>
-<p><strong>&#x53EF;&#x53D8;&#x5BF9;&#x8C61; vs &#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;</strong></p>
-<ul>
-<li>&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x6574;&#x6570;&#x3001;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x5143;&#x7EC4;&#x7B49;&#xFF0C;&#x4E0D;&#x80FD;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x5BF9;&#x5B83;&#x4EEC;&#x7684;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x53EA;&#x4F1A;&#x6539;&#x53D8;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: 4</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x5217;&#x8868;&#x3001;&#x5B57;&#x5178;&#x3001;&#x96C6;&#x5408;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x591A;&#x4E2A;&#x5F15;&#x7528;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5BF9;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x4EFB;&#x4F55;&#x4FEE;&#x6539;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5230;&#x6240;&#x6709;&#x5F15;&#x7528;&#x4E2D;&#x3002;</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+        <p>&#x505A;&#x9898;&#x7684;&#x65F6;&#x5019;&#x7A81;&#x7136;&#x4EA7;&#x751F;&#x7684;&#x7591;&#x95EE;&#xFF1A;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
-<p>&#x5BF9;&#x4E8E;&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9;&#x4E8E;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x5185;&#x5BB9;&#x4F1A;&#x5F71;&#x54CD;&#x6240;&#x6709;&#x5F15;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x4E3A;&#x4EC0;&#x4E48;left &#x548C; right &#x7684;&#x6539;&#x53D8;&#x4F1A;&#x5F71;&#x54CD;dumpy?</p>
+<p><strong>&#x53D8;&#x91CF;&#x548C;&#x5F15;&#x7528;</strong></p>
+<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;&#x5F53;&#x4F60;&#x6267;&#x884C;&#x8D4B;&#x503C;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5C06;&#x53D8;&#x91CF;&#x540D;&#x7ED1;&#x5B9A;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<p><code>dumpy = ListNode(next=head)</code>&#xFF1A;&#x8FD9;&#x91CC;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684; ListNode &#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x5C06; dumpy &#x53D8;&#x91CF;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;<br><code>left, right = dumpy, dumpy</code>&#xFF1A;&#x8FD9;&#x91CC;&#x5C06; left &#x548C; right &#x90FD;&#x6307;&#x5411; dumpy &#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5373;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684; ListNode &#x5BF9;&#x8C61;&#x3002;</p>
+<p><strong>&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x793A;&#x4F8B;</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+
+<p>&#x5F53; b = a &#x65F6;&#xFF0C;b &#x548C; a &#x90FD;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9; b &#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF08;&#x5982; b.append(4)&#xFF09;&#x4E5F;&#x4F1A;&#x5F71;&#x54CD; a&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x540C;&#x7406;&#xFF0C;&#x5728;&#x94FE;&#x8868;&#x64CD;&#x4F5C;&#x4E2D;&#xFF1A;</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>dumpy</code> &#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684; <code>ListNode</code> &#x5BF9;&#x8C61;&#x3002;</li>
+<li><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x6307;&#x5411;&#x8FD9;&#x4E2A; <code>dumpy</code> &#x5BF9;&#x8C61;&#x3002;</li>
+<li>&#x4EFB;&#x4F55;&#x5BF9; <code>left</code> &#x6216; <code>right</code> &#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x5982;&#x79FB;&#x52A8;&#x6307;&#x9488;&#xFF09;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5728;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x94FE;&#x8868;&#x8282;&#x70B9;&#x4E0A;&#x3002;</li>
+</ul>
+<p><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x662F;&#x6307;&#x5411; <code>dumpy</code> &#x94FE;&#x8868;&#x4E2D;&#x7684;&#x8282;&#x70B9;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x79FB;&#x52A8;&#x5B83;&#x4EEC;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x8282;&#x70B9;&#x5728;&#x94FE;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x6539;&#x53D8;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x4FEE;&#x6539; <code>left.next</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5728;&#x4FEE;&#x6539; <code>dumpy</code> &#x94FE;&#x8868;&#x7684;&#x7ED3;&#x6784;&#x3002;</p>
 
     </div>
 
@@ -290,7 +297,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/" title="Python中的深拷贝与浅拷贝">https://wanyun-yang-2002.github.io/2024/07/18/Python中的深拷贝与浅拷贝/</a>
+      <a href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/" title="指针问题">https://wanyun-yang-2002.github.io/2024/07/18/指针问题/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -299,22 +306,19 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"># 笔记</a>
               <a href="/tags/Python/" rel="tag"># Python</a>
+              <a href="/tags/%E6%8C%87%E9%92%88/" rel="tag"># 指针</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="prev" title="Golang基础学习笔记">
-                  <i class="fa fa-chevron-left"></i> Golang基础学习笔记
+                <a href="/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/" rel="prev" title="Python中的深拷贝与浅拷贝">
+                  <i class="fa fa-chevron-left"></i> Python中的深拷贝与浅拷贝
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/" rel="next" title="指针问题">
-                  指针问题 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
