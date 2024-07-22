@@ -20,29 +20,29 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wanyun-yang-2002.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/./public/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="Golang&amp;#x1F4A1;Golang Tutorial for Beginners | Full Go Course &amp;#x57FA;&amp;#x672C;&amp;#x7ED3;&amp;#x6784; &amp;#x521B;&amp;#x5EFA;&amp;#x6587;&amp;#x4EF6;&amp;#x5939; &amp;#x521B;&amp;#x5EFA;main.go &amp;#x6267;&amp;#x884C;&amp;#x547D;&amp;#x4EE4;&amp;#xFF0C;">
+<meta name="description" content="Golang💡Golang Tutorial for Beginners | Full Go Course 基本结构 创建文件夹  创建main.go  执行命令，生成 go.mod 文件  1go mod init 文件夹名  在 main.go 中输入如下代码，运行成功  1234567package mainimport &quot;fmt&quot;func main() &amp;#123;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Golang基础学习笔记">
 <meta property="og:url" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="杨">
-<meta property="og:description" content="Golang&amp;#x1F4A1;Golang Tutorial for Beginners | Full Go Course &amp;#x57FA;&amp;#x672C;&amp;#x7ED3;&amp;#x6784; &amp;#x521B;&amp;#x5EFA;&amp;#x6587;&amp;#x4EF6;&amp;#x5939; &amp;#x521B;&amp;#x5EFA;main.go &amp;#x6267;&amp;#x884C;&amp;#x547D;&amp;#x4EE4;&amp;#xFF0C;">
+<meta property="og:description" content="Golang💡Golang Tutorial for Beginners | Full Go Course 基本结构 创建文件夹  创建main.go  执行命令，生成 go.mod 文件  1go mod init 文件夹名  在 main.go 中输入如下代码，运行成功  1234567package mainimport &quot;fmt&quot;func main() &amp;#123;">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png">
-<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png">
+<meta property="og:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png">
 <meta property="article:published_time" content="2023-05-13T03:30:29.000Z">
-<meta property="article:modified_time" content="2023-12-06T06:01:25.351Z">
+<meta property="article:modified_time" content="2024-07-22T11:52:37.901Z">
 <meta property="article:author" content="Wanyun Yang">
 <meta property="article:tag" content="笔记">
 <meta property="article:tag" content="Golang">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png">
+<meta name="twitter:image" content="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png">
 
 
 <link rel="canonical" href="https://wanyun-yang-2002.github.io/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
@@ -159,7 +159,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Golang"><span class="nav-number">1.</span> <span class="nav-text">Golang</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="nav-number">1.1.</span> <span class="nav-text">基本结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%98%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">优点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Variables-amp-Constants"><span class="nav-number">1.3.</span> <span class="nav-text">Variables &amp; Constants</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Variables"><span class="nav-number">1.3.1.</span> <span class="nav-text">Variables</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Constants"><span class="nav-number">1.3.2.</span> <span class="nav-text">Constants</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Package-Level-Variables"><span class="nav-number">1.3.3.</span> <span class="nav-text">Package Level Variables</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Local-Variables"><span class="nav-number">1.3.4.</span> <span class="nav-text">Local Variables</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Formatted-Output"><span class="nav-number">1.4.</span> <span class="nav-text">Formatted Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Data-Types"><span class="nav-number">1.5.</span> <span class="nav-text">Data Types</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Strings-amp-Integers-amp-Booleans"><span class="nav-number">1.5.1.</span> <span class="nav-text">Strings &amp; Integers &amp; Booleans</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Maps"><span class="nav-number">1.5.2.</span> <span class="nav-text">Maps</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Arrays-amp-Slices"><span class="nav-number">1.5.3.</span> <span class="nav-text">Arrays &amp; Slices</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Structs"><span class="nav-number">1.5.4.</span> <span class="nav-text">Structs</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#User-Input"><span class="nav-number">1.6.</span> <span class="nav-text">User Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Pointers"><span class="nav-number">1.7.</span> <span class="nav-text">Pointers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Scope-Rules"><span class="nav-number">1.8.</span> <span class="nav-text">Scope Rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Variable-Scopes"><span class="nav-number">1.8.1.</span> <span class="nav-text">Variable Scopes</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Loops"><span class="nav-number">1.9.</span> <span class="nav-text">Loops</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#If-else-amp-Switch"><span class="nav-number">1.10.</span> <span class="nav-text">If-else &amp; Switch</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#if-else"><span class="nav-number">1.10.1.</span> <span class="nav-text">if-else</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#switch"><span class="nav-number">1.10.2.</span> <span class="nav-text">switch</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Functions"><span class="nav-number">1.11.</span> <span class="nav-text">Functions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Packages"><span class="nav-number">1.12.</span> <span class="nav-text">Packages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Multiple-Packages"><span class="nav-number">1.12.1.</span> <span class="nav-text">Multiple Packages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#go-mod"><span class="nav-number">1.12.2.</span> <span class="nav-text">go.mod</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import-package"><span class="nav-number">1.12.3.</span> <span class="nav-text">Import package</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Goroutines"><span class="nav-number">1.13.</span> <span class="nav-text">Goroutines</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Golang"><span class="nav-number">1.</span> <span class="nav-text">Golang</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="nav-number">1.1.</span> <span class="nav-text">基本结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BC%98%E7%82%B9"><span class="nav-number">1.2.</span> <span class="nav-text">优点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Variables-Constants"><span class="nav-number">1.3.</span> <span class="nav-text">Variables &amp; Constants</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Variables"><span class="nav-number">1.3.1.</span> <span class="nav-text">Variables</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Constants"><span class="nav-number">1.3.2.</span> <span class="nav-text">Constants</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Package-Level-Variables"><span class="nav-number">1.3.3.</span> <span class="nav-text">Package Level Variables</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Local-Variables"><span class="nav-number">1.3.4.</span> <span class="nav-text">Local Variables</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Formatted-Output"><span class="nav-number">1.4.</span> <span class="nav-text">Formatted Output</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Data-Types"><span class="nav-number">1.5.</span> <span class="nav-text">Data Types</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Strings-Integers-Booleans"><span class="nav-number">1.5.1.</span> <span class="nav-text">Strings &amp; Integers &amp; Booleans</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Maps"><span class="nav-number">1.5.2.</span> <span class="nav-text">Maps</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Arrays-Slices"><span class="nav-number">1.5.3.</span> <span class="nav-text">Arrays &amp; Slices</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Structs"><span class="nav-number">1.5.4.</span> <span class="nav-text">Structs</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#User-Input"><span class="nav-number">1.6.</span> <span class="nav-text">User Input</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Pointers"><span class="nav-number">1.7.</span> <span class="nav-text">Pointers</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Scope-Rules"><span class="nav-number">1.8.</span> <span class="nav-text">Scope Rules</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Variable-Scopes"><span class="nav-number">1.8.1.</span> <span class="nav-text">Variable Scopes</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Loops"><span class="nav-number">1.9.</span> <span class="nav-text">Loops</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#If-else-Switch"><span class="nav-number">1.10.</span> <span class="nav-text">If-else &amp; Switch</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#if-else"><span class="nav-number">1.10.1.</span> <span class="nav-text">if-else</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#switch"><span class="nav-number">1.10.2.</span> <span class="nav-text">switch</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Functions"><span class="nav-number">1.11.</span> <span class="nav-text">Functions</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Packages"><span class="nav-number">1.12.</span> <span class="nav-text">Packages</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Multiple-Packages"><span class="nav-number">1.12.1.</span> <span class="nav-text">Multiple Packages</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#go-mod"><span class="nav-number">1.12.2.</span> <span class="nav-text">go.mod</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Import-package"><span class="nav-number">1.12.3.</span> <span class="nav-text">Import package</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Goroutines"><span class="nav-number">1.13.</span> <span class="nav-text">Goroutines</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -172,18 +172,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -253,7 +253,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-12-06 14:01:25" itemprop="dateModified" datetime="2023-12-06T14:01:25+08:00">2023-12-06</time>
+      <time title="修改时间：2024-07-22 19:52:37" itemprop="dateModified" datetime="2024-07-22T19:52:37+08:00">2024-07-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -275,36 +275,42 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Golang"><a href="#Golang" class="headerlink" title="Golang"></a>Golang</h1><p>&#x1F4A1;<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yyUHQIec83I&amp;t=72s">Golang Tutorial for Beginners | Full Go Course</a></p>
-<h2 id="&#x57FA;&#x672C;&#x7ED3;&#x6784;"><a href="#&#x57FA;&#x672C;&#x7ED3;&#x6784;" class="headerlink" title="&#x57FA;&#x672C;&#x7ED3;&#x6784;"></a>&#x57FA;&#x672C;&#x7ED3;&#x6784;</h2><ol>
-<li>&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x5939;</li>
-<li>&#x521B;&#x5EFA;main.go</li>
-<li>&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x751F;&#x6210; go.mod &#x6587;&#x4EF6; <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">go</span> mod init &#x6587;&#x4EF6;&#x5939;&#x540D;</span><br></pre></td></tr></table></figure>
+        <h1 id="Golang"><a href="#Golang" class="headerlink" title="Golang"></a>Golang</h1><p>💡<a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=yyUHQIec83I&t=72s">Golang Tutorial for Beginners | Full Go Course</a></p>
+<h2 id="基本结构"><a href="#基本结构" class="headerlink" title="基本结构"></a>基本结构</h2><ol>
+<li><p>创建文件夹</p>
 </li>
-<li>&#x5728; main.go &#x4E2D;&#x8F93;&#x5165;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x8FD0;&#x884C;&#x6210;&#x529F; <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> {</span><br><span class="line">	fmt.Print(<span class="string">&quot;Hello World&quot;</span>)</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
- &#x6CE8;&#x610F;&#xFF1A;&#x4E0D;&#x4F7F;&#x7528;&#x7684;package&#x4E0D;&#x8981;import</li>
+<li><p>创建main.go</p>
+</li>
+<li><p>执行命令，生成 go.mod 文件</p>
+ <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">go</span> mod init 文件夹名</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 main.go 中输入如下代码，运行成功</p>
+ <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	fmt.Print(<span class="string">&quot;Hello World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 注意：不使用的package不要import</p>
+</li>
 </ol>
-<h2 id="&#x4F18;&#x70B9;"><a href="#&#x4F18;&#x70B9;" class="headerlink" title="&#x4F18;&#x70B9;"></a>&#x4F18;&#x70B9;</h2><ol>
+<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol>
 <li>Discover mistakes at compile time, NOT at runtime</li>
 </ol>
-<h2 id="Variables-amp-Constants"><a href="#Variables-amp-Constants" class="headerlink" title="Variables &amp; Constants"></a>Variables &amp; Constants</h2><h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><ol>
-<li>&#x53D8;&#x91CF;&#x7684;&#x58F0;&#x660E; <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line">name := <span class="string">&quot;Go Conference&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Variables-Constants"><a href="#Variables-Constants" class="headerlink" title="Variables &amp; Constants"></a>Variables &amp; Constants</h2><h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><ol>
+<li><p>变量的声明</p>
+ <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line">name := <span class="string">&quot;Go Conference&quot;</span></span><br></pre></td></tr></table></figure>
 </li>
-<li>&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF1A;<ol>
-<li>&#x58F0;&#x660E;&#x7684;&#x53D8;&#x91CF;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#xFF0C;&#x5426;&#x5219;&#x5C31;&#x4E0D;&#x8981;&#x58F0;&#x660E;&#x53D8;&#x91CF;</li>
+<li><p>注意事项：</p>
+<ol>
+<li>声明的变量必须使用，否则就不要声明变量</li>
 </ol>
- <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> conferenceName = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line"></span><br><span class="line">fmt.Println(<span class="string">&quot;Welcome to&quot;</span>, conferenceName, <span class="string">&quot;booking application&quot;</span>)</span><br></pre></td></tr></table></figure>
-</li>
+ <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> conferenceName = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line"></span><br><span class="line">fmt.Println(<span class="string">&quot;Welcome to&quot;</span>, conferenceName, <span class="string">&quot;booking application&quot;</span>)</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="Constants"><a href="#Constants" class="headerlink" title="Constants"></a>Constants</h3><p>&#x4E0E;&#x53D8;&#x91CF;&#xFF08;Variables&#xFF09;&#x7C7B;&#x4F3C;&#xFF0C;&#x4F46;&#x503C;&#x65E0;&#x6CD5;&#x6539;&#x53D8;</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x4F7F;&#x7528; const &#x58F0;&#x660E;</span></span><br><span class="line"><span class="keyword">const</span> conferenceTickets = <span class="number">50</span></span><br></pre></td></tr></table></figure>
+<h3 id="Constants"><a href="#Constants" class="headerlink" title="Constants"></a>Constants</h3><p>与变量（Variables）类似，但值无法改变</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 使用 const 声明</span></span><br><span class="line"><span class="keyword">const</span> conferenceTickets = <span class="number">50</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Package-Level-Variables"><a href="#Package-Level-Variables" class="headerlink" title="Package Level Variables"></a>Package Level Variables</h3><ul>
-<li>Defined at the top <strong>outside of all functions  - &#x5728;main&#x51FD;&#x6570;&#x4EE5;&#x5916;&#x4E0A;&#x9762;&#x5B9A;&#x4E49;</strong></li>
+<li>Defined at the top <strong>outside of all functions  - 在main函数以外上面定义</strong></li>
 <li>They can be <strong>accessed inside any of the functions</strong></li>
 <li>And in all files, which are in the <strong>same package</strong></li>
-<li>&#x4E0D;&#x80FD;&#x7528; <code>:=</code> &#x521B;&#x5EFA;</li>
-<li>&#x4F20;&#x53C2;&#x65F6;&#x4E0D;&#x7528;&#x5199;</li>
+<li>不能用 <code>:=</code> 创建</li>
+<li>传参时不用写</li>
 </ul>
 <h3 id="Local-Variables"><a href="#Local-Variables" class="headerlink" title="Local Variables"></a>Local Variables</h3><ul>
 <li>Defined <strong>inside a function or a block</strong></li>
@@ -314,11 +320,11 @@
 <h2 id="Formatted-Output"><a href="#Formatted-Output" class="headerlink" title="Formatted Output"></a>Formatted Output</h2><p>Print formatted data</p>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fmt.Printf(<span class="string">&quot;some text with a variable %s&quot;</span>, myVariable)</span><br></pre></td></tr></table></figure>
 
-<h2 id="Data-Types"><a href="#Data-Types" class="headerlink" title="Data Types"></a>Data Types</h2><p>&#x58F0;&#x660E;&#x7C7B;&#x578B;</p>
+<h2 id="Data-Types"><a href="#Data-Types" class="headerlink" title="Data Types"></a>Data Types</h2><p>声明类型</p>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// var something Type</span></span><br><span class="line"><span class="keyword">var</span> userName <span class="keyword">string</span></span><br></pre></td></tr></table></figure>
 
-<p>&#x68C0;&#x67E5;&#x7C7B;&#x578B;</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x7528; %T</span></span><br><span class="line">fmt.Printf(%T, something)</span><br></pre></td></tr></table></figure>
+<p>检查类型</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 用 %T</span></span><br><span class="line">fmt.Printf(%T, something)</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>The type keyword creates a new type, with the name you specify</li>
@@ -326,11 +332,15 @@
 </ul>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">type</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">struct</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">int</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">string</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h3 id="Strings-amp-Integers-amp-Booleans"><a href="#Strings-amp-Integers-amp-Booleans" class="headerlink" title="Strings &amp; Integers &amp; Booleans"></a>Strings &amp; Integers &amp; Booleans</h3><ul>
-<li>Strings : for <strong>textual data</strong>, defined with double quotes, eg : &#x201C;This is a string&#x201D;</li>
-<li>Integers : representing <strong>whole numbers</strong>, positive and negative, eg : 5, 10, -20  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png" alt="01.png">  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x6570;&#x5B57;42&#x8F6C;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4F9D;&#x65E7;&#x662F;&#x5341;&#x8FDB;&#x5236;&#x5F62;&#x5F0F;&#xFF0C;&#x82E5;&#x4E3A;16&#xFF0C;&#x5219;&#x662F;16&#x8FDB;&#x5236;</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">10</span>) <span class="comment">// 42, string</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">16</span>) <span class="comment">// 2a, string</span></span><br></pre></td></tr></table></figure>
+<h3 id="Strings-Integers-Booleans"><a href="#Strings-Integers-Booleans" class="headerlink" title="Strings &amp; Integers &amp; Booleans"></a>Strings &amp; Integers &amp; Booleans</h3><ul>
+<li><p>Strings : for <strong>textual data</strong>, defined with double quotes, eg : “This is a string”</p>
 </li>
-<li>Booleans : True or False</li>
+<li><p>Integers : representing <strong>whole numbers</strong>, positive and negative, eg : 5, 10, -20</p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png" alt="01.png"></p>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 数字42转字符串，依旧是十进制形式，若为16，则是16进制</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">10</span>) <span class="comment">// 42, string</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">16</span>) <span class="comment">// 2a, string</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Booleans : True or False</p>
+</li>
 </ul>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> noSomething <span class="keyword">bool</span> = something == <span class="number">0</span></span><br><span class="line">noSomething := something == <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
@@ -342,28 +352,30 @@
 </ul>
 <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> myMap = <span class="built_in">make</span>(<span class="keyword">map</span>[keyType]valueType)</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">var</span> userData = <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>)</span><br><span class="line">userData[<span class="string">&quot;firstName&quot;</span>] = firstName</span><br></pre></td></tr></table></figure>
 
-<h3 id="Arrays-amp-Slices"><a href="#Arrays-amp-Slices" class="headerlink" title="Arrays &amp; Slices"></a>Arrays &amp; Slices</h3><ul>
-<li>Arrays<ul>
-<li>&#x5FC5;&#x987B;&#x77E5;&#x9053;&#x5927;&#x5C0F;</li>
+<h3 id="Arrays-Slices"><a href="#Arrays-Slices" class="headerlink" title="Arrays &amp; Slices"></a>Arrays &amp; Slices</h3><ul>
+<li><p>Arrays</p>
+<ul>
+<li>必须知道大小</li>
 <li>Fixed Size</li>
 <li>Only the <strong>same data type</strong> can be stored</li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = [<span class="number">50</span>]<span class="keyword">string</span>{<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>}</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bookings [<span class="number">50</span>]<span class="keyword">string</span></span><br><span class="line">bookings[<span class="number">0</span>] = <span class="string">&quot;Text&quot;</span></span><br><span class="line">bookings[<span class="number">1</span>] = first + <span class="string">&quot; &quot;</span> + last</span><br><span class="line"></span><br><span class="line"><span class="comment">// Arrays&#x7684;&#x5927;&#x5C0F;</span></span><br><span class="line"><span class="built_in">len</span>(array)</span><br></pre></td></tr></table></figure>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = [<span class="number">50</span>]<span class="keyword">string</span>&#123;<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bookings [<span class="number">50</span>]<span class="keyword">string</span></span><br><span class="line">bookings[<span class="number">0</span>] = <span class="string">&quot;Text&quot;</span></span><br><span class="line">bookings[<span class="number">1</span>] = first + <span class="string">&quot; &quot;</span> + last</span><br><span class="line"></span><br><span class="line"><span class="comment">// Arrays的大小</span></span><br><span class="line"><span class="built_in">len</span>(array)</span><br></pre></td></tr></table></figure>
 </li>
-<li>Slices<ul>
-<li>&#x5927;&#x5C0F;&#x53EF;&#x53D8;</li>
+<li><p>Slices</p>
+<ul>
+<li>大小可变</li>
 <li>Slice is an abstraction of an Array</li>
 <li>More flexible and powerful : <strong>variable-length</strong> or an sub-array of its own</li>
 <li>Slices are also <strong>index-based</strong> and have a size, but is <strong>resized when needed</strong></li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x58F0;&#x660E;&#x65B9;&#x5F0F;</span></span><br><span class="line"><span class="keyword">var</span> bookings []<span class="keyword">string</span></span><br><span class="line"></span><br><span class="line">bookings := []<span class="keyword">string</span>{}</span><br><span class="line"></span><br><span class="line">sliceName = <span class="built_in">append</span>(sliceName, elements)   <span class="comment">// Adds the element(s) at the end of the slice.</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 声明方式</span></span><br><span class="line"><span class="keyword">var</span> bookings []<span class="keyword">string</span></span><br><span class="line"></span><br><span class="line">bookings := []<span class="keyword">string</span>&#123;&#125;</span><br><span class="line"></span><br><span class="line">sliceName = <span class="built_in">append</span>(sliceName, elements)   <span class="comment">// Adds the element(s) at the end of the slice.</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>Creating a slice with <code>make()</code><ul>
+<li><p>Creating a slice with <code>make()</code></p>
+<ul>
 <li>Alternative way to create a slice</li>
 <li>We need to define the initial size of the slice</li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = <span class="built_in">make</span>([]<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-</li>
+  <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = <span class="built_in">make</span>([]<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 </ul>
@@ -371,7 +383,7 @@
 <li>Collect different data types of data</li>
 <li>type statement - Custom Types<ul>
 <li>The <strong>type keyword creates a new type</strong>, with the name you specify</li>
-<li><em>&#x201C;create a type called &#x201C;userData&#x201D; <strong>based on a struct</strong> of firstName, lastName..&#x201D;</em></li>
+<li><em>“create a type called “userData” <strong>based on a struct</strong> of firstName, lastName..”</em></li>
 </ul>
 </li>
 <li>Defining a structure<ul>
@@ -379,18 +391,18 @@
 <li>Defining a structure (which fields) of the User Type</li>
 </ul>
 </li>
-<li>It&#x2019;s like a lightweight class, which e.g. doesn&#x2019;t support inheritance</li>
+<li>It’s like a lightweight class, which e.g. doesn’t support inheritance</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// &#x521B;&#x5EFA;struct</span></span><br><span class="line"><span class="keyword">type</span> UserData <span class="keyword">struct</span> {</span><br><span class="line">	firstName       <span class="keyword">string</span></span><br><span class="line">	numberOfTickets <span class="keyword">uint</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x8D4B;&#x503C;</span></span><br><span class="line"><span class="keyword">var</span> userData = UserData{</span><br><span class="line">		firstName:       firstName,</span><br><span class="line">		numberOfTickets: userTickets,</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x4F7F;&#x7528;</span></span><br><span class="line">userData.firstName</span><br><span class="line">userData.numberOfTickets</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 创建struct</span></span><br><span class="line"><span class="keyword">type</span> UserData <span class="keyword">struct</span> &#123;</span><br><span class="line">	firstName       <span class="keyword">string</span></span><br><span class="line">	numberOfTickets <span class="keyword">uint</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 赋值</span></span><br><span class="line"><span class="keyword">var</span> userData = UserData&#123;</span><br><span class="line">		firstName:       firstName,</span><br><span class="line">		numberOfTickets: userTickets,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用</span></span><br><span class="line">userData.firstName</span><br><span class="line">userData.numberOfTickets</span><br></pre></td></tr></table></figure>
 
-<h2 id="User-Input"><a href="#User-Input" class="headerlink" title="User Input"></a>User Input</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Scan() &#x62EC;&#x53F7;&#x91CC;&#x8981;&#x4E48;&#x662F;&#x6307;&#x9488;&#xFF0C;&#x8981;&#x4E48;&#x662F;&#x5177;&#x4F53;&#x5730;&#x5740;</span></span><br><span class="line">fmt.Scan(&amp;inputText)</span><br><span class="line">fmt.Scan(<span class="number">0xc00124</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="User-Input"><a href="#User-Input" class="headerlink" title="User Input"></a>User Input</h2><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Scan() 括号里要么是指针，要么是具体地址</span></span><br><span class="line">fmt.Scan(&amp;inputText)</span><br><span class="line">fmt.Scan(<span class="number">0xc00124</span>)</span><br></pre></td></tr></table></figure>
 
 <p>user input validation</p>
 <h2 id="Pointers"><a href="#Pointers" class="headerlink" title="Pointers"></a>Pointers</h2><ul>
 <li>A pointer is a variable that <strong>points to the memory address of another variable.</strong></li>
 <li>A special variable.</li>
 </ul>
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png" alt="Untitled"></p>
 <h2 id="Scope-Rules"><a href="#Scope-Rules" class="headerlink" title="Scope Rules"></a>Scope Rules</h2><h3 id="Variable-Scopes"><a href="#Variable-Scopes" class="headerlink" title="Variable Scopes"></a>Variable Scopes</h3><p>Scope is the region of a program, where a defined variable can be accessed</p>
 <p><strong>3 Levels of Scope</strong></p>
 <ul>
@@ -421,33 +433,33 @@
 </li>
 </ul>
 <h2 id="Loops"><a href="#Loops" class="headerlink" title="Loops"></a>Loops</h2><ul>
-<li>Only have the &#x201C;for loop&#x201D;</li>
+<li>Only have the “for loop”</li>
 <li>Infinite Loop</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> {</span><br><span class="line">	</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x7528;&#x6237;&#x4F7F;&#x7528; ctrl + C &#x9000;&#x51FA;&#x5FAA;&#x73AF;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x672C;&#x8D28;&#x662F;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="literal">true</span> {</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> &#123;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 用户使用 ctrl + C 退出循环</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 本质是</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="literal">true</span> &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>For-Each Loop : Iterating over a list</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Range iterates over elements for different data structures (so not only arrays and slices)</span></span><br><span class="line"><span class="comment">// For arrays and slices, range provides the index and value for each element</span></span><br><span class="line"><span class="keyword">for</span> condition {</span><br><span class="line">		</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x904D;&#x5386;&#x5B8C;bookings&#x91CC;&#x9762;&#x6240;&#x6709;&#x5143;&#x7D20;&#x540E;&#x7ED3;&#x675F;&#x5FAA;&#x73AF;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> index, booking := <span class="keyword">range</span> bookings {</span><br><span class="line">		<span class="keyword">var</span> names = strings.Fields(booking)</span><br><span class="line">		firstNames = <span class="built_in">append</span>(firstNames, names[<span class="number">0</span>])</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x7528;&#x4E0D;&#x5230;index&#x53EF;&#x4EE5;&#x7528;&#x4E0B;&#x5212;&#x7EBF;&#x4EE3;&#x66FF;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _, booking := <span class="keyword">range</span> bookings {</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Range iterates over elements for different data structures (so not only arrays and slices)</span></span><br><span class="line"><span class="comment">// For arrays and slices, range provides the index and value for each element</span></span><br><span class="line"><span class="keyword">for</span> condition &#123;</span><br><span class="line">		</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍历完bookings里面所有元素后结束循环</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> index, booking := <span class="keyword">range</span> bookings &#123;</span><br><span class="line">		<span class="keyword">var</span> names = strings.Fields(booking)</span><br><span class="line">		firstNames = <span class="built_in">append</span>(firstNames, names[<span class="number">0</span>])</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 用不到index可以用下划线代替</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _, booking := <span class="keyword">range</span> bookings &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>&#x4F7F;&#x7528;<code>break</code>&#x9000;&#x51FA;&#x5FAA;&#x73AF;</li>
-<li>&#x4F7F;&#x7528;<code>continue</code>&#x7EE7;&#x7EED;</li>
+<li>使用<code>break</code>退出循环</li>
+<li>使用<code>continue</code>继续</li>
 </ul>
-<h2 id="If-else-amp-Switch"><a href="#If-else-amp-Switch" class="headerlink" title="If-else &amp; Switch"></a>If-else &amp; Switch</h2><h3 id="if-else"><a href="#if-else" class="headerlink" title="if-else"></a>if-else</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition {</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">} <span class="keyword">else</span> <span class="keyword">if</span> condition {</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">		<span class="comment">// code to be executed if both conditions are false</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x53EF;&#x4EE5;&#x6CA1;&#x6709;else, else if </span></span><br><span class="line"><span class="comment">// else if &#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A;&#xFF0C;else &#x53EA;&#x80FD;&#x6709;&#x4E00;&#x4E2A;</span></span><br></pre></td></tr></table></figure>
+<h2 id="If-else-Switch"><a href="#If-else-Switch" class="headerlink" title="If-else &amp; Switch"></a>If-else &amp; Switch</h2><h3 id="if-else"><a href="#if-else" class="headerlink" title="if-else"></a>if-else</h3><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition &#123;</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> condition &#123;</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="comment">// code to be executed if both conditions are false</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 可以没有else, else if </span></span><br><span class="line"><span class="comment">// else if 可以有多个，else 只能有一个</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="switch"><a href="#switch" class="headerlink" title="switch"></a>switch</h3><p>Allows a variable to be tested for equality against a list of values</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Example</span></span><br><span class="line"></span><br><span class="line">text := <span class="string">&quot;B&quot;</span></span><br><span class="line"><span class="keyword">switch</span> text {</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;A&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;B&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>:</span><br><span class="line">				<span class="comment">// same code here for C and D</span></span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">				<span class="comment">// Default handles the case, if no match is found</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// Example</span></span><br><span class="line"></span><br><span class="line">text := <span class="string">&quot;B&quot;</span></span><br><span class="line"><span class="keyword">switch</span> text &#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;A&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;B&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>:</span><br><span class="line">				<span class="comment">// same code here for C and D</span></span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">				<span class="comment">// Default handles the case, if no match is found</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h2><ul>
-<li><strong>Encapsulate code</strong> into own container (= function). Which <strong>logically belong together!</strong></li>
+<li><strong>Encapsulate code</strong> into own container (&#x3D; function). Which <strong>logically belong together!</strong></li>
 <li>Like variable name, you should give a function a <strong>descriptive name</strong></li>
 <li><strong>Call the function by its name</strong>, whenever you want to execute this block of code</li>
 <li>Every program has at least one function, which is the <strong>main()</strong> function</li>
-<li>Function is only executed, when &#x201C;called&#x201D; !</li>
+<li>Function is only executed, when “called” !</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">functionName</span><span class="params">(parameters and parametersType)</span> <span class="params">(returnType)</span></span>{</span><br><span class="line">		<span class="comment">// function body</span></span><br><span class="line">		<span class="comment">// Encapsulate code</span></span><br><span class="line">		fmt.Println(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">functionName</span><span class="params">(parameters and parametersType)</span> <span class="params">(returnType)</span></span>&#123;</span><br><span class="line">		<span class="comment">// function body</span></span><br><span class="line">		<span class="comment">// Encapsulate code</span></span><br><span class="line">		fmt.Println(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>Function Parameters<ul>
@@ -464,42 +476,48 @@
 </li>
 </ul>
 <h2 id="Packages"><a href="#Packages" class="headerlink" title="Packages"></a>Packages</h2><ul>
-<li>Go programs are organized into packages</li>
-<li>A package is a <strong>collection of Go files</strong></li>
-<li>&#x5982;&#x679C;&#x5168;&#x5728;&#x4E00;&#x4E2A;package&#xFF0C;&#x8FD0;&#x884C;&#x65F6;&#x5728;&#x5305;&#x542B;&#x6240;&#x6709;go&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x7EC8;&#x7AEF;&#x8F93;&#x5165;<code>go run .</code>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png" alt="Untitled">  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png" alt="Untitled">  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png" alt="&#x5C4F;&#x5E55;&#x622A;&#x56FE; 2023-05-08 093352.png"></li>
+<li><p>Go programs are organized into packages</p>
+</li>
+<li><p>A package is a <strong>collection of Go files</strong></p>
+</li>
+<li><p>如果全在一个package，运行时在包含所有go文件的文件夹终端输入<code>go run .</code></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png" alt="Untitled01"></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png" alt="Untitled02"></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png" alt="屏幕截图 2023-05-08 093352.png"></p>
+</li>
 </ul>
-<h3 id="Multiple-Packages"><a href="#Multiple-Packages" class="headerlink" title="Multiple Packages"></a>Multiple Packages</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png" alt="Untitled"></p>
-<h3 id="go-mod"><a href="#go-mod" class="headerlink" title="go.mod"></a>go.mod</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png" alt="Untitled"></p>
-<p>module booking-app  = import path</p>
+<h3 id="Multiple-Packages"><a href="#Multiple-Packages" class="headerlink" title="Multiple Packages"></a>Multiple Packages</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png" alt="Untitled03"></p>
+<h3 id="go-mod"><a href="#go-mod" class="headerlink" title="go.mod"></a>go.mod</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png" alt="Untitled04"></p>
+<p>module booking-app  &#x3D; import path</p>
 <p>For all our packages in our booking-app application</p>
 <h3 id="Import-package"><a href="#Import-package" class="headerlink" title="Import package"></a>Import package</h3><ul>
 <li>Exporting a variable<ul>
 <li>Make it available for all packages in the app</li>
-<li><strong>Capitalize first letter - &#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</strong></li>
+<li><strong>Capitalize first letter - 首字母大写</strong></li>
 </ul>
 </li>
 </ul>
 <h2 id="Goroutines"><a href="#Goroutines" class="headerlink" title="Goroutines"></a>Goroutines</h2><ul>
-<li><code>go &#x2026;</code> starts a new goroutine // &#x8BA9;&#x5B83;&#x591A;&#x8FDB;&#x7A0B;&#x540C;&#x65F6;&#x8FD0;&#x884C;(?)</li>
+<li><code>go …</code> starts a new goroutine &#x2F;&#x2F; 让它多进程同时运行(?)</li>
 <li>A goroutine is a lightweight thread managed by the Go runtime</li>
 <li>Waitgroup<ul>
 <li>Waits for the lunched goroutine to finish</li>
-<li>Package &#x201C;sync&#x201D; provides basic synchronization functionality</li>
+<li>Package “sync” provides basic synchronization functionality</li>
 <li><code>Add()</code> Sets the number of goroutine to wait for (increases the counter by the provided number)</li>
 <li><code>Wait()</code> Blocks until the WaitGroup counter is 0</li>
-<li><code>Done()</code> Decrements the WaitGroup counter by 1. So this is called by the goroutine to indicate that it&#x2019;s finished</li>
+<li><code>Done()</code> Decrements the WaitGroup counter by 1. So this is called by the goroutine to indicate that it’s finished</li>
 </ul>
 </li>
 </ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> wg = sync.WaitGroup{}</span><br><span class="line">wg.Add(<span class="number">1</span>)</span><br><span class="line">wg.Wait()</span><br><span class="line">wg.Done()</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> wg = sync.WaitGroup&#123;&#125;</span><br><span class="line">wg.Add(<span class="number">1</span>)</span><br><span class="line">wg.Wait()</span><br><span class="line">wg.Done()</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png" alt="Untitled05"></p>
 <ul>
 <li>Managed by the go runtime, we are only interacting with these high level goroutines</li>
 <li>Cheaper &amp; lightweight</li>
 <li>You can run hundreds of thousands or millions goroutines without affecting the performance</li>
 </ul>
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png" alt="Untitled06"></p>
 
     </div>
 

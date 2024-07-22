@@ -20,12 +20,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wanyun-yang-2002.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/./public/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="&amp;#x6D45;&amp;#x62F7;&amp;#x8D1D;&amp;#xFF1A;&amp;#x590D;&amp;#x5236;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF0C;&amp;#x4F46;&amp;#x4E0D;&amp;#x590D;&amp;#x5236;&amp;#x5305;&amp;#x542B;&amp;#x7684;&amp;#x5B50;&amp;#x5BF9;&amp;#x8C61;&amp;#x3002;&amp;#x4FEE;&amp;#x6539;&amp;#x590D;&amp;#x5236;&amp;#x540E">
+<meta name="description" content="浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。 深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。  可变对象 vs 不可变对象  不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。  12345a &#x3D; 3b &#x3D; ab &#x3D; 4print(a)  # 输出: 3print(b)  # 输出:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python中的深拷贝与浅拷贝">
 <meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/index.html">
 <meta property="og:site_name" content="杨">
-<meta property="og:description" content="&amp;#x6D45;&amp;#x62F7;&amp;#x8D1D;&amp;#xFF1A;&amp;#x590D;&amp;#x5236;&amp;#x5BF9;&amp;#x8C61;&amp;#xFF0C;&amp;#x4F46;&amp;#x4E0D;&amp;#x590D;&amp;#x5236;&amp;#x5305;&amp;#x542B;&amp;#x7684;&amp;#x5B50;&amp;#x5BF9;&amp;#x8C61;&amp;#x3002;&amp;#x4FEE;&amp;#x6539;&amp;#x590D;&amp;#x5236;&amp;#x540E">
+<meta property="og:description" content="浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。 深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。  可变对象 vs 不可变对象  不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。  12345a &#x3D; 3b &#x3D; ab &#x3D; 4print(a)  # 输出: 3print(b)  # 输出:">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-18T08:51:12.000Z">
 <meta property="article:modified_time" content="2024-07-18T08:59:05.330Z">
@@ -161,18 +161,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -259,20 +259,20 @@
     
     <div class="post-body" itemprop="articleBody">
         <ul>
-<li>&#x6D45;&#x62F7;&#x8D1D;&#xFF1A;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#xFF0C;&#x4F46;&#x4E0D;&#x590D;&#x5236;&#x5305;&#x542B;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x4FEE;&#x6539;&#x590D;&#x5236;&#x540E;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x3002;</li>
-<li>&#x6DF1;&#x62F7;&#x8D1D;&#xFF1A;&#x9012;&#x5F52;&#x5730;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x5305;&#x542B;&#x7684;&#x6240;&#x6709;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x590D;&#x5236;&#x540E;&#x7684;&#x5BF9;&#x8C61;&#x4E0E;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x5B8C;&#x5168;&#x72EC;&#x7ACB;&#x3002;</li>
+<li>浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。</li>
+<li>深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。</li>
 </ul>
-<p><strong>&#x53EF;&#x53D8;&#x5BF9;&#x8C61; vs &#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;</strong></p>
+<p><strong>可变对象 vs 不可变对象</strong></p>
 <ul>
-<li>&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x6574;&#x6570;&#x3001;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x5143;&#x7EC4;&#x7B49;&#xFF0C;&#x4E0D;&#x80FD;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x5BF9;&#x5B83;&#x4EEC;&#x7684;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x53EA;&#x4F1A;&#x6539;&#x53D8;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;</li>
+<li>不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: 4</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: 4</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x5217;&#x8868;&#x3001;&#x5B57;&#x5178;&#x3001;&#x96C6;&#x5408;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x591A;&#x4E2A;&#x5F15;&#x7528;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5BF9;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x4EFB;&#x4F55;&#x4FEE;&#x6539;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5230;&#x6240;&#x6709;&#x5F15;&#x7528;&#x4E2D;&#x3002;</li>
+<li>可变对象：如列表、字典、集合等，可以修改它们的内容。多个引用指向同一个可变对象时，对该对象的任何修改都会反映到所有引用中。</li>
 </ul>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
-<p>&#x5BF9;&#x4E8E;&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9;&#x4E8E;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x5185;&#x5BB9;&#x4F1A;&#x5F71;&#x54CD;&#x6240;&#x6709;&#x5F15;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>对于不可变对象，重新赋值会创建一个新的对象引用，不会影响原对象。<br>对于可变对象，修改对象内容会影响所有引用，因为它们指向的是同一个对象。</p>
 
     </div>
 

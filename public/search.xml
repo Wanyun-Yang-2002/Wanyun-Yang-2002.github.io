@@ -3,12 +3,12 @@
   <entry>
     <title>Blog搭建过程(Hexo)</title>
     <url>/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/</url>
-    <content><![CDATA[<p>&#x4E00;&#x5F00;&#x59CB;&#x662F;&#x6309;&#x7167;&#x7F51;&#x4E0A;&#x641C;&#x7D22;&#x5230;&#x7684;&#x6559;&#x7A0B;&#x5F00;&#x59CB;&#x5236;&#x4F5C;&#x7684;&#xFF0C;&#x4E2D;&#x9014;&#x51FA;&#x4E86;&#x4E0D;&#x5C11;&#x5DEE;&#x9519;&#xFF0C;&#x4E8E;&#x662F;&#x4FBF;&#x6401;&#x7F6E;&#x4E86;&#xFF0C;&#x76F4;&#x5230;&#x4ECA;&#x5929;&#x624D;&#x60F3;&#x8D77;&#x6765;&#x3002;</p>
-<h1 id="&#x642D;&#x5EFA;&#x6559;&#x7A0B;"><a href="#&#x642D;&#x5EFA;&#x6559;&#x7A0B;" class="headerlink" title="&#x642D;&#x5EFA;&#x6559;&#x7A0B;"></a>&#x642D;&#x5EFA;&#x6559;&#x7A0B;</h1><p>&#x5206;&#x4EAB;&#x4E00;&#x4E2A;&#x5F88;&#x5B9E;&#x7528;&#x7684;&#x6559;&#x7A0B;&#xFF1A;<a href="http://www.wxylyw.com/2018/10/25/hexo%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/#more">hexo &#x4ECE;&#x96F6;&#x642D;&#x5EFA;&#x5168;&#x8FC7;&#x7A0B;</a><br>&#x57FA;&#x672C;&#x4E0A;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x5176;&#x4ED6;&#x95EE;&#x9898;&#x7684;&#x8BDD;&#x4E00;&#x6B21;&#x6027;&#x5C31;&#x642D;&#x5EFA;&#x597D;&#x4E86;</p>
-<h1 id="&#x4E3B;&#x9898;&#x5B89;&#x88C5;&#x53CA;&#x7F8E;&#x5316;"><a href="#&#x4E3B;&#x9898;&#x5B89;&#x88C5;&#x53CA;&#x7F8E;&#x5316;" class="headerlink" title="&#x4E3B;&#x9898;&#x5B89;&#x88C5;&#x53CA;&#x7F8E;&#x5316;"></a>&#x4E3B;&#x9898;&#x5B89;&#x88C5;&#x53CA;&#x7F8E;&#x5316;</h1><h2 id="&#x57FA;&#x672C;&#x5B89;&#x88C5;&#x53CA;&#x57FA;&#x7840;&#x7F8E;&#x5316;"><a href="#&#x57FA;&#x672C;&#x5B89;&#x88C5;&#x53CA;&#x57FA;&#x7840;&#x7F8E;&#x5316;" class="headerlink" title="&#x57FA;&#x672C;&#x5B89;&#x88C5;&#x53CA;&#x57FA;&#x7840;&#x7F8E;&#x5316;"></a>&#x57FA;&#x672C;&#x5B89;&#x88C5;&#x53CA;&#x57FA;&#x7840;&#x7F8E;&#x5316;</h2><p>&#x5173;&#x4E8E;&#x4E3B;&#x9898;&#x9875;&#x9762;&#x8BBE;&#x7F6E;&#x7684;&#x4E00;&#x4E9B;&#x65B9;&#x6CD5;&#xFF1A;<a href="https://haomingzhang.com/hexo_2/">hexo&#x4E3B;&#x9898;&#x5B89;&#x88C5;&#x4EE5;&#x53CA;next8.0&#x4E3B;&#x9898;&#x7F8E;&#x5316;</a></p>
-<h2 id="&#x8FDB;&#x9636;&#x7F8E;&#x5316;&#x53C2;&#x8003;"><a href="#&#x8FDB;&#x9636;&#x7F8E;&#x5316;&#x53C2;&#x8003;" class="headerlink" title="&#x8FDB;&#x9636;&#x7F8E;&#x5316;&#x53C2;&#x8003;"></a>&#x8FDB;&#x9636;&#x7F8E;&#x5316;&#x53C2;&#x8003;</h2><h3 id="&#x5305;&#x62EC;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x9762;&#x7684;&#x7F8E;&#x5316;&#xFF0C;&#x4F46;&#x5BF9;&#x6211;&#x800C;&#x8A00;&#x7528;&#x5904;&#x5E76;&#x6CA1;&#x6709;&#x5F88;&#x5927;"><a href="#&#x5305;&#x62EC;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x9762;&#x7684;&#x7F8E;&#x5316;&#xFF0C;&#x4F46;&#x5BF9;&#x6211;&#x800C;&#x8A00;&#x7528;&#x5904;&#x5E76;&#x6CA1;&#x6709;&#x5F88;&#x5927;" class="headerlink" title="&#x5305;&#x62EC;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x9762;&#x7684;&#x7F8E;&#x5316;&#xFF0C;&#x4F46;&#x5BF9;&#x6211;&#x800C;&#x8A00;&#x7528;&#x5904;&#x5E76;&#x6CA1;&#x6709;&#x5F88;&#x5927;"></a>&#x5305;&#x62EC;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x9762;&#x7684;&#x7F8E;&#x5316;&#xFF0C;&#x4F46;&#x5BF9;&#x6211;&#x800C;&#x8A00;&#x7528;&#x5904;&#x5E76;&#x6CA1;&#x6709;&#x5F88;&#x5927;</h3><p><a href="https://qianling.pw/hexo-optimization/">Hexo &#x4F18;&#x5316;&#x6C47;&#x603B;</a></p>
-<h3 id="&#x5185;&#x5BB9;&#x4E5F;&#x6BD4;&#x8F83;&#x4E30;&#x5BCC;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x5B9E;&#x7528;&#x6027;&#x5F3A;&#x7684;&#x7F8E;&#x5316;"><a href="#&#x5185;&#x5BB9;&#x4E5F;&#x6BD4;&#x8F83;&#x4E30;&#x5BCC;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x5B9E;&#x7528;&#x6027;&#x5F3A;&#x7684;&#x7F8E;&#x5316;" class="headerlink" title="&#x5185;&#x5BB9;&#x4E5F;&#x6BD4;&#x8F83;&#x4E30;&#x5BCC;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x5B9E;&#x7528;&#x6027;&#x5F3A;&#x7684;&#x7F8E;&#x5316;"></a>&#x5185;&#x5BB9;&#x4E5F;&#x6BD4;&#x8F83;&#x4E30;&#x5BCC;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x5B9E;&#x7528;&#x6027;&#x5F3A;&#x7684;&#x7F8E;&#x5316;</h3><p><a href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">Hexo&#x535A;&#x5BA2;&#x4F18;&#x5316;&#x4E4B;Next&#x4E3B;&#x9898;&#x7F8E;&#x5316;</a><br><a href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT&#x4E3B;&#x9898;&#x81EA;&#x5B9A;&#x4E49;&#x914D;&#x7F6E;&#x9AD8;&#x9636;&#x6559;&#x7A0B;</a></p>
-<h3 id="&#x8BBE;&#x7F6E;&#x80CC;&#x666F;&#x56FE;&#x7247;"><a href="#&#x8BBE;&#x7F6E;&#x80CC;&#x666F;&#x56FE;&#x7247;" class="headerlink" title="&#x8BBE;&#x7F6E;&#x80CC;&#x666F;&#x56FE;&#x7247;"></a>&#x8BBE;&#x7F6E;&#x80CC;&#x666F;&#x56FE;&#x7247;</h3><p>&#x8FD9;&#x4E2A;&#x5355;&#x62CE;&#x51FA;&#x6765;&#x63A8;&#x8350;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#x4E00;&#x5F00;&#x59CB;&#x641C;&#x4E86;&#x5F88;&#x591A;&#x6559;&#x7A0B;&#xFF0C;&#x4F46;&#x662F;&#x5C1D;&#x8BD5;&#x8FC7;&#x4E4B;&#x540E;&#x90FD;&#x6CA1;&#x6709;&#x7528;&#xFF0C;&#x6700;&#x7EC8;&#x627E;&#x5230;&#x4E86;&#x8FD9;&#x4E2A;&#x6559;&#x7A0B;&#xFF0C;&#x8BD5;&#x4E86;&#x4E00;&#x6B21;&#x5C31;&#x6210;&#x529F;&#x4E86;&#x3002;<br><a href="https://www.cnblogs.com/cscshi/p/15196114.html">Hexo-NexT &#x8BBE;&#x7F6E;&#x535A;&#x5BA2;&#x80CC;&#x666F;&#x56FE;&#x7247;</a></p>
+    <content><![CDATA[<p>一开始是按照网上搜索到的教程开始制作的，中途出了不少差错，于是便搁置了，直到今天才想起来。</p>
+<h1 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h1><p>分享一个很实用的教程：<a href="http://www.wxylyw.com/2018/10/25/hexo%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/#more">hexo 从零搭建全过程</a><br>基本上如果没有什么其他问题的话一次性就搭建好了</p>
+<h1 id="主题安装及美化"><a href="#主题安装及美化" class="headerlink" title="主题安装及美化"></a>主题安装及美化</h1><h2 id="基本安装及基础美化"><a href="#基本安装及基础美化" class="headerlink" title="基本安装及基础美化"></a>基本安装及基础美化</h2><p>关于主题页面设置的一些方法：<a href="https://haomingzhang.com/hexo_2/">hexo主题安装以及next8.0主题美化</a></p>
+<h2 id="进阶美化参考"><a href="#进阶美化参考" class="headerlink" title="进阶美化参考"></a>进阶美化参考</h2><h3 id="包括了很多方面的美化，但对我而言用处并没有很大"><a href="#包括了很多方面的美化，但对我而言用处并没有很大" class="headerlink" title="包括了很多方面的美化，但对我而言用处并没有很大"></a>包括了很多方面的美化，但对我而言用处并没有很大</h3><p><a href="https://qianling.pw/hexo-optimization/">Hexo 优化汇总</a></p>
+<h3 id="内容也比较丰富，有很多实用性强的美化"><a href="#内容也比较丰富，有很多实用性强的美化" class="headerlink" title="内容也比较丰富，有很多实用性强的美化"></a>内容也比较丰富，有很多实用性强的美化</h3><p><a href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">Hexo博客优化之Next主题美化</a><br><a href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT主题自定义配置高阶教程</a></p>
+<h3 id="设置背景图片"><a href="#设置背景图片" class="headerlink" title="设置背景图片"></a>设置背景图片</h3><p>这个单拎出来推荐，是因为一开始搜了很多教程，但是尝试过之后都没有用，最终找到了这个教程，试了一次就成功了。<br><a href="https://www.cnblogs.com/cscshi/p/15196114.html">Hexo-NexT 设置博客背景图片</a></p>
 ]]></content>
       <categories>
         <category>Hexo</category>
@@ -21,36 +21,42 @@
   <entry>
     <title>Golang基础学习笔记</title>
     <url>/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="Golang"><a href="#Golang" class="headerlink" title="Golang"></a>Golang</h1><p>&#x1F4A1;<a href="https://www.youtube.com/watch?v=yyUHQIec83I&amp;t=72s">Golang Tutorial for Beginners | Full Go Course</a></p>
-<h2 id="&#x57FA;&#x672C;&#x7ED3;&#x6784;"><a href="#&#x57FA;&#x672C;&#x7ED3;&#x6784;" class="headerlink" title="&#x57FA;&#x672C;&#x7ED3;&#x6784;"></a>&#x57FA;&#x672C;&#x7ED3;&#x6784;</h2><ol>
-<li>&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x5939;</li>
-<li>&#x521B;&#x5EFA;main.go</li>
-<li>&#x6267;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x751F;&#x6210; go.mod &#x6587;&#x4EF6; <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">go</span> mod init &#x6587;&#x4EF6;&#x5939;&#x540D;</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h1 id="Golang"><a href="#Golang" class="headerlink" title="Golang"></a>Golang</h1><p>💡<a href="https://www.youtube.com/watch?v=yyUHQIec83I&t=72s">Golang Tutorial for Beginners | Full Go Course</a></p>
+<h2 id="基本结构"><a href="#基本结构" class="headerlink" title="基本结构"></a>基本结构</h2><ol>
+<li><p>创建文件夹</p>
 </li>
-<li>&#x5728; main.go &#x4E2D;&#x8F93;&#x5165;&#x5982;&#x4E0B;&#x4EE3;&#x7801;&#xFF0C;&#x8FD0;&#x884C;&#x6210;&#x529F; <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> {</span><br><span class="line">	fmt.Print(<span class="string">&quot;Hello World&quot;</span>)</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
- &#x6CE8;&#x610F;&#xFF1A;&#x4E0D;&#x4F7F;&#x7528;&#x7684;package&#x4E0D;&#x8981;import</li>
+<li><p>创建main.go</p>
+</li>
+<li><p>执行命令，生成 go.mod 文件</p>
+ <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">go</span> mod init 文件夹名</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在 main.go 中输入如下代码，运行成功</p>
+ <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</span><br><span class="line">	fmt.Print(<span class="string">&quot;Hello World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p> 注意：不使用的package不要import</p>
+</li>
 </ol>
-<h2 id="&#x4F18;&#x70B9;"><a href="#&#x4F18;&#x70B9;" class="headerlink" title="&#x4F18;&#x70B9;"></a>&#x4F18;&#x70B9;</h2><ol>
+<h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ol>
 <li>Discover mistakes at compile time, NOT at runtime</li>
 </ol>
-<h2 id="Variables-amp-Constants"><a href="#Variables-amp-Constants" class="headerlink" title="Variables &amp; Constants"></a>Variables &amp; Constants</h2><h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><ol>
-<li>&#x53D8;&#x91CF;&#x7684;&#x58F0;&#x660E; <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line">name := <span class="string">&quot;Go Conference&quot;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Variables-Constants"><a href="#Variables-Constants" class="headerlink" title="Variables &amp; Constants"></a>Variables &amp; Constants</h2><h3 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h3><ol>
+<li><p>变量的声明</p>
+ <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> name = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line">name := <span class="string">&quot;Go Conference&quot;</span></span><br></pre></td></tr></table></figure>
 </li>
-<li>&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#xFF1A;<ol>
-<li>&#x58F0;&#x660E;&#x7684;&#x53D8;&#x91CF;&#x5FC5;&#x987B;&#x4F7F;&#x7528;&#xFF0C;&#x5426;&#x5219;&#x5C31;&#x4E0D;&#x8981;&#x58F0;&#x660E;&#x53D8;&#x91CF;</li>
+<li><p>注意事项：</p>
+<ol>
+<li>声明的变量必须使用，否则就不要声明变量</li>
 </ol>
- <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> conferenceName = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line"></span><br><span class="line">fmt.Println(<span class="string">&quot;Welcome to&quot;</span>, conferenceName, <span class="string">&quot;booking application&quot;</span>)</span><br></pre></td></tr></table></figure>
-</li>
+ <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> conferenceName = <span class="string">&quot;Go Conference&quot;</span></span><br><span class="line"></span><br><span class="line">fmt.Println(<span class="string">&quot;Welcome to&quot;</span>, conferenceName, <span class="string">&quot;booking application&quot;</span>)</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="Constants"><a href="#Constants" class="headerlink" title="Constants"></a>Constants</h3><p>&#x4E0E;&#x53D8;&#x91CF;&#xFF08;Variables&#xFF09;&#x7C7B;&#x4F3C;&#xFF0C;&#x4F46;&#x503C;&#x65E0;&#x6CD5;&#x6539;&#x53D8;</p>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x4F7F;&#x7528; const &#x58F0;&#x660E;</span></span><br><span class="line"><span class="keyword">const</span> conferenceTickets = <span class="number">50</span></span><br></pre></td></tr></table></figure>
+<h3 id="Constants"><a href="#Constants" class="headerlink" title="Constants"></a>Constants</h3><p>与变量（Variables）类似，但值无法改变</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 使用 const 声明</span></span><br><span class="line"><span class="keyword">const</span> conferenceTickets = <span class="number">50</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Package-Level-Variables"><a href="#Package-Level-Variables" class="headerlink" title="Package Level Variables"></a>Package Level Variables</h3><ul>
-<li>Defined at the top <strong>outside of all functions  - &#x5728;main&#x51FD;&#x6570;&#x4EE5;&#x5916;&#x4E0A;&#x9762;&#x5B9A;&#x4E49;</strong></li>
+<li>Defined at the top <strong>outside of all functions  - 在main函数以外上面定义</strong></li>
 <li>They can be <strong>accessed inside any of the functions</strong></li>
 <li>And in all files, which are in the <strong>same package</strong></li>
-<li>&#x4E0D;&#x80FD;&#x7528; <code>:=</code> &#x521B;&#x5EFA;</li>
-<li>&#x4F20;&#x53C2;&#x65F6;&#x4E0D;&#x7528;&#x5199;</li>
+<li>不能用 <code>:=</code> 创建</li>
+<li>传参时不用写</li>
 </ul>
 <h3 id="Local-Variables"><a href="#Local-Variables" class="headerlink" title="Local Variables"></a>Local Variables</h3><ul>
 <li>Defined <strong>inside a function or a block</strong></li>
@@ -60,11 +66,11 @@
 <h2 id="Formatted-Output"><a href="#Formatted-Output" class="headerlink" title="Formatted Output"></a>Formatted Output</h2><p>Print formatted data</p>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line">fmt.Printf(<span class="string">&quot;some text with a variable %s&quot;</span>, myVariable)</span><br></pre></td></tr></table></figure>
 
-<h2 id="Data-Types"><a href="#Data-Types" class="headerlink" title="Data Types"></a>Data Types</h2><p>&#x58F0;&#x660E;&#x7C7B;&#x578B;</p>
+<h2 id="Data-Types"><a href="#Data-Types" class="headerlink" title="Data Types"></a>Data Types</h2><p>声明类型</p>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// var something Type</span></span><br><span class="line"><span class="keyword">var</span> userName <span class="keyword">string</span></span><br></pre></td></tr></table></figure>
 
-<p>&#x68C0;&#x67E5;&#x7C7B;&#x578B;</p>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x7528; %T</span></span><br><span class="line">fmt.Printf(%T, something)</span><br></pre></td></tr></table></figure>
+<p>检查类型</p>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 用 %T</span></span><br><span class="line">fmt.Printf(%T, something)</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>The type keyword creates a new type, with the name you specify</li>
@@ -72,11 +78,15 @@
 </ul>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">type</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">struct</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">int</span></span><br><span class="line"><span class="keyword">type</span> name <span class="keyword">string</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
-<h3 id="Strings-amp-Integers-amp-Booleans"><a href="#Strings-amp-Integers-amp-Booleans" class="headerlink" title="Strings &amp; Integers &amp; Booleans"></a>Strings &amp; Integers &amp; Booleans</h3><ul>
-<li>Strings : for <strong>textual data</strong>, defined with double quotes, eg : &#x201C;This is a string&#x201D;</li>
-<li>Integers : representing <strong>whole numbers</strong>, positive and negative, eg : 5, 10, -20  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png" alt="01.png">  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x6570;&#x5B57;42&#x8F6C;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4F9D;&#x65E7;&#x662F;&#x5341;&#x8FDB;&#x5236;&#x5F62;&#x5F0F;&#xFF0C;&#x82E5;&#x4E3A;16&#xFF0C;&#x5219;&#x662F;16&#x8FDB;&#x5236;</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">10</span>) <span class="comment">// 42, string</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">16</span>) <span class="comment">// 2a, string</span></span><br></pre></td></tr></table></figure>
+<h3 id="Strings-Integers-Booleans"><a href="#Strings-Integers-Booleans" class="headerlink" title="Strings &amp; Integers &amp; Booleans"></a>Strings &amp; Integers &amp; Booleans</h3><ul>
+<li><p>Strings : for <strong>textual data</strong>, defined with double quotes, eg : “This is a string”</p>
 </li>
-<li>Booleans : True or False</li>
+<li><p>Integers : representing <strong>whole numbers</strong>, positive and negative, eg : 5, 10, -20</p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/01.png" alt="01.png"></p>
+  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 数字42转字符串，依旧是十进制形式，若为16，则是16进制</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">10</span>) <span class="comment">// 42, string</span></span><br><span class="line">strconv.FormatUint(<span class="keyword">uint64</span>(<span class="number">42</span>), <span class="number">16</span>) <span class="comment">// 2a, string</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Booleans : True or False</p>
+</li>
 </ul>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> noSomething <span class="keyword">bool</span> = something == <span class="number">0</span></span><br><span class="line">noSomething := something == <span class="number">0</span></span><br></pre></td></tr></table></figure>
 
@@ -88,28 +98,30 @@
 </ul>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> myMap = <span class="built_in">make</span>(<span class="keyword">map</span>[keyType]valueType)</span><br><span class="line"></span><br><span class="line"><span class="comment">// example</span></span><br><span class="line"><span class="keyword">var</span> userData = <span class="built_in">make</span>(<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>)</span><br><span class="line">userData[<span class="string">&quot;firstName&quot;</span>] = firstName</span><br></pre></td></tr></table></figure>
 
-<h3 id="Arrays-amp-Slices"><a href="#Arrays-amp-Slices" class="headerlink" title="Arrays &amp; Slices"></a>Arrays &amp; Slices</h3><ul>
-<li>Arrays<ul>
-<li>&#x5FC5;&#x987B;&#x77E5;&#x9053;&#x5927;&#x5C0F;</li>
+<h3 id="Arrays-Slices"><a href="#Arrays-Slices" class="headerlink" title="Arrays &amp; Slices"></a>Arrays &amp; Slices</h3><ul>
+<li><p>Arrays</p>
+<ul>
+<li>必须知道大小</li>
 <li>Fixed Size</li>
 <li>Only the <strong>same data type</strong> can be stored</li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = [<span class="number">50</span>]<span class="keyword">string</span>{<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>}</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bookings [<span class="number">50</span>]<span class="keyword">string</span></span><br><span class="line">bookings[<span class="number">0</span>] = <span class="string">&quot;Text&quot;</span></span><br><span class="line">bookings[<span class="number">1</span>] = first + <span class="string">&quot; &quot;</span> + last</span><br><span class="line"></span><br><span class="line"><span class="comment">// Arrays&#x7684;&#x5927;&#x5C0F;</span></span><br><span class="line"><span class="built_in">len</span>(array)</span><br></pre></td></tr></table></figure>
+  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = [<span class="number">50</span>]<span class="keyword">string</span>&#123;<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> bookings [<span class="number">50</span>]<span class="keyword">string</span></span><br><span class="line">bookings[<span class="number">0</span>] = <span class="string">&quot;Text&quot;</span></span><br><span class="line">bookings[<span class="number">1</span>] = first + <span class="string">&quot; &quot;</span> + last</span><br><span class="line"></span><br><span class="line"><span class="comment">// Arrays的大小</span></span><br><span class="line"><span class="built_in">len</span>(array)</span><br></pre></td></tr></table></figure>
 </li>
-<li>Slices<ul>
-<li>&#x5927;&#x5C0F;&#x53EF;&#x53D8;</li>
+<li><p>Slices</p>
+<ul>
+<li>大小可变</li>
 <li>Slice is an abstraction of an Array</li>
 <li>More flexible and powerful : <strong>variable-length</strong> or an sub-array of its own</li>
 <li>Slices are also <strong>index-based</strong> and have a size, but is <strong>resized when needed</strong></li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x58F0;&#x660E;&#x65B9;&#x5F0F;</span></span><br><span class="line"><span class="keyword">var</span> bookings []<span class="keyword">string</span></span><br><span class="line"></span><br><span class="line">bookings := []<span class="keyword">string</span>{}</span><br><span class="line"></span><br><span class="line">sliceName = <span class="built_in">append</span>(sliceName, elements)   <span class="comment">// Adds the element(s) at the end of the slice.</span></span><br></pre></td></tr></table></figure>
+  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 声明方式</span></span><br><span class="line"><span class="keyword">var</span> bookings []<span class="keyword">string</span></span><br><span class="line"></span><br><span class="line">bookings := []<span class="keyword">string</span>&#123;&#125;</span><br><span class="line"></span><br><span class="line">sliceName = <span class="built_in">append</span>(sliceName, elements)   <span class="comment">// Adds the element(s) at the end of the slice.</span></span><br></pre></td></tr></table></figure>
 <ul>
-<li>Creating a slice with <code>make()</code><ul>
+<li><p>Creating a slice with <code>make()</code></p>
+<ul>
 <li>Alternative way to create a slice</li>
 <li>We need to define the initial size of the slice</li>
 </ul>
-  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = <span class="built_in">make</span>([]<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
-</li>
+  <figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> bookings = <span class="built_in">make</span>([]<span class="keyword">map</span>[<span class="keyword">string</span>]<span class="keyword">string</span>, <span class="number">0</span>)</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 </ul>
@@ -117,7 +129,7 @@
 <li>Collect different data types of data</li>
 <li>type statement - Custom Types<ul>
 <li>The <strong>type keyword creates a new type</strong>, with the name you specify</li>
-<li><em>&#x201C;create a type called &#x201C;userData&#x201D; <strong>based on a struct</strong> of firstName, lastName..&#x201D;</em></li>
+<li><em>“create a type called “userData” <strong>based on a struct</strong> of firstName, lastName..”</em></li>
 </ul>
 </li>
 <li>Defining a structure<ul>
@@ -125,18 +137,18 @@
 <li>Defining a structure (which fields) of the User Type</li>
 </ul>
 </li>
-<li>It&#x2019;s like a lightweight class, which e.g. doesn&#x2019;t support inheritance</li>
+<li>It’s like a lightweight class, which e.g. doesn’t support inheritance</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// &#x521B;&#x5EFA;struct</span></span><br><span class="line"><span class="keyword">type</span> UserData <span class="keyword">struct</span> {</span><br><span class="line">	firstName       <span class="keyword">string</span></span><br><span class="line">	numberOfTickets <span class="keyword">uint</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x8D4B;&#x503C;</span></span><br><span class="line"><span class="keyword">var</span> userData = UserData{</span><br><span class="line">		firstName:       firstName,</span><br><span class="line">		numberOfTickets: userTickets,</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x4F7F;&#x7528;</span></span><br><span class="line">userData.firstName</span><br><span class="line">userData.numberOfTickets</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 创建struct</span></span><br><span class="line"><span class="keyword">type</span> UserData <span class="keyword">struct</span> &#123;</span><br><span class="line">	firstName       <span class="keyword">string</span></span><br><span class="line">	numberOfTickets <span class="keyword">uint</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 赋值</span></span><br><span class="line"><span class="keyword">var</span> userData = UserData&#123;</span><br><span class="line">		firstName:       firstName,</span><br><span class="line">		numberOfTickets: userTickets,</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用</span></span><br><span class="line">userData.firstName</span><br><span class="line">userData.numberOfTickets</span><br></pre></td></tr></table></figure>
 
-<h2 id="User-Input"><a href="#User-Input" class="headerlink" title="User Input"></a>User Input</h2><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Scan() &#x62EC;&#x53F7;&#x91CC;&#x8981;&#x4E48;&#x662F;&#x6307;&#x9488;&#xFF0C;&#x8981;&#x4E48;&#x662F;&#x5177;&#x4F53;&#x5730;&#x5740;</span></span><br><span class="line">fmt.Scan(&amp;inputText)</span><br><span class="line">fmt.Scan(<span class="number">0xc00124</span>)</span><br></pre></td></tr></table></figure>
+<h2 id="User-Input"><a href="#User-Input" class="headerlink" title="User Input"></a>User Input</h2><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Scan() 括号里要么是指针，要么是具体地址</span></span><br><span class="line">fmt.Scan(&amp;inputText)</span><br><span class="line">fmt.Scan(<span class="number">0xc00124</span>)</span><br></pre></td></tr></table></figure>
 
 <p>user input validation</p>
 <h2 id="Pointers"><a href="#Pointers" class="headerlink" title="Pointers"></a>Pointers</h2><ul>
 <li>A pointer is a variable that <strong>points to the memory address of another variable.</strong></li>
 <li>A special variable.</li>
 </ul>
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled.png" alt="Untitled"></p>
 <h2 id="Scope-Rules"><a href="#Scope-Rules" class="headerlink" title="Scope Rules"></a>Scope Rules</h2><h3 id="Variable-Scopes"><a href="#Variable-Scopes" class="headerlink" title="Variable Scopes"></a>Variable Scopes</h3><p>Scope is the region of a program, where a defined variable can be accessed</p>
 <p><strong>3 Levels of Scope</strong></p>
 <ul>
@@ -167,33 +179,33 @@
 </li>
 </ul>
 <h2 id="Loops"><a href="#Loops" class="headerlink" title="Loops"></a>Loops</h2><ul>
-<li>Only have the &#x201C;for loop&#x201D;</li>
+<li>Only have the “for loop”</li>
 <li>Infinite Loop</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> {</span><br><span class="line">	</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x7528;&#x6237;&#x4F7F;&#x7528; ctrl + C &#x9000;&#x51FA;&#x5FAA;&#x73AF;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x672C;&#x8D28;&#x662F;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="literal">true</span> {</span><br><span class="line"></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span> &#123;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 用户使用 ctrl + C 退出循环</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 本质是</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="literal">true</span> &#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>For-Each Loop : Iterating over a list</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Range iterates over elements for different data structures (so not only arrays and slices)</span></span><br><span class="line"><span class="comment">// For arrays and slices, range provides the index and value for each element</span></span><br><span class="line"><span class="keyword">for</span> condition {</span><br><span class="line">		</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x904D;&#x5386;&#x5B8C;bookings&#x91CC;&#x9762;&#x6240;&#x6709;&#x5143;&#x7D20;&#x540E;&#x7ED3;&#x675F;&#x5FAA;&#x73AF;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> index, booking := <span class="keyword">range</span> bookings {</span><br><span class="line">		<span class="keyword">var</span> names = strings.Fields(booking)</span><br><span class="line">		firstNames = <span class="built_in">append</span>(firstNames, names[<span class="number">0</span>])</span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x7528;&#x4E0D;&#x5230;index&#x53EF;&#x4EE5;&#x7528;&#x4E0B;&#x5212;&#x7EBF;&#x4EE3;&#x66FF;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _, booking := <span class="keyword">range</span> bookings {</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Range iterates over elements for different data structures (so not only arrays and slices)</span></span><br><span class="line"><span class="comment">// For arrays and slices, range provides the index and value for each element</span></span><br><span class="line"><span class="keyword">for</span> condition &#123;</span><br><span class="line">		</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 遍历完bookings里面所有元素后结束循环</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> index, booking := <span class="keyword">range</span> bookings &#123;</span><br><span class="line">		<span class="keyword">var</span> names = strings.Fields(booking)</span><br><span class="line">		firstNames = <span class="built_in">append</span>(firstNames, names[<span class="number">0</span>])</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 用不到index可以用下划线代替</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> _, booking := <span class="keyword">range</span> bookings &#123;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>&#x4F7F;&#x7528;<code>break</code>&#x9000;&#x51FA;&#x5FAA;&#x73AF;</li>
-<li>&#x4F7F;&#x7528;<code>continue</code>&#x7EE7;&#x7EED;</li>
+<li>使用<code>break</code>退出循环</li>
+<li>使用<code>continue</code>继续</li>
 </ul>
-<h2 id="If-else-amp-Switch"><a href="#If-else-amp-Switch" class="headerlink" title="If-else &amp; Switch"></a>If-else &amp; Switch</h2><h3 id="if-else"><a href="#if-else" class="headerlink" title="if-else"></a>if-else</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> condition {</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">} <span class="keyword">else</span> <span class="keyword">if</span> condition {</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">} <span class="keyword">else</span> {</span><br><span class="line">		<span class="comment">// code to be executed if both conditions are false</span></span><br><span class="line">}</span><br><span class="line"></span><br><span class="line"><span class="comment">// &#x53EF;&#x4EE5;&#x6CA1;&#x6709;else, else if </span></span><br><span class="line"><span class="comment">// else if &#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A;&#xFF0C;else &#x53EA;&#x80FD;&#x6709;&#x4E00;&#x4E2A;</span></span><br></pre></td></tr></table></figure>
+<h2 id="If-else-Switch"><a href="#If-else-Switch" class="headerlink" title="If-else &amp; Switch"></a>If-else &amp; Switch</h2><h3 id="if-else"><a href="#if-else" class="headerlink" title="if-else"></a>if-else</h3><figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> condition &#123;</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> condition &#123;</span><br><span class="line">		<span class="comment">// code to be executed if condition is true</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="comment">// code to be executed if both conditions are false</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 可以没有else, else if </span></span><br><span class="line"><span class="comment">// else if 可以有多个，else 只能有一个</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="switch"><a href="#switch" class="headerlink" title="switch"></a>switch</h3><p>Allows a variable to be tested for equality against a list of values</p>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Example</span></span><br><span class="line"></span><br><span class="line">text := <span class="string">&quot;B&quot;</span></span><br><span class="line"><span class="keyword">switch</span> text {</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;A&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;B&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>:</span><br><span class="line">				<span class="comment">// same code here for C and D</span></span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">				<span class="comment">// Default handles the case, if no match is found</span></span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="comment">// Example</span></span><br><span class="line"></span><br><span class="line">text := <span class="string">&quot;B&quot;</span></span><br><span class="line"><span class="keyword">switch</span> text &#123;</span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;A&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;B&quot;</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">		<span class="keyword">case</span> <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>:</span><br><span class="line">				<span class="comment">// same code here for C and D</span></span><br><span class="line">		<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// some code here</span></span><br><span class="line">				<span class="comment">// Default handles the case, if no match is found</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h2><ul>
-<li><strong>Encapsulate code</strong> into own container (= function). Which <strong>logically belong together!</strong></li>
+<li><strong>Encapsulate code</strong> into own container (&#x3D; function). Which <strong>logically belong together!</strong></li>
 <li>Like variable name, you should give a function a <strong>descriptive name</strong></li>
 <li><strong>Call the function by its name</strong>, whenever you want to execute this block of code</li>
 <li>Every program has at least one function, which is the <strong>main()</strong> function</li>
-<li>Function is only executed, when &#x201C;called&#x201D; !</li>
+<li>Function is only executed, when “called” !</li>
 </ul>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">functionName</span><span class="params">(parameters and parametersType)</span> <span class="params">(returnType)</span></span>{</span><br><span class="line">		<span class="comment">// function body</span></span><br><span class="line">		<span class="comment">// Encapsulate code</span></span><br><span class="line">		fmt.Println(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line">}</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">functionName</span><span class="params">(parameters and parametersType)</span> <span class="params">(returnType)</span></span>&#123;</span><br><span class="line">		<span class="comment">// function body</span></span><br><span class="line">		<span class="comment">// Encapsulate code</span></span><br><span class="line">		fmt.Println(<span class="string">&quot;hello&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>Function Parameters<ul>
@@ -210,42 +222,48 @@
 </li>
 </ul>
 <h2 id="Packages"><a href="#Packages" class="headerlink" title="Packages"></a>Packages</h2><ul>
-<li>Go programs are organized into packages</li>
-<li>A package is a <strong>collection of Go files</strong></li>
-<li>&#x5982;&#x679C;&#x5168;&#x5728;&#x4E00;&#x4E2A;package&#xFF0C;&#x8FD0;&#x884C;&#x65F6;&#x5728;&#x5305;&#x542B;&#x6240;&#x6709;go&#x6587;&#x4EF6;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x7EC8;&#x7AEF;&#x8F93;&#x5165;<code>go run .</code>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png" alt="Untitled">  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png" alt="Untitled">  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png" alt="&#x5C4F;&#x5E55;&#x622A;&#x56FE; 2023-05-08 093352.png"></li>
+<li><p>Go programs are organized into packages</p>
+</li>
+<li><p>A package is a <strong>collection of Go files</strong></p>
+</li>
+<li><p>如果全在一个package，运行时在包含所有go文件的文件夹终端输入<code>go run .</code></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%201.png" alt="Untitled01"></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%202.png" alt="Untitled02"></p>
+<p>  <img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/jietu.png" alt="屏幕截图 2023-05-08 093352.png"></p>
+</li>
 </ul>
-<h3 id="Multiple-Packages"><a href="#Multiple-Packages" class="headerlink" title="Multiple Packages"></a>Multiple Packages</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png" alt="Untitled"></p>
-<h3 id="go-mod"><a href="#go-mod" class="headerlink" title="go.mod"></a>go.mod</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png" alt="Untitled"></p>
-<p>module booking-app  = import path</p>
+<h3 id="Multiple-Packages"><a href="#Multiple-Packages" class="headerlink" title="Multiple Packages"></a>Multiple Packages</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%203.png" alt="Untitled03"></p>
+<h3 id="go-mod"><a href="#go-mod" class="headerlink" title="go.mod"></a>go.mod</h3><p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%204.png" alt="Untitled04"></p>
+<p>module booking-app  &#x3D; import path</p>
 <p>For all our packages in our booking-app application</p>
 <h3 id="Import-package"><a href="#Import-package" class="headerlink" title="Import package"></a>Import package</h3><ul>
 <li>Exporting a variable<ul>
 <li>Make it available for all packages in the app</li>
-<li><strong>Capitalize first letter - &#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;</strong></li>
+<li><strong>Capitalize first letter - 首字母大写</strong></li>
 </ul>
 </li>
 </ul>
 <h2 id="Goroutines"><a href="#Goroutines" class="headerlink" title="Goroutines"></a>Goroutines</h2><ul>
-<li><code>go &#x2026;</code> starts a new goroutine // &#x8BA9;&#x5B83;&#x591A;&#x8FDB;&#x7A0B;&#x540C;&#x65F6;&#x8FD0;&#x884C;(?)</li>
+<li><code>go …</code> starts a new goroutine &#x2F;&#x2F; 让它多进程同时运行(?)</li>
 <li>A goroutine is a lightweight thread managed by the Go runtime</li>
 <li>Waitgroup<ul>
 <li>Waits for the lunched goroutine to finish</li>
-<li>Package &#x201C;sync&#x201D; provides basic synchronization functionality</li>
+<li>Package “sync” provides basic synchronization functionality</li>
 <li><code>Add()</code> Sets the number of goroutine to wait for (increases the counter by the provided number)</li>
 <li><code>Wait()</code> Blocks until the WaitGroup counter is 0</li>
-<li><code>Done()</code> Decrements the WaitGroup counter by 1. So this is called by the goroutine to indicate that it&#x2019;s finished</li>
+<li><code>Done()</code> Decrements the WaitGroup counter by 1. So this is called by the goroutine to indicate that it’s finished</li>
 </ul>
 </li>
 </ul>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> wg = sync.WaitGroup{}</span><br><span class="line">wg.Add(<span class="number">1</span>)</span><br><span class="line">wg.Wait()</span><br><span class="line">wg.Done()</span><br></pre></td></tr></table></figure>
+<figure class="highlight go"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> wg = sync.WaitGroup&#123;&#125;</span><br><span class="line">wg.Add(<span class="number">1</span>)</span><br><span class="line">wg.Wait()</span><br><span class="line">wg.Done()</span><br></pre></td></tr></table></figure>
 
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%205.png" alt="Untitled05"></p>
 <ul>
 <li>Managed by the go runtime, we are only interacting with these high level goroutines</li>
 <li>Cheaper &amp; lightweight</li>
 <li>You can run hundreds of thousands or millions goroutines without affecting the performance</li>
 </ul>
-<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png" alt="Untitled"></p>
+<p><img src="/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Untitled%206.png" alt="Untitled06"></p>
 ]]></content>
       <categories>
         <category>Golang</category>
@@ -256,226 +274,181 @@
       </tags>
   </entry>
   <entry>
-    <title>Python中的深拷贝与浅拷贝</title>
-    <url>/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
-    <content><![CDATA[<ul>
-<li>&#x6D45;&#x62F7;&#x8D1D;&#xFF1A;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#xFF0C;&#x4F46;&#x4E0D;&#x590D;&#x5236;&#x5305;&#x542B;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x4FEE;&#x6539;&#x590D;&#x5236;&#x540E;&#x7684;&#x5B50;&#x5BF9;&#x8C61;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x3002;</li>
-<li>&#x6DF1;&#x62F7;&#x8D1D;&#xFF1A;&#x9012;&#x5F52;&#x5730;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x53CA;&#x5176;&#x5305;&#x542B;&#x7684;&#x6240;&#x6709;&#x5B50;&#x5BF9;&#x8C61;&#x3002;&#x590D;&#x5236;&#x540E;&#x7684;&#x5BF9;&#x8C61;&#x4E0E;&#x539F;&#x59CB;&#x5BF9;&#x8C61;&#x5B8C;&#x5168;&#x72EC;&#x7ACB;&#x3002;</li>
-</ul>
-<p><strong>&#x53EF;&#x53D8;&#x5BF9;&#x8C61; vs &#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;</strong></p>
-<ul>
-<li>&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x6574;&#x6570;&#x3001;&#x5B57;&#x7B26;&#x4E32;&#x3001;&#x5143;&#x7EC4;&#x7B49;&#xFF0C;&#x4E0D;&#x80FD;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x5BF9;&#x5B83;&#x4EEC;&#x7684;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x53EA;&#x4F1A;&#x6539;&#x53D8;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: 4</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF1A;&#x5982;&#x5217;&#x8868;&#x3001;&#x5B57;&#x5178;&#x3001;&#x96C6;&#x5408;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x4FEE;&#x6539;&#x5B83;&#x4EEC;&#x7684;&#x5185;&#x5BB9;&#x3002;&#x591A;&#x4E2A;&#x5F15;&#x7528;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#x65F6;&#xFF0C;&#x5BF9;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x4EFB;&#x4F55;&#x4FEE;&#x6539;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5230;&#x6240;&#x6709;&#x5F15;&#x7528;&#x4E2D;&#x3002;</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
-
-<p>&#x5BF9;&#x4E8E;&#x4E0D;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x91CD;&#x65B0;&#x8D4B;&#x503C;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#xFF0C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x539F;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9;&#x4E8E;&#x53EF;&#x53D8;&#x5BF9;&#x8C61;&#xFF0C;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x5185;&#x5BB9;&#x4F1A;&#x5F71;&#x54CD;&#x6240;&#x6709;&#x5F15;&#x7528;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/12/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>JS基础学习笔记</title>
     <url>/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p><b> &#x770B;&#x7684;&#x89C6;&#x9891;&#x662F;<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&amp;courseId=195001">&#x7FC1;&#x607A;&#x8001;&#x5E08;&#x8BB2;&#x7684;Javascript</a>,&#x89C6;&#x9891;&#x4E0D;&#x662F;&#x5F88;&#x957F;&#xFF0C;&#x4E0D;&#x8FC7;&#x4E86;&#x89E3;js&#x57FA;&#x7840;&#x8DB3;&#x591F;&#x4E86;&#xFF0C;&#x60F3;&#x6DF1;&#x5165;&#x5B66;&#x8FD8;&#x5F97;&#x770B;&#x522B;&#x7684;+&#x591A;&#x591A;&#x7EC3;&#x4E60;<br></b></p>
-<h1 id="&#x4E00;&#x5F00;&#x59CB;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;"><a href="#&#x4E00;&#x5F00;&#x59CB;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;" class="headerlink" title="&#x4E00;&#x5F00;&#x59CB;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;:"></a>&#x4E00;&#x5F00;&#x59CB;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BB0;&#x7684;&#x7B14;&#x8BB0;:</h1><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS&#x5B66;&#x4E60;<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;alert(&apos;hi&apos;)&quot;</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- &#x7F51;&#x9875;&#x6253;&#x5F00;&#x51FA;&#x73B0;hi&#x7684;&#x63D0;&#x793A; --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- alert&#x4EA7;&#x751F;&#x5BF9;&#x8BDD;&#x6846; --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(<span class="string">&quot;hello world!&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="comment">// document&#x662F;&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x9875;&#x9762;&#xFF08;&#x79F0;&#x4E3A;&#x5BF9;&#x8C61;&#xFF09;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// .&#x8868;&#x793A;&#x5DE6;&#x8FB9;&#x7684;&#x505A;&#x53F3;&#x8FB9;&#x7684;&#x52A8;&#x4F5C;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// write&#x8868;&#x793A;&#x201C;&#x5199;&#x201D;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//hello &#x662F;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x653E;&#x5728;&quot;&quot;&#x91CC;&#x9762;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//&#x7ED3;&#x5C3E;&#x8981;&#x52A0;&#x5206;&#x53F7;</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> hello;</span></span><br><span class="line"><span class="javascript">            <span class="comment">//&#x4E00;&#x4E2A;&#x540D;&#x53EB;hello&#x7684;&#x53D8;&#x91CF;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//var &#x5B9A;&#x4E49;&#x53D8;&#x91CF;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS&#x4E2D;&#x53D8;&#x91CF;&#x6CA1;&#x6709;&#x7C7B;&#x578B;&#xFF0C;&#x8D4B;&#x7ED9;&#x53D8;&#x91CF;&#x7684;&#x503C;&#x6709;&#x7C7B;&#x578B;</span></span></span><br><span class="line"><span class="javascript">            hello = <span class="string">&quot;hello&quot;</span>;    <span class="comment">//&#x8D4B;&#x503C;</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello+<span class="string">&quot;&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age = <span class="number">16</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> ot = <span class="literal">true</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello + age+<span class="string">&quot;&lt;br/&gt;&quot;</span>);    <span class="comment">//&#x5BF9;&#x4E8E;&#x5B57;&#x7B26;&#x4E32;&#x201C;+&#x201D;&#x5C31;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x8FDE;&#x63A5;&#xFF0C;&#x8F93;&#x51FA;hello16</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//&#x52A0;&#x51CF;&#x4E58;&#x9664;&#x53D6;&#x6A21;&#xFF0C;&#x6BD4;&#x8F83;&#x5927;&#x5C0F;&#xFF0C;++--&#x4EC0;&#x4E48;&#x7684;&#x90FD;&#x548C;C&#x5DEE;&#x4E0D;&#x591A;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS&#x4E2D;&#x6570;&#x5B57;&#x4E0D;&#x533A;&#x5206;&#x6574;&#x6570;&#x6D6E;&#x70B9;&#x6570;&#x5565;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x5185;&#x90E8;&#x6709;&#x8303;&#x56F4;</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age1 = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age2 = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(age1 &lt;= age2+<span class="string">&quot;&lt;br/&gt;&quot;</span>);   <span class="comment">//&#x8F93;&#x51FA;true</span></span></span><br><span class="line"><span class="javascript">            </span></span><br><span class="line"><span class="javascript">            <span class="comment">//&#x5224;&#x65AD;&#x8BED;&#x53E5;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//if-else&#x8BED;&#x53E5;</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//&#x5EFA;&#x8BAE;&#x5728;if&#x548C;else&#x540E;&#x9762;&#x6C38;&#x8FDC;&#x653E;&#x4E00;&#x5BF9;{}&#xFF0C;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x4E0D;&#x72AF;&#x9519;&#x8BEF;</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (age &gt; <span class="number">18</span>){</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;&#x6210;&#x5E74;&#x5566;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span>{</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;&#x8FD8;&#x5C0F;&#x5462;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;&#x597D;&#x5566;&#x597D;&#x5566;&#x77E5;&#x9053;&#x8FA3;&quot;</span>)</span></span><br><span class="line"><span class="javascript">            <span class="comment">//switch-case&#x8BED;&#x53E5;</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> t = <span class="number">2</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">switch</span> (t) {</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">1</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;&#x4F60;&#x597D;&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">2</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;&#x65E9;&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">default</span>:    <span class="comment">//&#x9ED8;&#x8BA4;</span></span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;WTF???&quot;</span>);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span></span><br><span class="line"><span class="javascript">            o.name = <span class="string">&quot;John&quot;</span>;</span></span><br><span class="line"><span class="javascript">            o.age = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            o.salary = <span class="number">300</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o){</span></span><br><span class="line"><span class="javascript">                alert(x);</span></span><br><span class="line"><span class="javascript">                alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (confirm(<span class="string">&quot;&#x8FD8;&#x7EE7;&#x7EED;&#x5417;&#xFF1F;&quot;</span>)){</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;&#x7EE7;&#x7EED;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span> {</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;&#x518D;&#x89C1;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            }</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> name = prompt(<span class="string">&quot;&#x4F60;&#x7684;&#x540D;&#x5B57;&#x662F;&#xFF1A; &quot;</span>);</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;hello&quot;</span>+name);</span></span><br><span class="line"><span class="javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<h1 id="JavaScript&#x4ECB;&#x7ECD;-&#x540E;&#x9762;&#x7528;markdown&#x505A;&#x7684;&#x7B14;&#x8BB0;"><a href="#JavaScript&#x4ECB;&#x7ECD;-&#x540E;&#x9762;&#x7528;markdown&#x505A;&#x7684;&#x7B14;&#x8BB0;" class="headerlink" title="JavaScript&#x4ECB;&#x7ECD;(&#x540E;&#x9762;&#x7528;markdown&#x505A;&#x7684;&#x7B14;&#x8BB0;)"></a>JavaScript&#x4ECB;&#x7ECD;(&#x540E;&#x9762;&#x7528;markdown&#x505A;&#x7684;&#x7B14;&#x8BB0;)</h1><ul>
-<li>&#x662F;&#x4E00;&#x79CD;&#x53EF;&#x4EE5;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x8FD0;&#x884C;&#x7684;&#x811A;&#x672C;&#x8BED;&#x8A00;</li>
-<li>&#x4E3B;&#x8981;&#x7528;&#x6765;&#x5B9E;&#x73B0;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x7AEF;&#x7684;&#x52A8;&#x4F5C;<ul>
-<li>&#x7528;&#x6237;&#x4EA4;&#x4E92;</li>
-<li>&#x6570;&#x636E;&#x5904;&#x7406;</li>
+    <content><![CDATA[<p><b> 看的视频是<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习<br></b></p>
+<h1 id="一开始在代码中记的笔记"><a href="#一开始在代码中记的笔记" class="headerlink" title="一开始在代码中记的笔记:"></a>一开始在代码中记的笔记:</h1><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS学习<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;alert(&#x27;hi&#x27;)&quot;</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 网页打开出现hi的提示 --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- alert产生对话框 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(<span class="string">&quot;hello world!&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="comment">// document是浏览器的页面（称为对象）</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// .表示左边的做右边的动作</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// write表示“写”</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//hello 是字符串，放在&quot;&quot;里面</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//结尾要加分号</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> hello;</span></span><br><span class="line"><span class="javascript">            <span class="comment">//一个名叫hello的变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//var 定义变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中变量没有类型，赋给变量的值有类型</span></span></span><br><span class="line"><span class="javascript">            hello = <span class="string">&quot;hello&quot;</span>;    <span class="comment">//赋值</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello+<span class="string">&quot;&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age = <span class="number">16</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> ot = <span class="literal">true</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello + age+<span class="string">&quot;&lt;br/&gt;&quot;</span>);    <span class="comment">//对于字符串“+”就是字符串连接，输出hello16</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//加减乘除取模，比较大小，++--什么的都和C差不多</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中数字不区分整数浮点数啥的，但是内部有范围</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age1 = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age2 = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(age1 &lt;= age2+<span class="string">&quot;&lt;br/&gt;&quot;</span>);   <span class="comment">//输出true</span></span></span><br><span class="line"><span class="javascript">            </span></span><br><span class="line"><span class="javascript">            <span class="comment">//判断语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//if-else语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;成年啦&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;还小呢&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span></span><br><span class="line"><span class="javascript">            <span class="comment">//switch-case语句</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> t = <span class="number">2</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">switch</span> (t) &#123;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">1</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;你好&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">2</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;早&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">default</span>:    <span class="comment">//默认</span></span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;WTF???&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span></span><br><span class="line"><span class="javascript">            o.name = <span class="string">&quot;John&quot;</span>;</span></span><br><span class="line"><span class="javascript">            o.age = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            o.salary = <span class="number">300</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span></span><br><span class="line"><span class="javascript">                alert(x);</span></span><br><span class="line"><span class="javascript">                alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (confirm(<span class="string">&quot;还继续吗？&quot;</span>))&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;继续&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;再见&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> name = prompt(<span class="string">&quot;你的名字是： &quot;</span>);</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;hello&quot;</span>+name);</span></span><br><span class="line"><span class="javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="JavaScript介绍-后面用markdown做的笔记"><a href="#JavaScript介绍-后面用markdown做的笔记" class="headerlink" title="JavaScript介绍(后面用markdown做的笔记)"></a>JavaScript介绍(后面用markdown做的笔记)</h1><ul>
+<li>是一种可以在浏览器中运行的脚本语言</li>
+<li>主要用来实现在浏览器端的动作<ul>
+<li>用户交互</li>
+<li>数据处理</li>
 </ul>
 </li>
-<li>JavaScript&#x662F;&#x89E3;&#x91CA;&#x6027;&#x8BED;&#x8A00;</li>
-<li>HTML&#x4E2D;&#x7684;js<ul>
-<li>&#x5728;head&#x4E2D;&#x5B9A;&#x4E49;&#x51FD;&#x6570;<ul>
-<li>&lt;script languang = &#x201C;JavaScript&#x201D;&gt;</li>
+<li>JavaScript是解释性语言</li>
+<li>HTML中的js<ul>
+<li>在head中定义函数<ul>
+<li>&lt;script languang &#x3D; “JavaScript”&gt;</li>
 </ul>
 </li>
-<li>&#x5728;&#x76F8;&#x5E94;&#x6807;&#x8BB0;&#x4E2D;&#x5B9A;&#x4E49;&#x52A8;&#x4F5C;<ul>
-<li>&lt;onXXX=&#x201D;&#x201D;&gt;</li>
-</ul>
-</li>
+<li>在相应标记中定义动作<ul>
+<li>&lt;onXXX&#x3D;””&gt;</li>
 </ul>
 </li>
 </ul>
-<h1 id="&#x53D8;&#x91CF;&#x548C;&#x8BA1;&#x7B97;"><a href="#&#x53D8;&#x91CF;&#x548C;&#x8BA1;&#x7B97;" class="headerlink" title="&#x53D8;&#x91CF;&#x548C;&#x8BA1;&#x7B97;"></a>&#x53D8;&#x91CF;&#x548C;&#x8BA1;&#x7B97;</h1><h2 id="&#x53D8;&#x91CF;"><a href="#&#x53D8;&#x91CF;" class="headerlink" title="&#x53D8;&#x91CF;"></a>&#x53D8;&#x91CF;</h2><ul>
-<li>&#x7528;&#x4E8E;&#x5B58;&#x653E;&#x6570;&#x636E;&#x7684;&#x4E1C;&#x897F;</li>
-<li>var&#xFF1A;&#x7528;&#x4E8E;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;</li>
+</li>
 </ul>
-<h2 id="&#x8BA1;&#x7B97;"><a href="#&#x8BA1;&#x7B97;" class="headerlink" title="&#x8BA1;&#x7B97;"></a>&#x8BA1;&#x7B97;</h2><h1 id="&#x63A7;&#x5236;"><a href="#&#x63A7;&#x5236;" class="headerlink" title="&#x63A7;&#x5236;"></a>&#x63A7;&#x5236;</h1><h2 id="&#x5224;&#x65AD;"><a href="#&#x5224;&#x65AD;" class="headerlink" title="&#x5224;&#x65AD;"></a>&#x5224;&#x65AD;</h2><ul>
-<li>if-else&#x8BED;&#x53E5;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x5EFA;&#x8BAE;&#x5728;if&#x548C;else&#x540E;&#x9762;&#x6C38;&#x8FDC;&#x653E;&#x4E00;&#x5BF9;{}&#xFF0C;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x4E0D;&#x72AF;&#x9519;&#x8BEF;</span></span><br><span class="line">  <span class="keyword">if</span> (age &gt; <span class="number">18</span>){</span><br><span class="line">      alert(<span class="string">&quot;&#x6210;&#x5E74;&#x5566;&quot;</span>);</span><br><span class="line">  }</span><br><span class="line">  <span class="keyword">else</span>{</span><br><span class="line">      alert(<span class="string">&quot;&#x8FD8;&#x5C0F;&#x5462;&quot;</span>);</span><br><span class="line">  }</span><br><span class="line">  alert(<span class="string">&quot;&#x597D;&#x5566;&#x597D;&#x5566;&#x77E5;&#x9053;&#x8FA3;&quot;</span>)</span><br></pre></td></tr></table></figure></li>
-<li>switch-case&#x8BED;&#x53E5;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">switch</span> (t) {</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">        alert(<span class="string">&quot;&#x4F60;&#x597D;&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">        alert(<span class="string">&quot;&#x65E9;&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:    <span class="comment">//&#x9ED8;&#x8BA4;</span></span><br><span class="line">        alert(<span class="string">&quot;WTF???&quot;</span>);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li>
-<li>&#x903B;&#x8F91;&#x8BA1;&#x7B97;<ul>
-<li>and&#xFF1A;&amp;&amp;</li>
-<li>or&#xFF1A;||</li>
-<li>not&#xFF1A;!</li>
+<h1 id="变量和计算"><a href="#变量和计算" class="headerlink" title="变量和计算"></a>变量和计算</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><ul>
+<li>用于存放数据的东西</li>
+<li>var：用于定义变量</li>
+</ul>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h1 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h1><h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><ul>
+<li>if-else语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span><br><span class="line">  <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span><br><span class="line">      alert(<span class="string">&quot;成年啦&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span>&#123;</span><br><span class="line">      alert(<span class="string">&quot;还小呢&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span><br></pre></td></tr></table></figure></li>
+<li>switch-case语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">switch</span> (t) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">        alert(<span class="string">&quot;你好&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">        alert(<span class="string">&quot;早&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:    <span class="comment">//默认</span></span><br><span class="line">        alert(<span class="string">&quot;WTF???&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>逻辑计算<ul>
+<li>and：&amp;&amp;</li>
+<li>or：||</li>
+<li>not：!</li>
 </ul>
 </li>
-<li>&#x4F18;&#x5148;&#x7EA7;<ul>
-<li>&#x6240;&#x6709;&#x7684;&#x903B;&#x8F91;&#x8FD0;&#x7B97;&#x7B26;&#x7684;&#x4F18;&#x5148;&#x7EA7;&#x90FD;&#x4F4E;&#x4E8E;&#x5173;&#x7CFB;&#x8FD0;&#x7B97;&#x7B26;</li>
+<li>优先级<ul>
+<li>所有的逻辑运算符的优先级都低于关系运算符</li>
 <li>! &gt; &amp;&amp; &gt; ||</li>
 </ul>
 </li>
-<li>&#x6761;&#x4EF6;&#x8FD0;&#x7B97;&#x7B26;&#xFF08;&#x4E09;&#x5143;&#x8FD0;&#x7B97;&#x7B26;&#xFF09;<ul>
-<li>&#x683C;&#x5F0F;&#xFF1A;&lt;exp&gt;?&lt;v1&gt;:&lt;v2&gt;</li>
-<li>&#x89E3;&#x91CA;&#xFF1A;<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (exp){</span><br><span class="line">    v1;</span><br><span class="line">}</span><br><span class="line">else{</span><br><span class="line">    v2;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li>
+<li>条件运算符（三元运算符）<ul>
+<li>格式：&lt;exp&gt;?&lt;v1&gt;:&lt;v2&gt;</li>
+<li>解释：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">if (exp)&#123;</span><br><span class="line">    v1;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">    v2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 </ul>
-<h2 id="&#x5FAA;&#x73AF;"><a href="#&#x5FAA;&#x73AF;" class="headerlink" title="&#x5FAA;&#x73AF;"></a>&#x5FAA;&#x73AF;</h2><ul>
-<li>while&#x8BED;&#x53E5;<ul>
-<li>while&#x8BED;&#x53E5;&#x8BA9;&#x540C;&#x4E00;&#x6BB5;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x91CD;&#x590D;&#x6267;&#x884C;&#x5F88;&#x591A;&#x6B21;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x5148;&#x5224;&#x65AD;&#x518D;&#x5FAA;&#x73AF;</span></span><br><span class="line"><span class="comment">//&#x4E3E;&#x4F8B;</span></span><br><span class="line"><span class="keyword">var</span> count = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> LIMIT = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">while</span> (count &lt;= LIMIT){</span><br><span class="line">    alert(count);</span><br><span class="line">    count = count + <span class="number">1</span>;</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li>
+<h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><ul>
+<li>while语句<ul>
+<li>while语句让同一段代码可以重复执行很多次<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//先判断再循环</span></span><br><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">var</span> count = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> LIMIT = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">while</span> (count &lt;= LIMIT)&#123;</span><br><span class="line">    alert(count);</span><br><span class="line">    count = count + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li>do-while&#x8BED;&#x53E5;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x5FAA;&#x73AF;&#x4E00;&#x6B21;&#x4E4B;&#x540E;&#x624D;&#x5F00;&#x59CB;&#x5224;&#x65AD;</span></span><br><span class="line"><span class="keyword">do</span>{</span><br><span class="line"></span><br><span class="line">}<span class="keyword">while</span>();</span><br></pre></td></tr></table></figure></li>
-<li>for&#x8BED;&#x53E5;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//&#x4E3E;&#x4F8B;</span></span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">5</span>; i=i+<span class="number">1</span>){</span><br><span class="line">    alert(i);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li>
+<li>do-while语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//循环一次之后才开始判断</span></span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;<span class="keyword">while</span>();</span><br></pre></td></tr></table></figure></li>
+<li>for语句<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">5</span>; i=i+<span class="number">1</span>)&#123;</span><br><span class="line">    alert(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
-<h1 id="&#x51FD;&#x6570;"><a href="#&#x51FD;&#x6570;" class="headerlink" title="&#x51FD;&#x6570;"></a>&#x51FD;&#x6570;</h1><ul>
-<li>&#x51FD;&#x6570;&#x5C31;&#x662F;&#x4E00;&#x6BB5;&#x4EE3;&#x7801;&#xFF0C;&#x6211;&#x4EEC;&#x7ED9;&#x5B83;&#x8D77;&#x4E2A;&#x540D;&#x5B57;&#xFF0C;&#x653E;&#x8D77;&#x6765;&#xFF0C;&#x4EE5;&#x540E;&#x53EF;&#x4EE5;&#x7528;</li>
-<li>JavaScript&#x6709;&#x5F88;&#x591A;&#x5185;&#x7F6E;&#x51FD;&#x6570;&#xFF0C;&#x80FD;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x5B9E;&#x73B0;&#x5F88;&#x591A;&#x6709;&#x7528;&#x7684;&#x529F;&#x80FD;</li>
-<li>&#x5B9A;&#x4E49;&#x51FD;&#x6570;<ul>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><ul>
+<li>函数就是一段代码，我们给它起个名字，放起来，以后可以用</li>
+<li>JavaScript有很多内置函数，能帮助我们实现很多有用的功能</li>
+<li>定义函数<ul>
 <li>function fun_name(){}</li>
-<li>var f = new Function(&#x201C;x&#x201D;,&#x201D;y&#x201D;,&#x201D;return x*y&#x201D;); &#x7B49;&#x4EF7;&#x4E8E; function f(x,y){return x*y;}</li>
-<li>&#x5176;&#x4ED6;&#x7684;&#x548C;&#x5176;&#x4ED6;&#x8BED;&#x8A00;&#x90FD;&#x5DEE;&#x4E0D;&#x591A;&#x7684;&#x6837;&#x5B50;&#x2026;</li>
+<li>var f &#x3D; new Function(“x”,”y”,”return x*y”); 等价于 function f(x,y){return x*y;}</li>
+<li>其他的和其他语言都差不多的样子…</li>
 </ul>
 </li>
-<li>&#x53D8;&#x91CF;&#x7A7A;&#x95F4;<ul>
-<li>&#x5B9A;&#x4E49;&#x5728;&#x51FD;&#x6570;&#x5916;&#x7684;&#x53D8;&#x91CF;&#x5728;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x4E2D;&#x90FD;&#x6709;&#x6548;</li>
-<li>&#x5B9A;&#x4E49;&#x5728;&#x51FD;&#x6570;&#x5185;&#x90E8;&#x7684;&#x53D8;&#x91CF;&#x53EA;&#x5728;&#x51FD;&#x6570;&#x5185;&#x6709;&#x6548;</li>
+<li>变量空间<ul>
+<li>定义在函数外的变量在整个页面中都有效</li>
+<li>定义在函数内部的变量只在函数内有效</li>
 </ul>
 </li>
 </ul>
-<h1 id="&#x6570;&#x7EC4;"><a href="#&#x6570;&#x7EC4;" class="headerlink" title="&#x6570;&#x7EC4;"></a>&#x6570;&#x7EC4;</h1><ul>
-<li>var marks = new Array(); &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;marks</li>
-<li>marks[0] &#xFF1A;[]&#x53EF;&#x4EE5;&#x8BBF;&#x95EE;&#x6570;&#x7EC4;&#xFF0C;&#x6570;&#x7EC4;&#x4ECE;0&#x5F00;&#x59CB;</li>
-<li>&#x6570;&#x7EC4;&#x957F;&#x5EA6;&#xFF1A;marks.length&#x7ED9;&#x51FA;&#x6570;&#x7EC4;marks&#x7684;&#x957F;&#x5EA6;<ul>
-<li>.length&#x53EF;&#x5199;</li>
+<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><ul>
+<li>var marks &#x3D; new Array(); 创建一个数组marks</li>
+<li>marks[0] ：[]可以访问数组，数组从0开始</li>
+<li>数组长度：marks.length给出数组marks的长度<ul>
+<li>.length可写</li>
 </ul>
 </li>
-<li>&#x5806;&#x6808;&#x64CD;&#x4F5C;<ul>
+<li>堆栈操作<ul>
 <li>.push</li>
 <li>.pop</li>
 </ul>
 </li>
-<li>&#x961F;&#x5217;&#x64CD;&#x4F5C;<ul>
+<li>队列操作<ul>
 <li>.push</li>
 <li>.shift</li>
 </ul>
 </li>
-<li>&#x6392;&#x5E8F;&#x64CD;&#x4F5C;<ul>
+<li>排序操作<ul>
 <li>.sort</li>
-<li>.reverse    &#x6309;&#x987A;&#x5E8F;&#x98A0;&#x5012;</li>
+<li>.reverse    按顺序颠倒</li>
 </ul>
 </li>
-<li>&#x5176;&#x4ED6;&#x64CD;&#x4F5C;<ul>
-<li>.concat &#x8FDE;&#x63A5;</li>
-<li>.slice &#x53D6;&#x51FA;&#x67D0;&#x4E00;&#x90E8;&#x5206;&#x4F5C;&#x4E3A;&#x65B0;&#x6570;&#x7EC4;</li>
-<li>.splice(&#x5F00;&#x59CB;&#x4F4D;&#x7F6E;&#xFF0C;&#x5220;&#x9664;&#x4E2A;&#x6570;&#xFF0C;&#x63D2;&#x5165;&#x5143;&#x7D20;)</li>
+<li>其他操作<ul>
+<li>.concat 连接</li>
+<li>.slice 取出某一部分作为新数组</li>
+<li>.splice(开始位置，删除个数，插入元素)</li>
 </ul>
 </li>
 </ul>
-<h1 id="&#x5BF9;&#x8C61;"><a href="#&#x5BF9;&#x8C61;" class="headerlink" title="&#x5BF9;&#x8C61;"></a>&#x5BF9;&#x8C61;</h1><ul>
-<li>&#x5BF9;&#x8C61;&#x662F;JavaScript&#x7684;&#x4E00;&#x79CD;&#x590D;&#x5408;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x628A;&#x591A;&#x4E2A;&#x6570;&#x636E;&#x96C6;&#x4E2D;&#x5728;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x4E2D;&#xFF0C;&#x5E76;&#x4E14;&#x7ED9;&#x5176;&#x4E2D;&#x7684;&#x6BCF;&#x4E2A;&#x6570;&#x636E;&#x8D77;&#x540D;&#x5B57;</li>
-<li>&#x6216;&#x8005;&#x8BF4;&#xFF0C;&#x5BF9;&#x8C61;&#x662F;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x96C6;&#x5408;&#xFF0C;&#x6BCF;&#x4E2A;&#x5C5E;&#x6027;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x540D;&#x5B57;&#x548C;&#x503C;<ul>
-<li>JavaScript&#x5E76;&#x4E0D;&#x50CF;&#x5176;&#x4ED6;OOP&#x8BED;&#x8A00;&#x90A3;&#x6837;&#x6709;&#x7C7B;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4E0D;&#x662F;&#x5148;&#x8BBE;&#x8BA1;&#x7C7B;&#x518D;&#x5236;&#x9020;&#x5BF9;&#x8C61;</li>
+<h1 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h1><ul>
+<li>对象是JavaScript的一种复合数据类型，它可以把多个数据集中在一个变量中，并且给其中的每个数据起名字</li>
+<li>或者说，对象是一个属性集合，每个属性有自己的名字和值<ul>
+<li>JavaScript并不像其他OOP语言那样有类的概念，不是先设计类再制造对象</li>
 </ul>
 </li>
-<li>&#x521B;&#x5EFA;&#x5BF9;&#x8C61;<ul>
-<li>var o = new Object();</li>
-<li>var ciclr = {x:0,y:0,radius:2};</li>
+<li>创建对象<ul>
+<li>var o &#x3D; new Object();</li>
+<li>var ciclr &#x3D; {x:0,y:0,radius:2};</li>
 </ul>
 </li>
-<li>&#x8BBF;&#x95EE;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;<ul>
-<li>.&#x8FD0;&#x7B97;&#x7B26;</li>
+<li>访问对象属性<ul>
+<li>.运算符</li>
 </ul>
 </li>
-<li>&#x5220;&#x9664;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;<ul>
+<li>删除对象属性<ul>
 <li>delete book.chapter1;</li>
 </ul>
 </li>
-<li>&#x904D;&#x5386;&#x6240;&#x6709;&#x5C5E;&#x6027;<ul>
-<li>for (var x in o)&#x2026;<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">o.name = <span class="string">&quot;John&quot;</span>;</span><br><span class="line">o.age = <span class="number">30</span>;</span><br><span class="line">o.salary = <span class="number">300</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o){</span><br><span class="line">  alert(x);</span><br><span class="line">  alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span><br><span class="line">}</span><br></pre></td></tr></table></figure></li>
+<li>遍历所有属性<ul>
+<li>for (var x in o)…<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">o.name = <span class="string">&quot;John&quot;</span>;</span><br><span class="line">o.age = <span class="number">30</span>;</span><br><span class="line">o.salary = <span class="number">300</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span><br><span class="line">  alert(x);</span><br><span class="line">  alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 </ul>
-<h1 id="&#x6D4F;&#x89C8;&#x5668;&#x91CC;&#x7684;JavaScript"><a href="#&#x6D4F;&#x89C8;&#x5668;&#x91CC;&#x7684;JavaScript" class="headerlink" title="&#x6D4F;&#x89C8;&#x5668;&#x91CC;&#x7684;JavaScript"></a>&#x6D4F;&#x89C8;&#x5668;&#x91CC;&#x7684;JavaScript</h1><h2 id="window"><a href="#window" class="headerlink" title="window"></a>window</h2><ul>
-<li>&#x6D4F;&#x89C8;&#x5668;&#x7684;&#x5168;&#x5C40;&#x5BF9;&#x8C61;&#x662F;window</li>
-<li>&#x6240;&#x6709;&#x5168;&#x5C40;&#x7684;&#x53D8;&#x91CF;&#x5B9E;&#x9645;&#x4E0A;&#x662F;window&#x7684;&#x6210;&#x5458;<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var answer = 12;</span><br><span class="line">alert(window.answer);</span><br></pre></td></tr></table></figure></li>
-<li>window.document&#x8868;&#x793A;&#x6D4F;&#x89C8;&#x5668;&#x7A97;&#x53E3;&#x4E2D;&#x7684;HTML&#x9875;&#x9762;</li>
-<li>document.write()&#x5C06;&#x5185;&#x5BB9;&#x5199;&#x5165;&#x9875;&#x9762;</li>
-<li>&#x9875;&#x9762;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x5C31;&#x662F;document&#x91CC;&#x7684;&#x6210;&#x5458;</li>
-<li>HTML&#x4E2D;&#x7684;JavaScript<ul>
-<li>&#x5728;&lt;script&gt;&lt;/script&gt;&#x6807;&#x8BB0;&#x4E2D;</li>
-<li>&#x5728;&lt;script&gt;&#x7684;src&#x5C5E;&#x6027;&#x6216;archive&#x6307;&#x5B9A;&#x7684;&#x5916;&#x90E8;&#x6587;&#x4EF6;&#x4E2D;<ul>
-<li>&lt;script src = &#x201C;&#x201D;&gt;&lt;/script&gt;</li>
-<li>&#x4E00;&#x4E2A;&#x7EAF;&#x7CB9;&#x7684;&#x4EE3;&#x7801;&#x6587;&#x4EF6;&#xFF0C;&#x6CA1;&#x6709;HTML&#x6807;&#x8BB0;</li>
+<h1 id="浏览器里的JavaScript"><a href="#浏览器里的JavaScript" class="headerlink" title="浏览器里的JavaScript"></a>浏览器里的JavaScript</h1><h2 id="window"><a href="#window" class="headerlink" title="window"></a>window</h2><ul>
+<li>浏览器的全局对象是window</li>
+<li>所有全局的变量实际上是window的成员<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">var answer = 12;</span><br><span class="line">alert(window.answer);</span><br></pre></td></tr></table></figure></li>
+<li>window.document表示浏览器窗口中的HTML页面</li>
+<li>document.write()将内容写入页面</li>
+<li>页面中的元素就是document里的成员</li>
+<li>HTML中的JavaScript<ul>
+<li>在&lt;script&gt;&lt;&#x2F;script&gt;标记中</li>
+<li>在&lt;script&gt;的src属性或archive指定的外部文件中<ul>
+<li>&lt;script src &#x3D; “”&gt;&lt;&#x2F;script&gt;</li>
+<li>一个纯粹的代码文件，没有HTML标记</li>
 </ul>
 </li>
-<li>&#x5728;&#x67D0;&#x4E2A;HTML&#x6807;&#x8BB0;&#x7684;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#x5668;&#x4E2D;<ul>
-<li>&lt;p onMouseOver = &#x201C;&#x201D;&gt;   &#x9F20;&#x6807;&#x79FB;&#x52A8;&#x5230;&#x4E0A;&#x9762;&#x65F6;</li>
-<li>body&#x4E8B;&#x4EF6;<ul>
-<li>onLoad &#x9875;&#x9762;&#x663E;&#x793A;&#x4E4B;&#x524D;</li>
-<li>onUnload &#x9875;&#x9762;&#x5173;&#x6389;&#x4E4B;&#x524D;</li>
+<li>在某个HTML标记的事件处理器中<ul>
+<li>&lt;p onMouseOver &#x3D; “”&gt;   鼠标移动到上面时</li>
+<li>body事件<ul>
+<li>onLoad 页面显示之前</li>
+<li>onUnload 页面关掉之前</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>&#x7B80;&#x5355;&#x5BF9;&#x8BDD;&#x6846;<ul>
+<li>简单对话框<ul>
 <li>alert</li>
 <li>confirm</li>
 <li>prompt</li>
 </ul>
 </li>
-<li>&#x72B6;&#x6001;&#x680F;&#xFF08;&#x5728;&#x9875;&#x9762;&#x6700;&#x4E0B;&#x9762;&#xFF08;&#x5DE6;&#x4E0B;&#x89D2;&#xFF1F;&#xFF09;&#xFF09;<ul>
-<li>status = </li>
-<li>defaultStatus = </li>
+<li>状态栏（在页面最下面（左下角？））<ul>
+<li>status &#x3D; </li>
+<li>defaultStatus &#x3D;</li>
 </ul>
 </li>
-<li>&#x5B9A;&#x65F6;&#x5668;<ul>
+<li>定时器<ul>
 <li>setInterval()</li>
 </ul>
 </li>
 </ul>
 </li>
-<li>window&#x7684;&#x63A7;&#x5236;&#x65B9;&#x6CD5;<ul>
+<li>window的控制方法<ul>
 <li>window.open()</li>
 <li>windoe.close()</li>
 </ul>
 </li>
-<li>location&#x5BF9;&#x8C61;<ul>
-<li>window.location&#x4EE3;&#x8868;&#x5F53;&#x524D;&#x6587;&#x6863;&#x7684;URL</li>
+<li>location对象<ul>
+<li>window.location代表当前文档的URL</li>
 </ul>
 </li>
 </ul>
 <h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><ul>
-<li>document&#x7684;&#x6210;&#x5458;<ul>
+<li>document的成员<ul>
 <li>anchors[]</li>
 <li>forms[]</li>
 <li>images[]</li>
@@ -499,20 +472,178 @@
       </tags>
   </entry>
   <entry>
+    <title>Python中的深拷贝与浅拷贝</title>
+    <url>/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
+    <content><![CDATA[<ul>
+<li>浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。</li>
+<li>深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。</li>
+</ul>
+<p><strong>可变对象 vs 不可变对象</strong></p>
+<ul>
+<li>不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: 4</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>可变对象：如列表、字典、集合等，可以修改它们的内容。多个引用指向同一个可变对象时，对该对象的任何修改都会反映到所有引用中。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+
+<p>对于不可变对象，重新赋值会创建一个新的对象引用，不会影响原对象。<br>对于可变对象，修改对象内容会影响所有引用，因为它们指向的是同一个对象。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>KMP算法</title>
+    <url>/2024/07/22/KMP%E7%AE%97%E6%B3%95/</url>
+    <content><![CDATA[<p><img src="/images/Golang/Untitled%205.png" alt="Untitled"></p>
+<h1 id="经典题目"><a href="#经典题目" class="headerlink" title="经典题目"></a>经典题目</h1><p><a href="https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-str">题目: 28. 找出字符串中第一个匹配项的下标</a><br>自己写了几版代码，总是有几个样例无法通过，于是去看了题解。</p>
+<h1 id="KMP算法"><a href="#KMP算法" class="headerlink" title="KMP算法"></a>KMP算法</h1><p>KMP算法这个名字来源于Knuth，Morris和Pratt三个人的首字母。<br>上面提到的leetcode28题是KMP算法经典题目，KMP的经典思想是：当出现字符串不匹配时，可以记录⼀部分之前已经匹配的⽂本内容，利⽤这些信息避免从头再去做匹配。<br>KMP算法主要应用于字符串匹配问题，它的重点在于前缀表。</p>
+<h1 id="前缀表"><a href="#前缀表" class="headerlink" title="前缀表"></a>前缀表</h1><p>前缀表是⽤来回退的，它记录了模式串与主串(⽂本串)不匹配的时候，模式串应该从哪⾥开始重新匹配。<br>前缀表中记录的是：下标i之前（包括i）的字符串中，有多⼤⻓度的相同前缀后缀。</p>
+<h2 id="最长公共前后缀"><a href="#最长公共前后缀" class="headerlink" title="最长公共前后缀"></a>最长公共前后缀</h2><ul>
+<li>前缀：包含首字符，不包含尾字符的所有子串</li>
+<li>后缀：包含尾字符，不包含首字符的所有子串</li>
+</ul>
+<p>前缀表内容：{前缀 : 最长相等前后缀}<br>例如：aabaaf</p>
+<table>
+<thead>
+<tr>
+<th>下标i之前</th>
+<th>最长公共前后缀</th>
+<th>最长公共前后缀长度</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td>aa</td>
+<td>a</td>
+<td>1</td>
+</tr>
+<tr>
+<td>aab</td>
+<td></td>
+<td>0</td>
+</tr>
+<tr>
+<td>aaba</td>
+<td>a</td>
+<td>1</td>
+</tr>
+<tr>
+<td>aabaa</td>
+<td>aa</td>
+<td>2</td>
+</tr>
+<tr>
+<td>aabaaf</td>
+<td></td>
+<td>0</td>
+</tr>
+</tbody></table>
+<p>最终的前缀表：</p>
+<table>
+<thead>
+<tr>
+<th>下标i</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>字符串</td>
+<td>a</td>
+<td>a</td>
+<td>b</td>
+<td>a</td>
+<td>a</td>
+<td>f</td>
+</tr>
+<tr>
+<td>最长公共前后缀</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+</tr>
+</tbody></table>
+<p><strong>下标i并不一定是字符串的最后一个字符</strong><br>当匹配到下标i对应的字符时，如果不匹配，则依据下标i-1的最长公共前后缀的数值，把下标移动到下标数值的位置继续进行匹配。</p>
+<blockquote>
+<p>当匹配到<code>下标5</code>对应的字符<code>f</code>时，如果不匹配，则依据<code>下标4</code>(字符<code>a</code>)的最长公共前后缀的数值<code>2</code>，把下标移动到<code>下标2</code>的位置(字符<code>b</code>)继续进行匹配。</p>
+</blockquote>
+<p>很绕，需要拿笔多画几遍才能理解。<br>真神奇，原本觉得这样根本达不到最终结果，可是换不同的字符串匹配，模拟了好几遍，居然最后都能得到正确答案。<br><strong>如果用这种前缀表，要注意当回退到下标0(<code>next[j] &lt; 1</code>)时，要将文本串向后移一位。</strong> 如果是前缀表统一减一的前缀表，则是当<code>next[j] &lt; 0</code>时，将文本串向后移一位再继续匹配。</p>
+<h2 id="如何求前缀表？"><a href="#如何求前缀表？" class="headerlink" title="如何求前缀表？"></a>如何求前缀表？</h2><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">定义函数 getNext(<span class="keyword">next</span>, s) &#123;</span><br><span class="line">  <span class="regexp">//</span> 初始化</span><br><span class="line">  <span class="regexp">//</span> 处理前后缀不相同的情况</span><br><span class="line">  <span class="regexp">//</span> 处理前后缀相同的情况</span><br><span class="line">  <span class="regexp">//</span> 更新<span class="keyword">next</span>的值</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>i：指向后缀末尾<br>j：指向前缀末尾</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// c++</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">getNext</span><span class="params">(<span class="keyword">int</span>* next, <span class="keyword">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">        <span class="keyword">while</span> (j &gt; <span class="number">0</span> &amp;&amp; s[i] != s[j]) &#123;</span><br><span class="line">            j = next[j - <span class="number">1</span>];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s[i] == s[j]) &#123;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        next[i] = j;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果是前缀表统一减一，那么初始化<code>j = -1</code>，while循环时，判断条件是<code>j &gt;= 0</code>，比较的是<code>s[j-1]</code>，其它的对应进行修改。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># python</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params"><span class="built_in">next</span>, s</span>):</span></span><br><span class="line">    j = <span class="number">0</span></span><br><span class="line">    <span class="built_in">next</span>[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>，<span class="built_in">len</span>(s)):</span><br><span class="line">        <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j]:</span><br><span class="line">            j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">        <span class="keyword">if</span> s[i] == s[j]:</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span>[i] = j</span><br></pre></td></tr></table></figure>
+<h1 id="KMP算法完整代码"><a href="#KMP算法完整代码" class="headerlink" title="KMP算法完整代码"></a>KMP算法完整代码</h1><p><strong>c++版是copy的，python版的是自己写的</strong></p>
+<h2 id="普通前缀表"><a href="#普通前缀表" class="headerlink" title="普通前缀表"></a>普通前缀表</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// c++</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">getNext</span><span class="params">(<span class="keyword">int</span>* next, <span class="keyword">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">        next[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="keyword">while</span> (j &gt; <span class="number">0</span> &amp;&amp; s[i] != s[j]) &#123;</span><br><span class="line">                j = next[j - <span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s[i] == s[j]) &#123;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            next[i] = j;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">strStr</span><span class="params">(string haystack, string needle)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (needle.<span class="built_in">size</span>() == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">next</span><span class="params">(needle.size())</span></span>;</span><br><span class="line">        <span class="built_in">getNext</span>(&amp;next[<span class="number">0</span>], needle);</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; haystack.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="keyword">while</span>(j &gt; <span class="number">0</span> &amp;&amp; haystack[i] != needle[j]) &#123;</span><br><span class="line">                j = next[j - <span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (haystack[i] == needle[j]) &#123;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (j == needle.<span class="built_in">size</span>() ) &#123;</span><br><span class="line">                <span class="keyword">return</span> (i - needle.<span class="built_in">size</span>() + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params">self, <span class="built_in">next</span>, s</span>):</span></span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="built_in">next</span>[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(s)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> s[i] == s[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="built_in">next</span>[i] = j</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">strStr</span>(<span class="params">self, haystack: <span class="built_in">str</span>, needle: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> needle:</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span> = [<span class="number">0</span>] * <span class="built_in">len</span>(needle)</span><br><span class="line">        self.getNext(<span class="built_in">next</span>, needle)</span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(haystack)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> haystack[i] != needle[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> haystack[i] == needle[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> j == <span class="built_in">len</span>(needle):    <span class="comment"># 最后一次相等之后还有j+=1，所以判断的时候必须是 j == len(needle)</span></span><br><span class="line">                <span class="keyword">return</span> i - j + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p>自己定义的函数如果写在<code>class Solution</code>里面，就得写成<code>def getNext(self, next, s):</code>，引用的时候要写成<code>self.getNext(next, needle)</code><br>如果定义的函数写在外面，就直接写<code>def getNext(next, s):</code>，直接引用<code>getNext(next, needle)</code></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params"><span class="built_in">next</span>, s</span>):</span></span><br><span class="line">    j = <span class="number">0</span></span><br><span class="line">    <span class="built_in">next</span>[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(s)):</span><br><span class="line">        <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j]:</span><br><span class="line">            j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">        <span class="keyword">if</span> s[i] == s[j]:</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span>[i] = j</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">strStr</span>(<span class="params">self, haystack: <span class="built_in">str</span>, needle: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> needle:</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span> = [<span class="number">0</span>] * <span class="built_in">len</span>(needle)</span><br><span class="line">        getNext(<span class="built_in">next</span>, needle)</span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(haystack)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> haystack[i] != needle[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> haystack[i] == needle[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> j == <span class="built_in">len</span>(needle):    <span class="comment"># 最后一次相等之后还有j+=1，所以判断的时候必须是 j == len(needle)</span></span><br><span class="line">                <span class="keyword">return</span> i - j + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="前缀表统一减一"><a href="#前缀表统一减一" class="headerlink" title="前缀表统一减一"></a>前缀表统一减一</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">// c++</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">getNext</span><span class="params">(<span class="keyword">int</span>* next, <span class="keyword">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">-1</span>;</span><br><span class="line">        next[<span class="number">0</span>] = j;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123; <span class="comment">// 注意i从1开始</span></span><br><span class="line">            <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; s[i] != s[j + <span class="number">1</span>]) &#123; <span class="comment">// 前后缀不相同了</span></span><br><span class="line">                j = next[j]; <span class="comment">// 向前回退</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s[i] == s[j + <span class="number">1</span>]) &#123; <span class="comment">// 找到相同的前后缀</span></span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            next[i] = j; <span class="comment">// 将j（前缀的长度）赋给next[i]</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">strStr</span><span class="params">(string haystack, string needle)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (needle.<span class="built_in">size</span>() == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">		<span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">next</span><span class="params">(needle.size())</span></span>;</span><br><span class="line">		<span class="built_in">getNext</span>(&amp;next[<span class="number">0</span>], needle);</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">-1</span>; <span class="comment">// // 因为next数组里记录的起始位置为-1</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; haystack.<span class="built_in">size</span>(); i++) &#123; <span class="comment">// 注意i就从0开始</span></span><br><span class="line">            <span class="keyword">while</span>(j &gt;= <span class="number">0</span> &amp;&amp; haystack[i] != needle[j + <span class="number">1</span>]) &#123; <span class="comment">// 不匹配</span></span><br><span class="line">                j = next[j]; <span class="comment">// j 寻找之前匹配的位置</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (haystack[i] == needle[j + <span class="number">1</span>]) &#123; <span class="comment">// 匹配，j和i同时向后移动</span></span><br><span class="line">                j++; <span class="comment">// i的增加在for循环里</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (j == (needle.<span class="built_in">size</span>() - <span class="number">1</span>) ) &#123; <span class="comment">// 文本串s里出现了模式串t</span></span><br><span class="line">                <span class="keyword">return</span> (i - needle.<span class="built_in">size</span>() + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params">self, <span class="built_in">next</span>, s</span>):</span></span><br><span class="line">        j = -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span>[<span class="number">0</span>] = j</span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(s)):</span><br><span class="line">            <span class="keyword">while</span> j &gt;= <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j + <span class="number">1</span>]:</span><br><span class="line">                j = <span class="built_in">next</span>[j]</span><br><span class="line">            <span class="keyword">if</span> s[i] == s[j + <span class="number">1</span>]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="built_in">next</span>[i] = j</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">strStr</span>(<span class="params">self, haystack: <span class="built_in">str</span>, needle: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> needle:</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span> = [<span class="number">0</span>] * <span class="built_in">len</span>(needle)</span><br><span class="line">        self.getNext(<span class="built_in">next</span>, needle)</span><br><span class="line">        j = -<span class="number">1</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(haystack)):</span><br><span class="line">            <span class="keyword">while</span> j &gt;= <span class="number">0</span> <span class="keyword">and</span> haystack[i] != needle[j + <span class="number">1</span>]:</span><br><span class="line">                j = <span class="built_in">next</span>[j]</span><br><span class="line">            <span class="keyword">if</span> haystack[i] == needle[j + <span class="number">1</span>]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> j == <span class="built_in">len</span>(needle) - <span class="number">1</span>:</span><br><span class="line">                <span class="keyword">return</span> i - j</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        </span><br></pre></td></tr></table></figure>
+
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>这种题就和二叉树那种题一样，应该多练多做，做熟练了就好了。理解很重要，理解了之后就算一时半会写不出来代码，多耗一会自己模拟几遍，代码也能写出来。</p>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/12/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
     <title>hexo博客使用方法</title>
     <url>/2022/05/04/hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<p>&#x4ECA;&#x5929;&#x60F3;&#x7ED9;&#x535A;&#x5BA2;&#x91CC;&#x52A0;&#x5185;&#x5BB9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5B8C;&#x5168;&#x5FD8;&#x8BB0;&#x4E86;&#x8981;&#x600E;&#x4E48;&#x505A;&#xFF0C;&#x6240;&#x4EE5;&#x8D76;&#x7D27;&#x641C;&#x4E86;&#x4E00;&#x4E0B;&#x600E;&#x4E48;&#x589E;&#x52A0;&#x3001;&#x4E0A;&#x4F20;&#x6587;&#x7AE0;&#xFF0C;&#x987A;&#x4FBF;&#x7ED9;&#x81EA;&#x5DF1;&#x505A;&#x4E86;&#x4E00;&#x4E2A;&#x6559;&#x7A0B;&#x3002;</p>
-<h3 id="&#x5728;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x6253;&#x5F00;&#x547D;&#x4EE4;&#x884C;"><a href="#&#x5728;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x6253;&#x5F00;&#x547D;&#x4EE4;&#x884C;" class="headerlink" title="&#x5728;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x6253;&#x5F00;&#x547D;&#x4EE4;&#x884C;"></a>&#x5728;&#x535A;&#x5BA2;&#x6839;&#x76EE;&#x5F55;&#x6253;&#x5F00;&#x547D;&#x4EE4;&#x884C;</h3><p>&#x53EF;&#x4EE5;&#x7528;cmd&#x4E5F;&#x53EF;&#x4EE5;&#x7528;git bash&#xFF08;&#x4E2A;&#x4EBA;&#x611F;&#x89C9;&#x8FD9;&#x4E2A;&#x65B9;&#x4FBF;&#x4E00;&#x70B9;&#xFF09;</p>
-<h3 id="&#x65B0;&#x589E;&#x6587;&#x7AE0;"><a href="#&#x65B0;&#x589E;&#x6587;&#x7AE0;" class="headerlink" title="&#x65B0;&#x589E;&#x6587;&#x7AE0;"></a>&#x65B0;&#x589E;&#x6587;&#x7AE0;</h3><figure class="highlight haxe"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="type"></span>&#x6587;&#x7AE0;&#x6807;&#x9898;</span><br></pre></td></tr></table></figure>
-<h3 id="&#x7F16;&#x8F91;&#x6587;&#x7AE0;"><a href="#&#x7F16;&#x8F91;&#x6587;&#x7AE0;" class="headerlink" title="&#x7F16;&#x8F91;&#x6587;&#x7AE0;"></a>&#x7F16;&#x8F91;&#x6587;&#x7AE0;</h3><p>&#x5728;sourse/_posts&#x4E2D;&#x627E;&#x5230;&#x751F;&#x6210;&#x7684;md&#x6587;&#x4EF6;&#xFF0C;&#x6253;&#x5F00;&#x540E;&#x5C31;&#x53EF;&#x4EE5;&#x5199;&#x6587;&#x7AE0;&#x4E86;</p>
-<h3 id="&#x751F;&#x6210;&#x6587;&#x7AE0;"><a href="#&#x751F;&#x6210;&#x6587;&#x7AE0;" class="headerlink" title="&#x751F;&#x6210;&#x6587;&#x7AE0;"></a>&#x751F;&#x6210;&#x6587;&#x7AE0;</h3><p>&#x5148;&#x6E05;&#x7406;&#x65E7;&#x7684;&#x6570;&#x636E;</p>
+    <content><![CDATA[<p>今天想给博客里加内容的时候，完全忘记了要怎么做，所以赶紧搜了一下怎么增加、上传文章，顺便给自己做了一个教程。</p>
+<h3 id="在博客根目录打开命令行"><a href="#在博客根目录打开命令行" class="headerlink" title="在博客根目录打开命令行"></a>在博客根目录打开命令行</h3><p>可以用cmd也可以用git bash（个人感觉这个方便一点）</p>
+<h3 id="新增文章"><a href="#新增文章" class="headerlink" title="新增文章"></a>新增文章</h3><figure class="highlight haxe"><table><tr><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="type"></span>文章标题</span><br></pre></td></tr></table></figure>
+<h3 id="编辑文章"><a href="#编辑文章" class="headerlink" title="编辑文章"></a>编辑文章</h3><p>在sourse&#x2F;_posts中找到生成的md文件，打开后就可以写文章了</p>
+<h3 id="生成文章"><a href="#生成文章" class="headerlink" title="生成文章"></a>生成文章</h3><p>先清理旧的数据</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
-<p>&#x751F;&#x6210;&#x65B0;&#x7684;&#x9875;&#x9762;</p>
+<p>生成新的页面</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>
-<h3 id="&#x9884;&#x89C8;&#x751F;&#x6210;&#x7684;&#x9875;&#x9762;"><a href="#&#x9884;&#x89C8;&#x751F;&#x6210;&#x7684;&#x9875;&#x9762;" class="headerlink" title="&#x9884;&#x89C8;&#x751F;&#x6210;&#x7684;&#x9875;&#x9762;"></a>&#x9884;&#x89C8;&#x751F;&#x6210;&#x7684;&#x9875;&#x9762;</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
-<p>&#x9884;&#x89C8;&#x7ED3;&#x675F;&#x540E;&#x5173;&#x95ED;&#x9884;&#x89C8;&#x8F93;&#x5165;<code>ctrl+c</code>&#x5C31;&#x53EF;&#x4EE5;&#x4E86;</p>
-<h3 id="&#x53D1;&#x5E03;&#x6587;&#x7AE0;"><a href="#&#x53D1;&#x5E03;&#x6587;&#x7AE0;" class="headerlink" title="&#x53D1;&#x5E03;&#x6587;&#x7AE0;"></a>&#x53D1;&#x5E03;&#x6587;&#x7AE0;</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
-<p>&#x5982;&#x679C;&#x4E0D;&#x60F3;&#x9884;&#x89C8;&#x60F3;&#x76F4;&#x63A5;&#x751F;&#x6210;&#x5E76;&#x53D1;&#x5E03;&#x7684;&#x8BDD;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7528;</p>
+<h3 id="预览生成的页面"><a href="#预览生成的页面" class="headerlink" title="预览生成的页面"></a>预览生成的页面</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<p>预览结束后关闭预览输入<code>ctrl+c</code>就可以了</p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
+<p>如果不想预览想直接生成并发布的话，也可以直接用</p>
 <figure class="highlight 1c"><table><tr><td class="code"><pre><span class="line">hexo g <span class="meta">&amp;&amp; hexo d</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Hexo</category>
@@ -525,95 +656,95 @@
   <entry>
     <title>《焦虑是一种能量》</title>
     <url>/2024/07/22/%E3%80%8A%E7%84%A6%E8%99%91%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E9%87%8F%E3%80%8B/</url>
-    <content><![CDATA[<p>&#x4E66;&#x540D;&#xFF1A;&#x7126;&#x8651;&#x662F;&#x4E00;&#x79CD;&#x80FD;&#x91CF;<br>&#x4F5C;&#x8005;&#xFF1A;&#x5C39;&#x4F9D;&#x4F9D;</p>
+    <content><![CDATA[<p>书名：焦虑是一种能量<br>作者：尹依依</p>
 <hr>
-<p>&#x8BA9;&#x7126;&#x8651;&#x6D88;&#x5931;&#xFF0C;&#x5BF9;&#x6210;&#x5E74;&#x4EBA;&#x6765;&#x8BF4;&#xFF0C;&#x7B80;&#x76F4;&#x662F;&#x4E00;&#x4E2A;&#x4E0D;&#x53EF;&#x80FD;&#x5B8C;&#x6210;&#x7684;&#x4EFB;&#x52A1;&#x3002;&#x65E0;&#x8BBA;&#x4F60;&#x591A;&#x4E48;&#x4F5B;&#x7CFB;&#xFF0C;&#x751F;&#x6D3B;&#x603B;&#x6709;&#x529E;&#x6CD5;&#x5C06;&#x4F60;&#x6253;&#x8DB4;&#x5728;&#x5730;&#x3002;&#x65E2;&#x7136;&#x4E00;&#x5B9A;&#x4F1A;&#x7126;&#x8651;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x59A8;&#x591A;&#x601D;&#x8003;&#x4E00;&#x4E0B;&#x600E;&#x4E48;&#x5229;&#x7528;&#x7126;&#x8651;&#x7684;&#x529B;&#x91CF;&#x3002;</p>
+<p>让焦虑消失，对成年人来说，简直是一个不可能完成的任务。无论你多么佛系，生活总有办法将你打趴在地。既然一定会焦虑，我们不妨多思考一下怎么利用焦虑的力量。</p>
 <hr>
-<p>&#x5F53;&#x6211;&#x4EEC;&#x7126;&#x8651;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E00;&#x5473;&#x5730;&#x544A;&#x8BC9;&#x81EA;&#x5DF1;&#x4E0D;&#x8981;&#x62C5;&#x5FC3;&#xFF0C;&#x6709;&#x65F6;&#x5019;&#x53CD;&#x800C;&#x4F1A;&#x66F4;&#x7CDF;&#x7CD5;&#x3002;&#x5FC3;&#x7406;&#x5B66;&#x91CC;&#x6709;&#x4E2A;&#x8BCD;&#x6C47;&#xFF0C;&#x53EB;&#x4E8C;&#x7EA7;&#x7126;&#x8651;&#xFF0C;&#x5C31;&#x662F;&#x62C5;&#x5FC3;&#x81EA;&#x5DF1;&#x592A;&#x7126;&#x8651;&#x800C;&#x5F15;&#x53D1;&#x7684;&#x66F4;&#x5927;&#x7684;&#x7126;&#x8651;&#x3002;</p>
+<p>当我们焦虑的时候，一味地告诉自己不要担心，有时候反而会更糟糕。心理学里有个词汇，叫二级焦虑，就是担心自己太焦虑而引发的更大的焦虑。</p>
 <hr>
-<p>&#x6731;&#x8389;&#xB7;&#x8BFA;&#x52D2;&#x59C6;&#x6559;&#x6388;&#x6709;&#x4E00;&#x5957;&#x5173;&#x4E8E;<strong>&#x9632;&#x5FA1;&#x6027;&#x60B2;&#x89C2;&#x4E3B;&#x4E49;&#x503E;&#x5411;&#x7684;&#x6D4B;&#x8BD5;&#x9898;</strong>&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x601D;&#x8003;&#x81EA;&#x5DF1;&#x5316;&#x89E3;&#x7126;&#x8651;&#x7684;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>朱莉·诺勒姆教授有一套关于<strong>防御性悲观主义倾向的测试题</strong>，大家可以用来思考自己化解焦虑的方式。</p>
 <ul>
-<li>&#x5728;&#x5F00;&#x59CB;&#x67D0;&#x9879;&#x4EFB;&#x52A1;&#x65F6;&#xFF0C;&#x603B;&#x662F;&#x9884;&#x8BA1;&#x6700;&#x574F;&#x7ED3;&#x679C;&#x3002;</li>
-<li>&#x4F1A;&#x7ECF;&#x5E38;&#x60F3;&#xFF0C;&#x4E8B;&#x60C5;&#x4E00;&#x5B9A;&#x4F1A;&#x53D8;&#x5F97;&#x66F4;&#x7CDF;&#x3002;</li>
-<li>&#x4F1A;&#x5C1D;&#x8BD5;&#x4ECE;&#x5404;&#x4E2A;&#x89D2;&#x5EA6;&#x53BB;&#x601D;&#x8003;&#x53EF;&#x80FD;&#x6709;&#x7684;&#x6700;&#x7CDF;&#x7CD5;&#x7ED3;&#x679C;&#x3002;</li>
-<li>&#x4F1A;&#x62C5;&#x5FC3;&#x4E0D;&#x80FD;&#x8FBE;&#x6210;&#x76EE;&#x6807;&#x6216;&#x8005;&#x5B8C;&#x6210;&#x4EFB;&#x52A1;&#x3002;</li>
-<li>&#x4F1A;&#x82B1;&#x5F88;&#x591A;&#x65F6;&#x95F4;&#x62C5;&#x5FC3;&#x4E8B;&#x60C5;&#x4F1A;&#x51FA;&#x9519;&#x7684;&#x73AF;&#x8282;&#x3002;</li>
-<li>&#x4F1A;&#x60F3;&#x8C61;&#x5982;&#x679C;&#x4EFB;&#x52A1;&#x5931;&#x8D25;&#x4E86;&#xFF0C;&#x81EA;&#x5DF1;&#x53D7;&#x4F24;&#x548C;&#x632B;&#x8D25;&#x7684;&#x60C5;&#x7EEA;&#x3002;</li>
-<li>&#x4F1A;&#x601D;&#x8003;&#x5E94;&#x5BF9;&#x5931;&#x8BEF;&#x7684;&#x5404;&#x79CD;&#x53EF;&#x80FD;&#x65B9;&#x6CD5;&#x3002;</li>
-<li>&#x4F1A;&#x7ECF;&#x5E38;&#x63D0;&#x9192;&#x81EA;&#x5DF1;&#x4E0D;&#x8981;&#x677E;&#x61C8;&#xFF0C;&#x4E0D;&#x8981;&#x592A;&#x8FC7;&#x81EA;&#x4FE1;&#x3002;</li>
-<li>&#x4F1A;&#x82B1;&#x5F88;&#x591A;&#x7684;&#x65F6;&#x95F4;&#x6765;&#x8BA1;&#x5212;&#x6240;&#x6709;&#x73AF;&#x8282;&#x3002;</li>
-<li>&#x4F1A;&#x7ECF;&#x5E38;&#x62C5;&#x5FC3;&#x5931;&#x8BEF;&#xFF0C;&#x6240;&#x4EE5;&#x51C6;&#x5907;&#x4E5F;&#x4F1A;&#x66F4;&#x5145;&#x5206;&#x3002;</li>
+<li>在开始某项任务时，总是预计最坏结果。</li>
+<li>会经常想，事情一定会变得更糟。</li>
+<li>会尝试从各个角度去思考可能有的最糟糕结果。</li>
+<li>会担心不能达成目标或者完成任务。</li>
+<li>会花很多时间担心事情会出错的环节。</li>
+<li>会想象如果任务失败了，自己受伤和挫败的情绪。</li>
+<li>会思考应对失误的各种可能方法。</li>
+<li>会经常提醒自己不要松懈，不要太过自信。</li>
+<li>会花很多的时间来计划所有环节。</li>
+<li>会经常担心失误，所以准备也会更充分。</li>
 </ul>
-<p>&#x5982;&#x679C;&#x4F60;&#x5BF9;&#x4EE5;&#x4E0A;&#x95EE;&#x9898;&#x7684;&#x56DE;&#x7B54;&#x5927;&#x591A;&#x6570;&#x662F;&#x201C;Yes&#x201D;&#xFF0C;&#x90A3;&#x4F60;&#x5C31;&#x6709;&#x53EF;&#x80FD;&#x62E5;&#x6709;&#x5C06;&#x7126;&#x8651;&#x5316;&#x4F5C;&#x52A8;&#x529B;&#x7684;&#x80FD;&#x529B;&#xFF0C;&#x597D;&#x597D;&#x5229;&#x7528;&#x8D77;&#x6765;&#x5427;&#xFF01;<br>&#x4EBA;&#x751F;&#x8DEF;&#x4E0A;&#xFF0C;&#x5982;&#x679C;&#x7126;&#x8651;&#x65E0;&#x6CD5;&#x907F;&#x514D;&#xFF0C;&#x90A3;&#x4E48;&#x4E0D;&#x59A8;&#x5C31;&#x4ECE;&#x7126;&#x8651;&#x4E2D;&#x5BFB;&#x627E;&#x52A8;&#x529B;&#x3002;&#x5C0F;&#x8BF4;&#x5BB6;G.B.&#x65AF;&#x7279;&#x6069;&#x8BF4;&#x8FC7;&#xFF1A;&#x201C;&#x4E50;&#x89C2;&#x7684;&#x4EBA;&#x53D1;&#x660E;&#x98DE;&#x673A;&#x63A2;&#x7D22;&#x5929;&#x7A7A;&#xFF0C;&#x60B2;&#x89C2;&#x7684;&#x4EBA;&#x53D1;&#x660E;&#x964D;&#x843D;&#x4F1E;&#x9632;&#x6B62;&#x5760;&#x843D;&#x3002;&#x201D;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x61C2;&#x5F97;&#x600E;&#x6837;&#x770B;&#x5F85;&#x60C5;&#x7EEA;&#xFF0C;&#x90A3;&#x4E48;&#x6BCF;&#x79CD;&#x60C5;&#x7EEA;&#x90FD;&#x6709;&#x529B;&#x91CF;&#x3002;</p>
+<p>如果你对以上问题的回答大多数是“Yes”，那你就有可能拥有将焦虑化作动力的能力，好好利用起来吧！<br>人生路上，如果焦虑无法避免，那么不妨就从焦虑中寻找动力。小说家G.B.斯特恩说过：“乐观的人发明飞机探索天空，悲观的人发明降落伞防止坠落。”如果我们懂得怎样看待情绪，那么每种情绪都有力量。</p>
 <hr>
-<p>&#x6211;&#x4EEC;&#x7684;&#x6587;&#x5316;&#x63A8;&#x5D07;&#x559C;&#x6012;&#x4E0D;&#x5F62;&#x4E8E;&#x8272;&#x3001;&#x6CF0;&#x5C71;&#x5D29;&#x4E8E;&#x524D;&#x800C;&#x8272;&#x4E0D;&#x53D8;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x4E60;&#x60EF;&#x5077;&#x7740;&#x4E50;&#x3001;&#x8EB2;&#x7740;&#x54ED;&#x3002;&#x65AF;&#x5766;&#x798F;&#x5927;&#x5B66;&#x5FC3;&#x7406;&#x5B66;&#x526F;&#x6559;&#x6388;&#x73CD;&#x59AE;&#xB7;&#x8521;&#x662F;&#x4E00;&#x540D;&#x4E13;&#x95E8;&#x7814;&#x7A76;&#x4E1C;&#x4E9A;&#x6587;&#x5316;&#x7684;&#x5FC3;&#x7406;&#x5B66;&#x4E13;&#x5BB6;&#xFF0C;&#x5979;&#x66FE;&#x7ECF;&#x5BF9;&#x6BD4;&#x4E2D;&#x56FD;&#x548C;&#x7F8E;&#x56FD;&#x7684;&#x5C11;&#x513F;&#x56FE;&#x4E66;&#xFF0C;&#x53D1;&#x73B0;&#x4E2D;&#x56FD;&#x513F;&#x7AE5;&#x8BFB;&#x7269;&#x7684;&#x4EBA;&#x7269;&#x8868;&#x60C5;&#x660E;&#x663E;&#x66F4;&#x5185;&#x655B;&#xFF0C;&#x5C11;&#x6709;&#x5927;&#x7B11;&#x6216;&#x8005;&#x5927;&#x54ED;&#x7B49;&#x5F20;&#x529B;&#x5341;&#x8DB3;&#x7684;&#x8868;&#x60C5;&#x3002;&#x5728;&#x7814;&#x7A76;&#x4E2D;&#x5979;&#x8FD8;&#x6307;&#x51FA;&#xFF1A;&#x60C5;&#x7EEA;&#x76F8;&#x5BF9;&#x6765;&#x8BF4;&#x662F;&#x4E00;&#x4E2A;&#x66F4;&#x52A0;&#x897F;&#x65B9;&#x5316;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x800C;&#x5C06;&#x60C5;&#x7EEA;&#x7EC6;&#x5206;&#xFF0C;&#x5E76;&#x4E0D;&#x662F;&#x6BCF;&#x4E00;&#x79CD;&#x6587;&#x5316;&#x4E0E;&#x751F;&#x4FF1;&#x6765;&#x7684;&#x610F;&#x8BC6;&#x3002;&#x8FD9;&#x4E2A;&#x89C2;&#x70B9;&#x6211;&#x5B8C;&#x5168;&#x540C;&#x610F;&#x3002;&#x76F8;&#x6BD4;&#x628A;&#x60C5;&#x7EEA;&#x6302;&#x5728;&#x5634;&#x8FB9;&#x7684;&#x897F;&#x65B9;&#x4EBA;&#x6765;&#x8BF4;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x5F04;&#x6E05;&#x695A;&#x81EA;&#x5DF1;&#x7684;&#x5185;&#x5FC3;&#x611F;&#x53D7;&#x662F;&#x4E2A;&#x5927;&#x96BE;&#x9898;&#x3002;&#x82F1;&#x56FD;&#x7684;&#x5E7C;&#x513F;&#x56ED;&#x5E38;&#x4F1A;&#x6302;&#x7740;&#x60C5;&#x7EEA;&#x56FE;&#x8C31;&#xFF0C;&#x4E0A;&#x9762;&#x6709;&#x6124;&#x6012;&#x3001;&#x60B2;&#x54C0;&#x3001;&#x6109;&#x5FEB;&#x3001;&#x5BB3;&#x6015;&#x7B49;&#x60C5;&#x7EEA;&#xFF0C;&#x5B69;&#x5B50;&#x4EEC;&#x4ECE;&#x5C0F;&#x5C31;&#x88AB;&#x6559;&#x80B2;&#x53BB;&#x611F;&#x53D7;&#x60C5;&#x7EEA;&#x3002;&#x76F8;&#x6BD4;&#x4E4B;&#x4E0B;&#xFF0C;&#x4E2D;&#x56FD;&#x7684;&#x6210;&#x5E74;&#x4EBA;&#x5F88;&#x5C11;&#x80FD;&#x51C6;&#x786E;&#x5730;&#x611F;&#x77E5;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x7EEA;&#x3002;</p>
+<p>我们的文化推崇喜怒不形于色、泰山崩于前而色不变，所以我们习惯偷着乐、躲着哭。斯坦福大学心理学副教授珍妮·蔡是一名专门研究东亚文化的心理学专家，她曾经对比中国和美国的少儿图书，发现中国儿童读物的人物表情明显更内敛，少有大笑或者大哭等张力十足的表情。在研究中她还指出：情绪相对来说是一个更加西方化的概念，而将情绪细分，并不是每一种文化与生俱来的意识。这个观点我完全同意。相比把情绪挂在嘴边的西方人来说，我们要弄清楚自己的内心感受是个大难题。英国的幼儿园常会挂着情绪图谱，上面有愤怒、悲哀、愉快、害怕等情绪，孩子们从小就被教育去感受情绪。相比之下，中国的成年人很少能准确地感知自己的情绪。</p>
 <hr>
-<p>&#x4E3A;&#x4EC0;&#x4E48;&#x5904;&#x5904;&#x8981;&#x6C42;&#x5B8C;&#x7F8E;&#x4F1A;&#x5E26;&#x6765;&#x7126;&#x8651;&#xFF1F;&#x8981;&#x56DE;&#x7B54;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5256;&#x6790;&#x201C;&#x5B8C;&#x7F8E;&#x201D;&#x8FD9;&#x4E2A;&#x8BCD;&#xFF0C;&#x770B;&#x6E05;&#x695A;&#x5B8C;&#x7F8E;&#x4E3B;&#x4E49;&#x7684;&#x771F;&#x76F8;&#x3002;&#x5728;&#x5FC3;&#x7406;&#x5B66;&#x4E0A;&#xFF0C;<strong>&#x5B8C;&#x7F8E;&#x4E3B;&#x4E49;&#x6709;&#x516D;&#x5927;&#x503E;&#x5411;&#xFF1A;&#x5BF9;&#x81EA;&#x5DF1;&#x8981;&#x6C42;&#x9AD8;&#xFF1B;&#x89C9;&#x5F97;&#x522B;&#x4EBA;&#x5BF9;&#x81EA;&#x5DF1;&#x7684;&#x671F;&#x5F85;&#x9AD8;&#xFF1B;&#x89C9;&#x5F97;&#x5982;&#x679C;&#x4E0D;&#x505A;&#x5F97;&#x5B8C;&#x7F8E;&#xFF0C;&#x5C31;&#x4F1A;&#x88AB;&#x6279;&#x8BC4;&#x6216;&#x8005;&#x5BFC;&#x81F4;&#x707E;&#x96BE;&#x3001;&#x4E0D;&#x5229;&#x7684;&#x540E;&#x679C;&#xFF1B;&#x4E0D;&#x505C;&#x6000;&#x7591;&#x81EA;&#x6211;&#xFF1B;&#x4E25;&#x683C;&#x9075;&#x5FAA;&#x6B21;&#x5E8F;&#xFF1B;&#x4E0D;&#x80FD;&#x63A5;&#x53D7;&#x9519;&#x8BEF;</strong>&#x3002;&#x5B8C;&#x7F8E;&#x4E3B;&#x4E49;&#x7684;&#x8FD9;&#x4E9B;&#x503E;&#x5411;&#x5728;&#x4E0D;&#x540C;&#x4E2A;&#x4F53;&#x8EAB;&#x4E0A;&#x4F1A;&#x8868;&#x73B0;&#x51FA;&#x4E0D;&#x540C;&#x7684;&#x75C7;&#x72B6;&#x3002;        </p>
+<p>为什么处处要求完美会带来焦虑？要回答这个问题，我们需要剖析“完美”这个词，看清楚完美主义的真相。在心理学上，<strong>完美主义有六大倾向：对自己要求高；觉得别人对自己的期待高；觉得如果不做得完美，就会被批评或者导致灾难、不利的后果；不停怀疑自我；严格遵循次序；不能接受错误</strong>。完美主义的这些倾向在不同个体身上会表现出不同的症状。		</p>
 <blockquote>
-<p>&#x516D;&#x5927;&#x503E;&#x5411;&#x524D;&#x56DB;&#x4E2A;&#x90FD;&#x5360;&#x4E86;&#xFF0C;&#x540E;&#x4E24;&#x4E2A;&#x6CA1;&#x660E;&#x767D;&#x4EC0;&#x4E48;&#x610F;&#x601D;&#x4E0D;&#x786E;&#x5B9A;</p>
+<p>六大倾向前四个都占了，后两个没明白什么意思不确定</p>
 </blockquote>
-<p>&#x6211;&#x7A76;&#x7ADF;&#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;&#x5B8C;&#x7F8E;&#xFF1F;&#x5982;&#x679C;&#x662F;&#x4E3A;&#x4E86;&#x5F97;&#x5230;&#x201C;&#x89C2;&#x4F17;&#x201D;&#x7684;&#x559D;&#x5F69;&#x548C;&#x201C;&#x88C1;&#x5224;&#x201D;&#x7684;&#x8BC4;&#x5224;&#xFF0C;&#x90A3;&#x4E48;&#xFF0C;&#x90A3;&#x4E9B;&#x89C2;&#x4F17;&#x548C;&#x88C1;&#x5224;&#x5BF9;&#x6211;&#x6765;&#x8BF4;&#x771F;&#x7684;&#x91CD;&#x8981;&#x5417;&#xFF1F;&#x5982;&#x679C;&#x662F;&#x4E3A;&#x4E86;&#x5C06;&#x4E00;&#x4EF6;&#x4E8B;&#x60C5;&#x505A;&#x597D;&#xFF0C;&#x90A3;&#x4E48;&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x53EA;&#x8981;&#x81EA;&#x5DF1;&#x5C3D;&#x529B;&#x4E86;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF1F;</p>
+<p>我究竟为什么需要完美？如果是为了得到“观众”的喝彩和“裁判”的评判，那么，那些观众和裁判对我来说真的重要吗？如果是为了将一件事情做好，那么，是不是只要自己尽力了就可以了？</p>
 <blockquote>
-<p>&#x522B;&#x592A;&#x5728;&#x610F;&#x522B;&#x4EBA;&#x7684;&#x770B;&#x6CD5;&#xFF0C;&#x5373;&#x4F7F;&#x522B;&#x4EBA;&#x662F;&#x4EC0;&#x4E48;&#x6743;&#x5A01;&#xFF0C;&#x4E5F;&#x4E0D;&#x8981;&#x754F;&#x60E7;&#xFF0C;&#x4E0D;&#x8981;&#x5BB3;&#x6015;ta&#x5BF9;&#x4F60;&#x7684;&#x770B;&#x6CD5;&#x3001;ta&#x5BF9;&#x4F60;&#x7684;&#x8BC4;&#x5224;&#x3002;</p>
+<p>别太在意别人的看法，即使别人是什么权威，也不要畏惧，不要害怕ta对你的看法、ta对你的评判。</p>
 </blockquote>
 <hr>
-<p>&#x7F8E;&#x56FD;&#x793E;&#x4F1A;&#x5FC3;&#x7406;&#x5B66;&#x5BB6;&#x4E9A;&#x4F2F;&#x62C9;&#x7F55;&#xB7;&#x9A6C;&#x65AF;&#x6D1B;&#xFF0C;&#x63D0;&#x51FA;&#x4E86;&#x4EBA;&#x7C7B;&#x9700;&#x6C42;&#x4E94;&#x5C42;&#x6B21;&#x7406;&#x8BBA;&#x3002;&#x4ED6;&#x66FE;&#x7ECF;&#x5728;&#x7814;&#x7A76;&#x91CC;&#x63CF;&#x8FF0;&#x8FC7;&#x7F3A;&#x4E4F;&#x5B89;&#x5168;&#x611F;&#x7684;&#x8868;&#x73B0;&#xFF1A;<br>&#x628A;&#x4E16;&#x754C;&#x770B;&#x6210;&#x662F;&#x5145;&#x6EE1;&#x91CE;&#x517D;&#x7684;&#x4E1B;&#x6797;&#xFF0C;&#x5371;&#x9669;&#x65E0;&#x5904;&#x4E0D;&#x5728;&#xFF1B;&#x5185;&#x5FC3;&#x6DF1;&#x4FE1;&#x5176;&#x4ED6;&#x4EBA;&#x90FD;&#x81EA;&#x79C1;&#x800C;&#x4E14;&#x76EE;&#x7684;&#x4E0D;&#x7EAF;&#xFF0C;&#x6240;&#x4EE5;&#x5B81;&#x613F;&#x5B64;&#x8EAB;&#x4E00;&#x4EBA;&#x4E5F;&#x4E0D;&#x4E0E;&#x4EBA;&#x540C;&#x884C;&#xFF1B;&#x4E0D;&#x613F;&#x610F;&#x4FE1;&#x4EFB;&#x522B;&#x4EBA;&#xFF0C;&#x5BCC;&#x6709;&#x653B;&#x51FB;&#x6027;&#xFF1B;&#x7ECF;&#x5E38;&#x9677;&#x5165;&#x5F3A;&#x70C8;&#x7684;&#x7126;&#x8651;&#x548C;&#x7D27;&#x5F20;&#x72B6;&#x6001;&#xFF0C;&#x770B;&#x5F85;&#x4E8B;&#x7269;&#x60B2;&#x89C2;&#xFF0C;&#x5F88;&#x96BE;&#x83B7;&#x5F97;&#x6109;&#x60A6;&#x611F;&#xFF1B;&#x603B;&#x88AB;&#x5185;&#x759A;&#x6298;&#x78E8;&#xFF0C;&#x65F6;&#x5E38;&#x62F7;&#x95EE;&#x5185;&#x5FC3;&#xFF1B;&#x5927;&#x591A;&#x6709;&#x70B9;&#x795E;&#x7ECF;&#x8D28;&#x3001;&#x884C;&#x4E8B;&#x81EA;&#x79C1;&#x4EE5;&#x53CA;&#x4EE5;&#x81EA;&#x6211;&#x4E3A;&#x4E2D;&#x5FC3;&#x3002;</p>
+<p>美国社会心理学家亚伯拉罕·马斯洛，提出了人类需求五层次理论。他曾经在研究里描述过缺乏安全感的表现：<br>把世界看成是充满野兽的丛林，危险无处不在；内心深信其他人都自私而且目的不纯，所以宁愿孤身一人也不与人同行；不愿意信任别人，富有攻击性；经常陷入强烈的焦虑和紧张状态，看待事物悲观，很难获得愉悦感；总被内疚折磨，时常拷问内心；大多有点神经质、行事自私以及以自我为中心。</p>
 <hr>
-<p>&#x6CBB;&#x6108;&#x5FC3;&#x7406;&#x521B;&#x4F24;&#x662F;&#x975E;&#x5E38;&#x8270;&#x96BE;&#x7684;&#x3002;&#x4F46;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x53BB;&#x5173;&#x6CE8;&#x66FE;&#x7ECF;&#x7684;&#x4F24;&#x75DB;&#xFF0C;&#x540E;&#x679C;&#x53EF;&#x80FD;&#x4F1A;&#x66F4;&#x4E25;&#x91CD;&#x3002;&#x8FC7;&#x5F80;&#x6FC0;&#x8D77;&#x7684;&#x5C0F;&#x6C34;&#x82B1;&#x7ECF;&#x8FC7;&#x65F6;&#x95F4;&#x7684;&#x915D;&#x917F;&#xFF0C;&#x4E5F;&#x8BB8;&#x4F1A;&#x53D8;&#x4E3A;&#x60CA;&#x5929;&#x5DE8;&#x6D6A;&#xFF0C;&#x5C06;&#x73B0;&#x5728;&#x7684;&#x6211;&#x4EEC;&#x541E;&#x566C;&#x3002;<br>&#x7B2C;&#x4E00;&#x6B21;&#x8BCA;&#x7597;&#x4E2D;&#xFF0C;&#x5979;&#x75DB;&#x54ED;&#x7740;&#x5BF9;&#x6211;&#x8BF4;&#xFF0C;&#x5979;&#x89C9;&#x5F97;&#x81EA;&#x5DF1;&#x7684;&#x4EBA;&#x751F;&#x6CA1;&#x6709;&#x5E0C;&#x671B;&#x4E86;&#x3002;&#x6211;&#x9012;&#x4E86;&#x4E00;&#x5F20;&#x7EB8;&#x5DFE;&#x7ED9;&#x5979;&#xFF0C;&#x7136;&#x540E;&#x8F7B;&#x8F7B;&#x544A;&#x8BC9;&#x5979;&#xFF1A;<strong>&#x201C;&#x53EF;&#x662F;&#xFF0C;&#x4F60;&#x6D3B;&#x4E86;&#x4E0B;&#x6765;&#x3002;&#x4F60;&#x505A;&#x5F97;&#x5F88;&#x597D;&#x3002;&#x201D;</strong></p>
+<p>治愈心理创伤是非常艰难的。但是，如果不去关注曾经的伤痛，后果可能会更严重。过往激起的小水花经过时间的酝酿，也许会变为惊天巨浪，将现在的我们吞噬。<br>第一次诊疗中，她痛哭着对我说，她觉得自己的人生没有希望了。我递了一张纸巾给她，然后轻轻告诉她：<strong>“可是，你活了下来。你做得很好。”</strong></p>
 <ol>
-<li>&#x5728;&#x60C5;&#x7EEA;&#x7A33;&#x5B9A;&#x7684;&#x72B6;&#x6001;&#x4E0B;&#x5904;&#x7406;&#x521B;&#x4F24;&#x3002;&#x4EBA;&#x5728;&#x60C5;&#x7EEA;&#x7684;&#x51B2;&#x51FB;&#x4E0B;&#x5F88;&#x96BE;&#x7406;&#x6027;&#x5730;&#x601D;&#x8003;&#x95EE;&#x9898;&#xFF0C;&#x6240;&#x4EE5;&#x9996;&#x5148;&#x8981;&#x786E;&#x4FDD;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x7EEA;&#x662F;&#x8DB3;&#x591F;&#x7A33;&#x5B9A;&#x7684;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x5F00;&#x59CB;&#x7597;&#x4F24;&#x3002;&#x6211;&#x5E38;&#x5728;&#x63A5;&#x5F85;&#x6765;&#x8BBF;&#x8005;&#x4E4B;&#x524D;&#x901A;&#x8FC7;&#x6DF1;&#x547C;&#x5438;&#x6765;&#x5E73;&#x9759;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x7EEA;&#x3002;</li>
-<li>&#x6253;&#x635E;&#x56DE;&#x5FC6;&#x3002;&#x4ECE;&#x8FC7;&#x5F80;&#x7684;&#x5343;&#x822C;&#x601D;&#x7EEA;&#x91CC;&#xFF0C;&#x7B5B;&#x51FA;&#x90A3;&#x4E9B;&#x6700;&#x75DB;&#x82E6;&#x7684;&#x8BB0;&#x5FC6;&#x3002;&#x5982;&#x679C;&#x6709;&#x5F88;&#x591A;&#x4F24;&#x5BB3;&#xFF0C;&#x4E0D;&#x8981;&#x6025;&#x7740;&#x4E00;&#x8D77;&#x8BB0;&#x8D77;&#xFF0C;&#x5B89;&#x629A;&#x5185;&#x5FC3;&#x662F;&#x9700;&#x8981;&#x8010;&#x5FC3;&#x548C;&#x65F6;&#x95F4;&#x7684;&#x3002;</li>
-<li>&#x8BC6;&#x522B;&#x5F53;&#x521D;&#x53D7;&#x5230;&#x4F24;&#x5BB3;&#x65F6;&#x7684;&#x60C5;&#x7EEA;&#x3002;&#x5F53;&#x65F6;&#x7684;&#x611F;&#x53D7;&#x662F;&#x7F9E;&#x6127;&#x3001;&#x5BB3;&#x6015;&#x3001;&#x803B;&#x8FB1;&#xFF0C;&#x8FD8;&#x662F;&#x6124;&#x6012;&#xFF1F;&#x5F04;&#x6E05;&#x695A;&#x4E86;&#x4E4B;&#x540E;&#x624D;&#x80FD;&#x5BF9;&#x75C7;&#x4E0B;&#x836F;&#x3002;</li>
-<li>&#x627F;&#x8BA4;&#x90A3;&#x4E9B;&#x611F;&#x53D7;&#x7684;&#x6B63;&#x5F53;&#x6027;&#xFF0C;&#x539F;&#x8C05;&#x81EA;&#x5DF1;&#x5F53;&#x521D;&#x7684;&#x4E0D;&#x4F5C;&#x4E3A;&#x3002;&#x8FC7;&#x53BB;&#x7684;&#x4E8B;&#x60C5;&#x4E5F;&#x8BB8;&#x73B0;&#x5728;&#x770B;&#x6765;&#x4E0D;&#x7B97;&#x4EC0;&#x4E48;&#xFF0C;&#x4F46;&#x5BF9;&#x5F53;&#x65F6;&#x7684;&#x81EA;&#x5DF1;&#x6765;&#x8BF4;&#x662F;&#x5F88;&#x4E25;&#x91CD;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x6210;&#x4E86;&#x5FC3;&#x7ED3;&#x3002;<strong>&#x6709;&#x4E00;&#x70B9;&#x662F;&#x786E;&#x5B9A;&#x7684;&#xFF0C;&#x5F53;&#x65F6;&#x7684;&#x81EA;&#x5DF1;&#x5DF2;&#x7ECF;&#x5C3D;&#x529B;&#x4E86;&#x3002;</strong></li>
+<li>在情绪稳定的状态下处理创伤。人在情绪的冲击下很难理性地思考问题，所以首先要确保自己的情绪是足够稳定的，然后再开始疗伤。我常在接待来访者之前通过深呼吸来平静自己的情绪。</li>
+<li>打捞回忆。从过往的千般思绪里，筛出那些最痛苦的记忆。如果有很多伤害，不要急着一起记起，安抚内心是需要耐心和时间的。</li>
+<li>识别当初受到伤害时的情绪。当时的感受是羞愧、害怕、耻辱，还是愤怒？弄清楚了之后才能对症下药。</li>
+<li>承认那些感受的正当性，原谅自己当初的不作为。过去的事情也许现在看来不算什么，但对当时的自己来说是很严重的，所以成了心结。<strong>有一点是确定的，当时的自己已经尽力了。</strong></li>
 </ol>
 <blockquote>
-<p>&#x6211;&#x5DF2;&#x7ECF;&#x505A;&#x51FA;&#x4E86;&#x5F53;&#x65F6;&#x80FD;&#x505A;&#x7684;&#x6700;&#x597D;&#x7684;&#x9009;&#x62E9;&#xFF0C;&#x6211;&#x5DF2;&#x7ECF;&#x5C3D;&#x529B;&#x4E86;&#xFF0C;&#x90A3;&#x4E9B;&#x7CDF;&#x7CD5;&#x4E8B;&#x60C5;&#x7684;&#x53D1;&#x751F;&#x4E0D;&#x662F;&#x6211;&#x7684;&#x8FC7;&#x9519;&#x3002;</p>
+<p>我已经做出了当时能做的最好的选择，我已经尽力了，那些糟糕事情的发生不是我的过错。</p>
 </blockquote>
-<p>&#x6CBB;&#x7597;&#x521B;&#x4F24;&#x540E;&#x9057;&#x75C7;&#x6700;&#x8270;&#x96BE;&#x7684;&#x6B65;&#x9AA4;&#x662F;&#x91CD;&#x73B0;&#x521B;&#x4F24;&#x53F2;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8981;&#x8425;&#x9020;&#x4E00;&#x4E2A;&#x5B89;&#x5168;&#x7684;&#x73AF;&#x5883;&#xFF0C;&#x8BA9;&#x60A3;&#x8005;&#x53CD;&#x590D;&#x9762;&#x5BF9;&#x66FE;&#x7ECF;&#x88AB;&#x4F24;&#x5BB3;&#x7684;&#x81EA;&#x5DF1;&#xFF0C;&#x4E00;&#x6B65;&#x6B65;&#x5728;&#x5FC3;&#x7406;&#x4E0A;&#x8131;&#x654F;&#x3002;&#x8FD9;&#x4E2A;&#x73AF;&#x8282;&#x5F88;&#x75DB;&#x82E6;&#xFF0C;&#x7528;&#x75DB;&#x5982;&#x5254;&#x9AA8;&#x6765;&#x5F62;&#x5BB9;&#x4E5F;&#x4E0D;&#x8FC7;&#x5206;&#x3002;&#x6B63;&#x5982;&#x6211;&#x7684;&#x5973;&#x60A3;&#x8005;&#xFF0C;&#x591A;&#x6B21;&#x5D29;&#x6E83;&#x53D1;&#x6012;&#xFF0C;&#x63D0;&#x8D77;&#x90A3;&#x4E9B;&#x4F24;&#x5BB3;&#xFF0C;&#x5C31;&#x597D;&#x50CF;&#x4E00;&#x6B21;&#x6B21;&#x6495;&#x5F00;&#x8FD8;&#x672A;&#x6108;&#x5408;&#x7684;&#x4F24;&#x53E3;&#x3002;</p>
+<p>治疗创伤后遗症最艰难的步骤是重现创伤史，也就是要营造一个安全的环境，让患者反复面对曾经被伤害的自己，一步步在心理上脱敏。这个环节很痛苦，用痛如剔骨来形容也不过分。正如我的女患者，多次崩溃发怒，提起那些伤害，就好像一次次撕开还未愈合的伤口。</p>
 <hr>
-<p>&#x4F60;&#x4E5F;&#x8BB8;&#x4F1A;&#x60F3;&#xFF0C;<strong>&#x8FD9;&#x4E48;&#x75DB;&#x82E6;&#x7684;&#x65B0;&#x751F;&#xFF0C;&#x5B81;&#x613F;&#x4E0D;&#x8981;&#x597D;&#x5417;&#xFF01;&#x786E;&#x5B9E;&#x662F;&#x554A;&#xFF0C;&#x4F46;&#x662F;&#x4F60;&#x4E0D;&#x8981;&#xFF0C;&#x751F;&#x6D3B;&#x4E5F;&#x4E0D;&#x4F1A;&#x653E;&#x8FC7;&#x4F60;&#x554A;</strong>&#x3002;&#x672A;&#x6765;&#x4F1A;&#x53D1;&#x751F;&#x7684;&#x53EF;&#x80FD;&#x4E0D;&#x81F3;&#x4E8E;&#x662F;&#x4E27;&#x5B50;&#x5931;&#x4EB2;&#xFF0C;&#x4F46;&#x662F;&#x88AB;&#x5206;&#x624B;&#x3001;&#x88AB;&#x5F00;&#x9664;&#x3001;&#x88AB;&#x9000;&#x79DF;&#x3001;&#x88AB;&#x62D2;&#x7EDD;&#x3001;&#x88AB;&#x6253;&#x538B;&#x3001;&#x88AB;&#x9738;&#x51CC;&#x3001;&#x88AB;&#x5FFD;&#x89C6;&#x7B49;&#xFF0C;&#x90FD;&#x5F88;&#x5E38;&#x89C1;&#x3002;<strong>&#x4E0E;&#x5176;&#x671F;&#x5F85;&#x65E0;&#x98CE;&#x65E0;&#x6D6A;&#x7684;&#x4EBA;&#x751F;&#xFF0C;&#x8FD8;&#x4E0D;&#x5982;&#x4E3B;&#x52A8;&#x5F3A;&#x8EAB;&#x5065;&#x4F53;&#x3002;&#x5C06;&#x4E0D;&#x53EF;&#x907F;&#x514D;&#x7684;&#x82E6;&#x96BE;&#x53D8;&#x6210;&#x6ECB;&#x517B;&#xFF0C;&#x662F;&#x6CA1;&#x6709;&#x529E;&#x6CD5;&#x4E2D;&#x6700;&#x597D;&#x7684;&#x529E;&#x6CD5;</strong>&#x3002;&#x5728;&#x77ED;&#x6682;&#x53C8;&#x6F2B;&#x957F;&#x7684;&#x8FD9;&#x4E00;&#x751F;&#x91CC;&#xFF0C;&#x56F0;&#x96BE;&#x5904;&#x5904;&#x53EF;&#x89C1;&#xFF0C;&#x521B;&#x4F24;&#x4E5F;&#x4E0D;&#x4F1A;&#x8F7B;&#x6613;&#x653E;&#x8FC7;&#x6211;&#x4EEC;&#x3002;&#x5FC3;&#x7406;&#x4E0A;&#x662F;&#x5426;&#x6709;&#x5F39;&#x6027;&#xFF0C;&#x51B3;&#x5B9A;&#x4E86;&#x6211;&#x4EEC;&#x662F;&#x4E0D;&#x662F;&#x80FD;&#x591F;&#x5728;&#x56F0;&#x5883;&#x4E2D;&#x4F9D;&#x7136;&#x4FDD;&#x6301;&#x5E0C;&#x671B;&#xFF0C;&#x4FDD;&#x6301;&#x4E50;&#x89C2;&#xFF0C;&#x4FDD;&#x6301;&#x51B7;&#x9759;&#x601D;&#x8003;&#x3002;&#x8FD9;&#x79CD;&#x6297;&#x632B;&#x80FD;&#x529B;&#x53EF;&#x4EE5;&#x5728;&#x521B;&#x4F24;&#x4E4B;&#x540E;&#x88AB;&#x6FC0;&#x53D1;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x4ECE;&#x73B0;&#x5728;&#x5C31;&#x5F00;&#x59CB;&#x57F9;&#x517B;&#x3002;</p>
-<p>&#x6700;&#x540E;&#x5F3A;&#x8C03;&#x4E00;&#x70B9;&#xFF0C;&#x521B;&#x4F24;&#x6FC0;&#x53D1;&#x6027;&#x6210;&#x957F;&#x7406;&#x8BBA;&#x7684;&#x5960;&#x57FA;&#x8005;&#x3001;&#x7F8E;&#x56FD;&#x5317;&#x5361;&#x7F57;&#x6765;&#x7EB3;&#x5927;&#x5B66;&#x5FC3;&#x7406;&#x5B66;&#x6559;&#x6388;Tedeschi&#x66FE;&#x7ECF;&#x8BF4;&#x8FC7;&#xFF0C;<strong>&#x5973;&#x6027;&#x66F4;&#x5BB9;&#x6613;&#x4ECE;&#x521B;&#x4F24;&#x4E2D;&#x83B7;&#x5F97;&#x6210;&#x957F;</strong>&#xFF0C;&#x8FD9;&#x4E5F;&#x662F;&#x6211;&#x5728;&#x5FC3;&#x7406;&#x54A8;&#x8BE2;&#x4E2D;&#x53CD;&#x590D;&#x9A8C;&#x8BC1;&#x8FC7;&#x7684;&#x3002;&#x67D4;&#x8F6F;&#x7684;&#x529B;&#x91CF;&#x5728;&#x8FD9;&#x91CC;&#x4E5F;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5462;&#x3002;&#x7528;&#x6211;&#x4EEC;&#x81EA;&#x5DF1;&#x7684;&#x7231;&#x548C;&#x6E29;&#x6696;&#x6765;&#x652F;&#x6491;&#x81EA;&#x5DF1;&#x7684;&#x5F00;&#x653E;&#x6027;&#x548C;&#x4E3B;&#x52A8;&#x6027;&#xFF0C;&#x5C31;&#x4E00;&#x5B9A;&#x80FD;&#x6210;&#x957F;&#x3002;&#x201C;&#x4EFB;&#x4F55;&#x4E0D;&#x80FD;&#x6740;&#x6B7B;&#x4F60;&#x7684;&#xFF0C;&#x90FD;&#x4F1A;&#x4F7F;&#x4F60;&#x66F4;&#x5F3A;&#x5927;&#x3002;&#x201D;</p>
+<p>你也许会想，<strong>这么痛苦的新生，宁愿不要好吗！确实是啊，但是你不要，生活也不会放过你啊</strong>。未来会发生的可能不至于是丧子失亲，但是被分手、被开除、被退租、被拒绝、被打压、被霸凌、被忽视等，都很常见。<strong>与其期待无风无浪的人生，还不如主动强身健体。将不可避免的苦难变成滋养，是没有办法中最好的办法</strong>。在短暂又漫长的这一生里，困难处处可见，创伤也不会轻易放过我们。心理上是否有弹性，决定了我们是不是能够在困境中依然保持希望，保持乐观，保持冷静思考。这种抗挫能力可以在创伤之后被激发，也可以从现在就开始培养。</p>
+<p>最后强调一点，创伤激发性成长理论的奠基者、美国北卡罗来纳大学心理学教授Tedeschi曾经说过，<strong>女性更容易从创伤中获得成长</strong>，这也是我在心理咨询中反复验证过的。柔软的力量在这里也可以看到呢。用我们自己的爱和温暖来支撑自己的开放性和主动性，就一定能成长。“任何不能杀死你的，都会使你更强大。”</p>
 <blockquote>
-<p>&#x5973;&#x4EBA;&#xFF0C;&#x5F53;&#x4E4B;&#x65E0;&#x6127;&#x7684;&#x7B2C;&#x4E00;&#x6027;&#x3002;</p>
+<p>女人，当之无愧的第一性。</p>
 </blockquote>
 <hr>
-<p><strong>&#x80FD;&#x63A5;&#x53D7;&#x81EA;&#x5DF1;&#x7684;&#x9519;&#x8BEF;&#xFF0C;&#x624D;&#x53EF;&#x4EE5;&#x7EE7;&#x7EED;&#x52C7;&#x6562;&#x524D;&#x884C;</strong>&#x3002;&#x53CD;&#x4E4B;&#xFF0C;&#x5219;&#x4F1A;&#x5728;&#x5FC3;&#x7406;&#x4E0A;&#x505C;&#x6B65;&#x4E0D;&#x524D;&#x3002;&#x662F;&#x8BA9;&#x72AF;&#x9519;&#x7684;&#x75DB;&#x82E6;&#x5C06;&#x6211;&#x4EEC;&#x541E;&#x6CA1;&#xFF0C;&#x8FD8;&#x662F;&#x62CD;&#x62CD;&#x8EAB;&#x4E0A;&#x7684;&#x7070;&#xFF0C;&#x722C;&#x8D77;&#x6765;&#x7EE7;&#x7EED;&#x5F80;&#x524D;&#x8D70;&#xFF1F;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x8270;&#x96BE;&#x7684;&#x6289;&#x62E9;&#xFF0C;&#x6289;&#x62E9;&#x7684;&#x6743;&#x5229;&#x638C;&#x63E1;&#x5728;&#x4F60;&#x624B;&#x91CC;&#x3002;</p>
+<p><strong>能接受自己的错误，才可以继续勇敢前行</strong>。反之，则会在心理上停步不前。是让犯错的痛苦将我们吞没，还是拍拍身上的灰，爬起来继续往前走？这是一个艰难的抉择，抉择的权利掌握在你手里。</p>
 <hr>
-<p>&#x90A3;&#x4E9B;&#x660E;&#x767D;&#x81EA;&#x5DF1;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#x6765;&#x6E90;&#x7684;&#x4EBA;&#xFF0C;&#x76F8;&#x6BD4;&#x5BF9;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#x4E00;&#x65E0;&#x6240;&#x77E5;&#x7684;&#x4EBA;&#xFF0C;&#x60C5;&#x7EEA;&#x63A7;&#x5236;&#x529B;&#x9AD8;30%&#x3002;&#x4E86;&#x89E3;&#x81EA;&#x5DF1;&#x60C5;&#x7EEA;&#x7684;&#x4EBA;&#xFF0C;&#x76F8;&#x5BF9;&#x6765;&#x8BF4;&#x4E5F;&#x6709;&#x7740;&#x66F4;&#x5065;&#x5EB7;&#x7684;&#x5FC3;&#x7406;&#x9632;&#x5FA1;&#x6C34;&#x5E73;&#xFF0C;&#x4E0D;&#x4F1A;&#x9152;&#x7CBE;&#x3001;&#x6BD2;&#x54C1;&#x4E0A;&#x763E;&#xFF0C;&#x5F88;&#x5C11;&#x5BF9;&#x522B;&#x4EBA;&#x4E71;&#x53D1;&#x813E;&#x6C14;&#xFF0C;&#x80FD;&#x591F;&#x5BF9;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x7EEA;&#x8D1F;&#x8D23;&#xFF0C;&#x4E5F;&#x66F4;&#x80FD;&#x591F;&#x4E0E;&#x8EAB;&#x8FB9;&#x7684;&#x4EBA;&#x5171;&#x60C5;&#x3002;</p>
-<p>&#x60C5;&#x7EEA;&#x662F;&#x6211;&#x4EEC;&#x884C;&#x52A8;&#x7684;&#x53D1;&#x52A8;&#x673A;&#x3002;&#x6BCF;&#x4E00;&#x79CD;&#x60C5;&#x7EEA;&#xFF0C;&#x80CC;&#x540E;&#x90FD;&#x5E26;&#x7740;&#x63A8;&#x52A8;&#x6211;&#x4EEC;&#x524D;&#x884C;&#x7684;&#x529B;&#x91CF;&#x3002;&#x8EAB;&#x672A;&#x52A8;&#xFF0C;&#x5FC3;&#x5DF2;&#x8FDC;&#xFF0C;&#x5C31;&#x662F;&#x4EE3;&#x8868;&#x7740;&#x60C5;&#x7EEA;&#x80FD;&#x591F;&#x6BD4;&#x8EAB;&#x4F53;&#x66F4;&#x65E9;&#x5730;&#x5BF9;&#x5468;&#x56F4;&#x7684;&#x73AF;&#x5883;&#x4EA7;&#x751F;&#x53CD;&#x5E94;&#x3002;&#x6BD4;&#x5982;&#x5BB3;&#x6015;&#xFF0C;&#x4F1A;&#x8BA9;&#x6211;&#x4EEC;&#x5728;&#x9669;&#x6076;&#x7684;&#x73AF;&#x5883;&#x4E0B;&#x968F;&#x65F6;&#x5E94;&#x6218;&#x6216;&#x8005;&#x9003;&#x8DD1;&#xFF1B;&#x60B2;&#x54C0;&#xFF0C;&#x4F1A;&#x63D0;&#x9192;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7597;&#x4F24;&#x548C;&#x5BA3;&#x6CC4;&#xFF1B;&#x6124;&#x6012;&#xFF0C;&#x5219;&#x4F1A;&#x8BA9;&#x6211;&#x4EEC;&#x66F4;&#x6709;&#x529B;&#x91CF;&#x6765;&#x4FDD;&#x62A4;&#x81EA;&#x5DF1;&#x3002;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x6CA1;&#x6709;&#x8FD9;&#x4E9B;&#x201C;&#x8D1F;&#x9762;&#x201D;&#x60C5;&#x7EEA;&#x7684;&#x4FDD;&#x62A4;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x5931;&#x53BB;&#x8FB9;&#x754C;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x4EFB;&#x4EBA;&#x6B3A;&#x8D1F;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x7F54;&#x987E;&#x5371;&#x9669;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x8BA9;&#x5FC3;&#x91CC;&#x7684;&#x4F24;&#x53E3;&#x52A0;&#x91CD;&#xFF0C;&#x5BFC;&#x81F4;&#x51FA;&#x73B0;&#x66F4;&#x4E25;&#x91CD;&#x7684;&#x5FC3;&#x7406;&#x969C;&#x788D;&#x3002;</p>
-<p>&#x6211;&#x4EEC;&#x4E4B;&#x6240;&#x4EE5;&#x5BB3;&#x6015;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#xFF0C;&#x4E00;&#x4E2A;&#x5F88;&#x5927;&#x7684;&#x539F;&#x56E0;&#x662F;&#x6211;&#x4EEC;&#x89C9;&#x5F97;&#x81EA;&#x5DF1;&#x4E0D;&#x80FD;&#x63A7;&#x5236;&#x8FD9;&#x4E9B;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#x3002;<strong>&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#x4E0D;&#x662F;&#x6D2A;&#x6C34;&#x731B;&#x517D;&#xFF0C;&#x7528;&#x56F4;&#x5835;&#x6253;&#x538B;&#x7684;&#x65B9;&#x5F0F;&#x53BB;&#x6D88;&#x706D;&#x662F;&#x4E0D;&#x4F1A;&#x594F;&#x6548;&#x7684;&#x3002;&#x53EA;&#x6709;&#x8010;&#x5FC3;&#x5730;&#x8046;&#x542C;&#x5B83;&#x4EEC;&#xFF0C;&#x5B83;&#x4EEC;&#x624D;&#x80FD;&#x5E73;&#x606F;</strong>&#x3002;</p>
+<p>那些明白自己负面情绪来源的人，相比对负面情绪一无所知的人，情绪控制力高30%。了解自己情绪的人，相对来说也有着更健康的心理防御水平，不会酒精、毒品上瘾，很少对别人乱发脾气，能够对自己的情绪负责，也更能够与身边的人共情。</p>
+<p>情绪是我们行动的发动机。每一种情绪，背后都带着推动我们前行的力量。身未动，心已远，就是代表着情绪能够比身体更早地对周围的环境产生反应。比如害怕，会让我们在险恶的环境下随时应战或者逃跑；悲哀，会提醒我们需要疗伤和宣泄；愤怒，则会让我们更有力量来保护自己。如果我们没有这些“负面”情绪的保护，我们会失去边界，我们会任人欺负，我们会罔顾危险，我们会让心里的伤口加重，导致出现更严重的心理障碍。</p>
+<p>我们之所以害怕负面情绪，一个很大的原因是我们觉得自己不能控制这些负面情绪。<strong>负面情绪不是洪水猛兽，用围堵打压的方式去消灭是不会奏效的。只有耐心地聆听它们，它们才能平息</strong>。</p>
 <hr>
-<p>&#x81EA;&#x601C;&#x4F1A;&#x8BA9;&#x6211;&#x4EEC;&#x4E0D;&#x505C;&#x5730;&#x548C;&#x522B;&#x4EBA;&#x6BD4;&#x8F83;&#x3002;<strong>&#x6BD4;&#x8F83;&#xFF0C;&#x662F;&#x5F88;&#x591A;&#x7CDF;&#x7CD5;&#x60C5;&#x7EEA;&#x7684;&#x76F4;&#x63A5;&#x8D77;&#x56E0;</strong>&#x3002;&#x6211;&#x7684;&#x6765;&#x8BBF;&#x8005;&#x770B;&#x5230;&#x4E86;&#x522B;&#x4EBA;&#x7684;&#x5FEB;&#x4E50;&#xFF0C;&#x5374;&#x5FD8;&#x4E86;&#x90A3;&#x53EA;&#x662F;&#x751F;&#x6D3B;&#x7684;&#x4E00;&#x9762;&#x800C;&#x5DF2;&#x3002;&#x5B69;&#x5B50;&#x5E26;&#x6765;&#x7684;&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x6B22;&#x7B11;&#xFF0C;&#x8FD8;&#x6709;&#x5C3F;&#x7247;&#x3001;&#x65E0;&#x4F11;&#x6B62;&#x7684;&#x54ED;&#x95F9;&#x3001;&#x81EA;&#x7531;&#x7684;&#x4E27;&#x5931;&#x548C;&#x6C89;&#x91CD;&#x7684;&#x8D23;&#x4EFB;&#x3002;&#x800C;&#x62E5;&#x6709;&#x4F34;&#x4FA3;&#x66F4;&#x4E0D;&#x7B49;&#x4E8E;&#x5FEB;&#x4E50;&#xFF0C;&#x4E00;&#x6BB5;&#x611F;&#x60C5;&#x7684;&#x7EF4;&#x6301;&#x9700;&#x8981;&#x53CC;&#x65B9;&#x6781;&#x5927;&#x7684;&#x59A5;&#x534F;&#xFF0C;&#x4E2D;&#x95F4;&#x8FD8;&#x53EF;&#x80FD;&#x5939;&#x6742;&#x7740;&#x65E0;&#x6570;&#x51B2;&#x7A81;&#x3002;&#x6240;&#x4EE5;&#xFF0C;<strong>&#x4E0E;&#x5176;&#x7FA1;&#x6155;&#x3001;&#x5AC9;&#x5992;&#x522B;&#x4EBA;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x4E0D;&#x5982;&#x8FC7;&#x597D;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;</strong>&#x3002;</p>
+<p>自怜会让我们不停地和别人比较。<strong>比较，是很多糟糕情绪的直接起因</strong>。我的来访者看到了别人的快乐，却忘了那只是生活的一面而已。孩子带来的不仅仅是欢笑，还有尿片、无休止的哭闹、自由的丧失和沉重的责任。而拥有伴侣更不等于快乐，一段感情的维持需要双方极大的妥协，中间还可能夹杂着无数冲突。所以，<strong>与其羡慕、嫉妒别人的生活，不如过好自己的生活</strong>。</p>
 <blockquote>
-<p>&#x4E0E;&#x5176;&#x7FA1;&#x6155;&#x522B;&#x4EBA;&#x4E00;&#x6BD5;&#x4E1A;&#x5C31;&#x627E;&#x5230;&#x5927;&#x5382;&#x751F;&#x6D3B;&#x6708;&#x5165;&#x4E00;&#x4E24;&#x4E07;&#xFF0C;&#x4E0D;&#x5982;&#x8FC7;&#x597D;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x2026;&#x5979;&#x6708;&#x5165;&#x4E00;&#x4E24;&#x4E07;&#x53EF;&#x5979;&#x4E5F;&#x52A0;&#x73ED;&#x5230;&#x5F88;&#x665A;&#x2026;<br>&#x53EF;&#x8FD9;&#x662F;&#x5426;&#x6709;&#x79CD;&#x7CBE;&#x795E;&#x80DC;&#x5229;&#x6CD5;&#x7684;&#x611F;&#x89C9;&#x5462;&#xFF1F;</p>
+<p>与其羡慕别人一毕业就找到大厂生活月入一两万，不如过好自己的生活…她月入一两万可她也加班到很晚…<br>可这是否有种精神胜利法的感觉呢？</p>
 <blockquote>
-<p>&#x786E;&#x5B9E;&#xFF0C;&#x201C;&#x4E0E;&#x5176;&#x7FA1;&#x6155;&#x522B;&#x4EBA;&#xFF0C;&#x4E0D;&#x5982;&#x8FC7;&#x597D;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x201D;&#x8FD9;&#x79CD;&#x89C2;&#x70B9;&#x6709;&#x65F6;&#x4F1A;&#x88AB;&#x8BEF;&#x8BA4;&#x4E3A;&#x662F;&#x4E00;&#x79CD;&#x7CBE;&#x795E;&#x80DC;&#x5229;&#x6CD5;&#xFF0C;&#x5373;&#x901A;&#x8FC7;&#x8D2C;&#x4F4E;&#x522B;&#x4EBA;&#x7684;&#x6210;&#x5C31;&#x6216;&#x8005;&#x751F;&#x6D3B;&#x8D28;&#x91CF;&#x6765;&#x5B89;&#x6170;&#x81EA;&#x5DF1;&#x3002;&#x7136;&#x800C;&#xFF0C;&#x8FD9;&#x79CD;&#x60F3;&#x6CD5;&#x7684;&#x6838;&#x5FC3;&#x5E76;&#x4E0D;&#x662F;&#x8981;&#x8D2C;&#x4F4E;&#x522B;&#x4EBA;&#xFF0C;&#x800C;&#x662F;&#x8981;<strong>&#x628A;&#x5173;&#x6CE8;&#x70B9;&#x653E;&#x5728;&#x81EA;&#x5DF1;&#x8EAB;&#x4E0A;&#xFF0C;&#x627E;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x4EF7;&#x503C;&#x548C;&#x6EE1;&#x8DB3;&#x611F;</strong>&#x3002;<br>&#x7CBE;&#x795E;&#x80DC;&#x5229;&#x6CD5;&#x901A;&#x5E38;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x81EA;&#x6211;&#x5B89;&#x6170;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x901A;&#x8FC7;&#x5FC3;&#x7406;&#x4E0A;&#x7684;&#x81EA;&#x6211;&#x6B3A;&#x9A97;&#x6765;&#x8BA9;&#x81EA;&#x5DF1;&#x611F;&#x89C9;&#x66F4;&#x597D;&#xFF0C;&#x800C;&#x6CA1;&#x6709;&#x5B9E;&#x9645;&#x7684;&#x884C;&#x52A8;&#x6216;&#x6539;&#x8FDB;&#x3002;&#x4F46;&#x8FD9;&#x91CC;&#x63D0;&#x5230;&#x7684;&#x89C2;&#x70B9;&#x5176;&#x5B9E;&#x662F;&#x5728;&#x5021;&#x5BFC;&#x4E00;&#x79CD;&#x5065;&#x5EB7;&#x7684;&#x5FC3;&#x7406;&#x72B6;&#x6001;&#x548C;&#x751F;&#x6D3B;&#x6001;&#x5EA6;&#xFF0C;&#x5373;&#x4E13;&#x6CE8;&#x4E8E;&#x81EA;&#x5DF1;&#x80FD;&#x63A7;&#x5236;&#x548C;&#x6539;&#x5584;&#x7684;&#x65B9;&#x9762;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6D6A;&#x8D39;&#x7CBE;&#x529B;&#x5728;&#x6BD4;&#x8F83;&#x548C;&#x5AC9;&#x5992;&#x4E0A;&#x3002;<br>&#x8FD9;&#x79CD;&#x6001;&#x5EA6;&#x7684;&#x597D;&#x5904;&#x5728;&#x4E8E;&#xFF1A;</p>
+<p>确实，“与其羡慕别人，不如过好自己的生活”这种观点有时会被误认为是一种精神胜利法，即通过贬低别人的成就或者生活质量来安慰自己。然而，这种想法的核心并不是要贬低别人，而是要<strong>把关注点放在自己身上，找到自己的价值和满足感</strong>。<br>精神胜利法通常是指一种自我安慰的方式，通过心理上的自我欺骗来让自己感觉更好，而没有实际的行动或改进。但这里提到的观点其实是在倡导一种健康的心理状态和生活态度，即专注于自己能控制和改善的方面，而不是浪费精力在比较和嫉妒上。<br>这种态度的好处在于：</p>
 <ol>
-<li>&#x51CF;&#x5C11;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;&#xFF1A;<strong>&#x4E0D;&#x65AD;&#x5730;&#x4E0E;&#x522B;&#x4EBA;&#x6BD4;&#x8F83;&#x5F88;&#x5BB9;&#x6613;&#x4EA7;&#x751F;&#x5AC9;&#x5992;&#x3001;&#x4E0D;&#x6EE1;&#x548C;&#x7126;&#x8651;&#x60C5;&#x7EEA;&#xFF0C;&#x800C;&#x4E13;&#x6CE8;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x548C;&#x8FDB;&#x6B65;&#x53EF;&#x4EE5;&#x51CF;&#x5C11;&#x8FD9;&#x4E9B;&#x8D1F;&#x9762;&#x60C5;&#x7EEA;</strong>&#x3002;</li>
-<li>&#x63D0;&#x5347;&#x81EA;&#x6211;&#x4EF7;&#x503C;&#x611F;&#xFF1A;&#x6BCF;&#x4E2A;&#x4EBA;&#x7684;&#x751F;&#x6D3B;&#x90FD;&#x6709;&#x72EC;&#x7279;&#x7684;&#x6311;&#x6218;&#x548C;&#x6210;&#x5C31;&#xFF0C;<strong>&#x5B66;&#x4F1A;&#x6B23;&#x8D4F;&#x81EA;&#x5DF1;&#x7684;&#x52AA;&#x529B;&#x548C;&#x6210;&#x679C;&#x53EF;&#x4EE5;&#x63D0;&#x5347;&#x81EA;&#x6211;&#x4EF7;&#x503C;&#x611F;</strong>&#x3002;</li>
-<li>&#x57F9;&#x517B;&#x79EF;&#x6781;&#x7684;&#x751F;&#x6D3B;&#x6001;&#x5EA6;&#xFF1A;&#x901A;&#x8FC7;&#x4E13;&#x6CE8;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x6210;&#x957F;&#x548C;&#x5E78;&#x798F;&#xFF0C;&#x53EF;&#x4EE5;&#x57F9;&#x517B;&#x66F4;&#x79EF;&#x6781;&#x548C;&#x4E3B;&#x52A8;&#x7684;&#x751F;&#x6D3B;&#x6001;&#x5EA6;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x88AB;&#x52A8;&#x5730;&#x7FA1;&#x6155;&#x548C;&#x5AC9;&#x5992;&#x522B;&#x4EBA;&#x3002;</li>
-<li>&#x5B9E;&#x9645;&#x884C;&#x52A8;&#x7684;&#x63A8;&#x52A8;&#x529B;&#xFF1A;&#x628A;&#x6CE8;&#x610F;&#x529B;&#x96C6;&#x4E2D;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x4E0A;&#xFF0C;&#x53EF;&#x4EE5;&#x66F4;&#x6E05;&#x695A;&#x5730;&#x8BA4;&#x8BC6;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x76EE;&#x6807;&#x548C;&#x9700;&#x8981;&#xFF0C;&#x4ECE;&#x800C;&#x91C7;&#x53D6;&#x5B9E;&#x9645;&#x884C;&#x52A8;&#x53BB;&#x6539;&#x5584;&#x548C;&#x63D0;&#x5347;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x3002;</li>
+<li>减少负面情绪：<strong>不断地与别人比较很容易产生嫉妒、不满和焦虑情绪，而专注于自己的生活和进步可以减少这些负面情绪</strong>。</li>
+<li>提升自我价值感：每个人的生活都有独特的挑战和成就，<strong>学会欣赏自己的努力和成果可以提升自我价值感</strong>。</li>
+<li>培养积极的生活态度：通过专注于自己的成长和幸福，可以培养更积极和主动的生活态度，而不是被动地羡慕和嫉妒别人。</li>
+<li>实际行动的推动力：把注意力集中在自己的生活上，可以更清楚地认识到自己的目标和需要，从而采取实际行动去改善和提升自己的生活。</li>
 </ol>
-<p>&#x5F53;&#x7136;&#xFF0C;&#x8FD9;&#x5E76;&#x4E0D;&#x610F;&#x5473;&#x7740;&#x4E0D;&#x80FD;&#x4ECE;&#x522B;&#x4EBA;&#x7684;&#x6210;&#x529F;&#x4E2D;&#x5F97;&#x5230;&#x542F;&#x53D1;&#x548C;&#x52A8;&#x529B;&#x3002;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x5FC3;&#x6001;&#x7684;&#x8C03;&#x6574;&#xFF1A;<strong>&#x4E0D;&#x662F;&#x901A;&#x8FC7;&#x8D2C;&#x4F4E;&#x522B;&#x4EBA;&#x7684;&#x6210;&#x5C31;&#x6765;&#x5B89;&#x6170;&#x81EA;&#x5DF1;&#xFF0C;&#x800C;&#x662F;&#x901A;&#x8FC7;&#x6B23;&#x8D4F;&#x81EA;&#x5DF1;&#x7684;&#x72EC;&#x7279;&#x4E4B;&#x5904;&#x548C;&#x52AA;&#x529B;&#xFF0C;&#x627E;&#x5230;&#x5C5E;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x5E78;&#x798F;&#x548C;&#x6EE1;&#x8DB3;&#x611F;</strong>&#x3002;<br>&#x603B;&#x7ED3;&#x6765;&#x8BF4;&#xFF0C;&#x4E0E;&#x5176;&#x8BF4;&#x662F;&#x7CBE;&#x795E;&#x80DC;&#x5229;&#x6CD5;&#xFF0C;&#x4E0D;&#x5982;&#x8BF4;&#x662F;&#x4E00;&#x79CD;<strong>&#x79EF;&#x6781;&#x7684;&#x751F;&#x6D3B;&#x54F2;&#x5B66;</strong>&#xFF0C;&#x5B83;&#x5F3A;&#x8C03;&#x7684;&#x662F;<strong>&#x81EA;&#x6211;&#x8BA4;&#x540C;&#x548C;&#x5B9E;&#x9645;&#x884C;&#x52A8;</strong>&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x901A;&#x8FC7;&#x5FC3;&#x7406;&#x4E0A;&#x7684;&#x81EA;&#x6211;&#x6B3A;&#x9A97;&#x6765;&#x83B7;&#x5F97;&#x77ED;&#x6682;&#x7684;&#x5B89;&#x6170;&#x3002;</p>
+<p>当然，这并不意味着不能从别人的成功中得到启发和动力。关键在于心态的调整：<strong>不是通过贬低别人的成就来安慰自己，而是通过欣赏自己的独特之处和努力，找到属于自己的幸福和满足感</strong>。<br>总结来说，与其说是精神胜利法，不如说是一种<strong>积极的生活哲学</strong>，它强调的是<strong>自我认同和实际行动</strong>，而不是通过心理上的自我欺骗来获得短暂的安慰。</p>
 </blockquote>
 </blockquote>
 <hr>
-<p>&#x81EA;&#x7231;&#xFF0C;&#x4ECE;&#x5FC3;&#x7406;&#x5B66;&#x7684;&#x89D2;&#x5EA6;&#x6765;&#x8BF4;&#xFF0C;&#x5C31;&#x662F;&#x5C0A;&#x91CD;&#x3001;&#x63A5;&#x53D7;&#x548C;&#x539F;&#x8C05;&#x81EA;&#x5DF1;&#x3002;<br>&#x4F60;&#x7684;&#x52AA;&#x529B;&#x3001;&#x4F60;&#x7684;&#x4F18;&#x79C0;&#x3001;&#x4F60;&#x7684;&#x575A;&#x6301;&#x9700;&#x8981;&#x88AB;&#x5C0A;&#x91CD;&#xFF1B;&#x4F60;&#x7684;&#x5C1D;&#x8BD5;&#x3001;&#x4F60;&#x7684;&#x59A5;&#x534F;&#x3001;&#x4F60;&#x7684;&#x96BE;&#x582A;&#x9700;&#x8981;&#x88AB;&#x63A5;&#x53D7;&#xFF1B;&#x4F60;&#x7684;&#x75DB;&#x82E6;&#x3001;&#x4F60;&#x7684;&#x653E;&#x5F03;&#x3001;&#x4F60;&#x7684;&#x5931;&#x8D25;&#x9700;&#x8981;&#x88AB;&#x539F;&#x8C05;&#x3002;<br>&#x5728;&#x751F;&#x6D3B;&#x4E2D;&#xFF0C;<strong>&#x4F60;&#x5C31;&#x662F;&#x81EA;&#x5DF1;&#x6700;&#x597D;&#x7684;&#x670B;&#x53CB;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x8046;&#x542C;&#x81EA;&#x5DF1;&#x3001;&#x5584;&#x5F85;&#x81EA;&#x5DF1;&#x3001;&#x7167;&#x987E;&#x81EA;&#x5DF1;</strong>&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x7B49;&#x7740;&#x522B;&#x4EBA;&#x6765;&#x8046;&#x542C;&#x3001;&#x5584;&#x5F85;&#x548C;&#x7167;&#x987E;&#x4F60;&#x3002;</p>
-<p>&#x81EA;&#x7231;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5927;&#x7684;&#x8BDD;&#x9898;&#xFF0C;&#x4E5F;&#x662F;&#x6211;&#x4EEC;&#x4EBA;&#x751F;&#x4E2D;&#x5FC5;&#x4FEE;&#x7684;&#x529F;&#x8BFE;&#x3002;&#x4E0B;&#x9762;&#x8FD9;&#x4E9B;&#x5C0F;&#x8D34;&#x58EB;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x5F00;&#x59CB;&#x81EA;&#x7231;&#x7684;&#x65C5;&#x7A0B;:</p>
+<p>自爱，从心理学的角度来说，就是尊重、接受和原谅自己。<br>你的努力、你的优秀、你的坚持需要被尊重；你的尝试、你的妥协、你的难堪需要被接受；你的痛苦、你的放弃、你的失败需要被原谅。<br>在生活中，<strong>你就是自己最好的朋友，你需要聆听自己、善待自己、照顾自己</strong>，而不是等着别人来聆听、善待和照顾你。</p>
+<p>自爱是一个非常大的话题，也是我们人生中必修的功课。下面这些小贴士，可以让你开始自爱的旅程:</p>
 <ol>
-<li>&#x6211;&#x4EEC;&#x8981;<strong>&#x505C;&#x6B62;&#x548C;&#x5916;&#x754C;&#x6BD4;&#x8F83;</strong>&#x3002;&#x9A6C;&#x4E0A;&#xFF0C;&#x7ACB;&#x5373;&#xFF01;&#x6211;&#x4EEC;&#x4ECE;&#x522B;&#x4EBA;&#x8EAB;&#x4E0A;&#xFF0C;&#x6C38;&#x8FDC;&#x4E0D;&#x4F1A;&#x627E;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x5149;&#x8292;&#x3002;</li>
-<li><strong>&#x653E;&#x5927;&#x4F60;&#x52AA;&#x529B;&#x7684;&#x8FC7;&#x7A0B;</strong>&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x52AA;&#x529B;&#x7684;&#x7ED3;&#x679C;&#x3002;&#x8FD8;&#x8BB0;&#x5F97;&#x90A3;&#x6B21;&#x6717;&#x8BF5;&#x6BD4;&#x8D5B;&#x4F60;&#x6CA1;&#x6709;&#x5F97;&#x5956;&#xFF0C;&#x4F46;&#x662F;&#x4F60;&#x52AA;&#x529B;&#x514B;&#x670D;&#x4E86;&#x5BB3;&#x7F9E;&#x8D70;&#x4E0A;&#x53F0;&#x524D;&#x7684;&#x611F;&#x53D7;&#x5417;&#xFF1F;&#x5BF9;&#x7684;&#xFF0C;&#x4E0D;&#x8981;&#x592A;&#x5728;&#x610F;&#x7ED3;&#x679C;&#xFF0C;&#x4F46;&#x662F;&#x52AA;&#x529B;&#x4EAB;&#x53D7;&#x8DE8;&#x8D8A;&#x969C;&#x788D;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x8FD9;&#x624D;&#x662F;&#x6700;&#x7EC8;&#x8DD1;&#x8D77;&#x6765;&#x7684;&#x52A8;&#x529B;&#x3002;</li>
-<li>&#x5B66;&#x7740;<strong>&#x9762;&#x5BF9;&#x771F;&#x5B9E;&#x7684;&#x81EA;&#x5DF1;</strong>&#xFF0C;&#x4ECE;&#x5916;&#x5728;&#x5230;&#x5185;&#x5FC3;&#x3002;&#x53EF;&#x4EE5;&#x662F;&#x7D20;&#x989C;&#x4E00;&#x5929;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x5199;&#x4E0B;&#x81EA;&#x5DF1;&#x5185;&#x5FC3;&#x8106;&#x5F31;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x7136;&#x540E;&#x8BF4;&#x6211;&#x53EF;&#x4EE5;&#xFF0C;&#x4E00;&#x65F6;&#x534A;&#x4F1A;&#x513F;&#x505A;&#x4E0D;&#x5230;&#xFF0C;&#x4E5F;&#x6CA1;&#x6709;&#x5173;&#x7CFB;&#x3002;&#x771F;&#x5B9E;&#x7684;&#x4F60;&#xFF0C;&#x5C31;&#x662F;&#x6700;&#x7F8E;&#x4E3D;&#x7684;&#x3002;</li>
+<li>我们要<strong>停止和外界比较</strong>。马上，立即！我们从别人身上，永远不会找到自己的光芒。</li>
+<li><strong>放大你努力的过程</strong>，而不是努力的结果。还记得那次朗诵比赛你没有得奖，但是你努力克服了害羞走上台前的感受吗？对的，不要太在意结果，但是努力享受跨越障碍的过程，这才是最终跑起来的动力。</li>
+<li>学着<strong>面对真实的自己</strong>，从外在到内心。可以是素颜一天，也可以是写下自己内心脆弱的想法，然后说我可以，一时半会儿做不到，也没有关系。真实的你，就是最美丽的。</li>
 </ol>
 <hr>
-<p>&#x5982;&#x4F55;&#x4E0D;&#x88AB;&#x5185;&#x759A;&#x611F;&#x6298;&#x78E8;&#xFF1F;<br>&#x5982;&#x679C;&#x662F;&#x88AB;&#x4ED6;&#x4EBA;&#x60C5;&#x611F;&#x7ED1;&#x67B6;&#x65F6;&#x4EA7;&#x751F;&#x4E86;&#x5185;&#x759A;&#x60C5;&#x7EEA;&#xFF0C;&#x6211;&#x4EEC;&#x8981;&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF1F;</p>
-<p>&#x60C5;&#x611F;&#x9694;&#x79BB;&#x548C;&#x8BBE;&#x7ACB;&#x8FB9;&#x754C;&#x662F;&#x6700;&#x884C;&#x4E4B;&#x6709;&#x6548;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x6CA1;&#x6709;&#x5E95;&#x7EBF;&#x5730;&#x53BB;&#x6EE1;&#x8DB3;&#x4ED6;&#x4EBA;&#x7684;&#x671F;&#x671B;&#xFF0C;&#x53EA;&#x4F1A;&#x9020;&#x6210;&#x5BF9;&#x65B9;&#x66F4;&#x591A;&#x5730;&#x7D22;&#x53D6;&#xFF0C;&#x8FD8;&#x4F1A;&#x5931;&#x53BB;&#x81EA;&#x5DF1;&#x6210;&#x957F;&#x7684;&#x529B;&#x6C14;&#x548C;&#x7A7A;&#x95F4;&#x3002;&#x610F;&#x8BC6;&#x5230;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x611F;&#x548C;&#x884C;&#x4E3A;&#x88AB;&#x63A7;&#x5236;&#x65F6;&#xFF0C;&#x8BF7;&#x52A1;&#x5FC5;&#x7ACB;&#x5373;&#x6B62;&#x635F;&#xFF0C;&#x54EA;&#x6015;&#x4ED6;&#x4EEC;&#x662F;&#x201C;&#x4E3A;&#x4F60;&#x597D;&#x201D;&#xFF0C;<strong>&#x54EA;&#x6015;&#x4ED6;&#x4EEC;&#x662F;&#x4F60;&#x76EE;&#x524D;&#x8FD8;&#x4E0D;&#x6562;&#x4E0E;&#x4E4B;&#x5BF9;&#x6297;&#x7684;&#x4EBA;&#xFF0C;&#x4F60;&#x4E5F;&#x8981;&#x5728;&#x5FC3;&#x4E2D;&#x5212;&#x6E05;&#x4E0E;&#x4ED6;&#x4EEC;&#x7684;&#x754C;&#x9650;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x9002;&#x5F53;&#x7684;&#x65F6;&#x5019;&#x9009;&#x62E9;&#x79BB;&#x5F00;&#x548C;&#x5207;&#x5272;</strong>&#x3002;&#x603B;&#x4F1A;&#x6709;&#x673A;&#x4F1A;&#x7684;&#xFF0C;&#x53EA;&#x8981;&#x4F60;&#x60F3;&#x3002;<br>&#x5FE0;&#x4E8E;&#x81EA;&#x5DF1;&#xFF0C;&#x6C38;&#x8FDC;&#x662F;&#x6700;&#x96BE;&#x7684;&#xFF0C;&#x5728;&#x4EFB;&#x4F55;&#x65F6;&#x5019;&#x90FD;&#x96BE;&#x3002;&#x4F46;&#x662F;&#x4E0D;&#x662F;&#x56E0;&#x4E3A;&#x96BE;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x4E0D;&#x53BB;&#x505A;&#x5462;&#xFF1F;&#x8FD9;&#x4E5F;&#x8BB8;&#x66F4;&#x503C;&#x5F97;&#x601D;&#x8003;&#xFF0C;&#x6BD5;&#x7ADF;&#x4EBA;&#x751F;&#x662F;&#x81EA;&#x5DF1;&#x7684;&#xFF0C;&#x4E0D;&#x662F;&#x5417;&#xFF1F;</p>
+<p>如何不被内疚感折磨？<br>如果是被他人情感绑架时产生了内疚情绪，我们要怎么办呢？</p>
+<p>情感隔离和设立边界是最行之有效的方法。没有底线地去满足他人的期望，只会造成对方更多地索取，还会失去自己成长的力气和空间。意识到自己的情感和行为被控制时，请务必立即止损，哪怕他们是“为你好”，<strong>哪怕他们是你目前还不敢与之对抗的人，你也要在心中划清与他们的界限，然后在适当的时候选择离开和切割</strong>。总会有机会的，只要你想。<br>忠于自己，永远是最难的，在任何时候都难。但是不是因为难，我们就不去做呢？这也许更值得思考，毕竟人生是自己的，不是吗？</p>
 <blockquote>
-<p>&#x603B;&#x6709;&#x673A;&#x4F1A;&#x7684;&#x3002;</p>
+<p>总有机会的。</p>
 </blockquote>
 <hr>
 <blockquote>
-<p>&#x540E;&#x9762;&#x7684;&#x7AE0;&#x8282;&#x5185;&#x5BB9;&#x90FD;&#x662F;&#x5173;&#x4E8E;&#x5A5A;&#x59FB;&#x3001;&#x5B69;&#x5B50;&#x7684;&#x8BDD;&#x9898;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x4E0D;&#x6253;&#x7B97;&#x7ED3;&#x5A5A;&#x4E5F;&#x4E0D;&#x6253;&#x7B97;&#x751F;&#x5A03;&#x7684;&#x4EBA;&#xFF0C;&#x8FD9;&#x4E9B;&#x8BDD;&#x9898;&#x548C;&#x6211;&#x5E76;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x5173;&#x7CFB;&#xFF0C;&#x5C31;&#x4E0D;&#x770B;&#x4E86;&#x3002;</p>
+<p>后面的章节内容都是关于婚姻、孩子的话题，作为一个不打算结婚也不打算生娃的人，这些话题和我并没有什么关系，就不看了。</p>
 </blockquote>
 ]]></content>
       <categories>
@@ -626,28 +757,28 @@
   <entry>
     <title>指针问题</title>
     <url>/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>&#x505A;&#x9898;&#x7684;&#x65F6;&#x5019;&#x7A81;&#x7136;&#x4EA7;&#x751F;&#x7684;&#x7591;&#x95EE;&#xFF1A;</p>
+    <content><![CDATA[<p>做题的时候突然产生的疑问：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
-<p>&#x4E3A;&#x4EC0;&#x4E48;left &#x548C; right &#x7684;&#x6539;&#x53D8;&#x4F1A;&#x5F71;&#x54CD;dumpy?</p>
-<p><strong>&#x53D8;&#x91CF;&#x548C;&#x5F15;&#x7528;</strong></p>
-<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;&#x5F53;&#x4F60;&#x6267;&#x884C;&#x8D4B;&#x503C;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5C06;&#x53D8;&#x91CF;&#x540D;&#x7ED1;&#x5B9A;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+<p>为什么left 和 right 的改变会影响dumpy?</p>
+<p><strong>变量和引用</strong></p>
+<p>在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
-<p><code>dumpy = ListNode(next=head)</code>&#xFF1A;&#x8FD9;&#x91CC;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684; ListNode &#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x5C06; dumpy &#x53D8;&#x91CF;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;<br><code>left, right = dumpy, dumpy</code>&#xFF1A;&#x8FD9;&#x91CC;&#x5C06; left &#x548C; right &#x90FD;&#x6307;&#x5411; dumpy &#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5373;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684; ListNode &#x5BF9;&#x8C61;&#x3002;</p>
-<p><strong>&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x793A;&#x4F8B;</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+<p><code>dumpy = ListNode(next=head)</code>：这里创建了一个新的 ListNode 对象，并将 dumpy 变量指向这个对象。<br><code>left, right = dumpy, dumpy</code>：这里将 left 和 right 都指向 dumpy 所指向的对象，即刚刚创建的 ListNode 对象。</p>
+<p><strong>变量赋值示例</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
-<p>&#x5F53; b = a &#x65F6;&#xFF0C;b &#x548C; a &#x90FD;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9; b &#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF08;&#x5982; b.append(4)&#xFF09;&#x4E5F;&#x4F1A;&#x5F71;&#x54CD; a&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
-<p>&#x540C;&#x7406;&#xFF0C;&#x5728;&#x94FE;&#x8868;&#x64CD;&#x4F5C;&#x4E2D;&#xFF1A;</p>
+<p>当 b &#x3D; a 时，b 和 a 都指向同一个列表对象。<br>对 b 进行操作（如 b.append(4)）也会影响 a，因为它们指向的是同一个对象。</p>
+<p>同理，在链表操作中：</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><code>dumpy</code> &#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684; <code>ListNode</code> &#x5BF9;&#x8C61;&#x3002;</li>
-<li><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x6307;&#x5411;&#x8FD9;&#x4E2A; <code>dumpy</code> &#x5BF9;&#x8C61;&#x3002;</li>
-<li>&#x4EFB;&#x4F55;&#x5BF9; <code>left</code> &#x6216; <code>right</code> &#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x5982;&#x79FB;&#x52A8;&#x6307;&#x9488;&#xFF09;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5728;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x94FE;&#x8868;&#x8282;&#x70B9;&#x4E0A;&#x3002;</li>
+<li><code>dumpy</code> 是一个新的 <code>ListNode</code> 对象。</li>
+<li><code>left</code> 和 <code>right</code> 都指向这个 <code>dumpy</code> 对象。</li>
+<li>任何对 <code>left</code> 或 <code>right</code> 的操作（如移动指针）都会反映在它们所指向的链表节点上。</li>
 </ul>
-<p><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x662F;&#x6307;&#x5411; <code>dumpy</code> &#x94FE;&#x8868;&#x4E2D;&#x7684;&#x8282;&#x70B9;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x79FB;&#x52A8;&#x5B83;&#x4EEC;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x8282;&#x70B9;&#x5728;&#x94FE;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x6539;&#x53D8;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x4FEE;&#x6539; <code>left.next</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5728;&#x4FEE;&#x6539; <code>dumpy</code> &#x94FE;&#x8868;&#x7684;&#x7ED3;&#x6784;&#x3002;</p>
+<p><code>left</code> 和 <code>right</code> 都是指向 <code>dumpy</code> 链表中的节点的指针，当我们移动它们时，它们所指向的节点在链表中的位置发生了改变。因此，当我们修改 <code>left.next</code> 的时候，这实际上是在修改 <code>dumpy</code> 链表的结构。</p>
 ]]></content>
       <categories>
         <category>Python</category>

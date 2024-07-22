@@ -20,12 +20,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wanyun-yang-2002.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/./public/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="&amp;#x505A;&amp;#x9898;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x7A81;&amp;#x7136;&amp;#x4EA7;&amp;#x751F;&amp;#x7684;&amp;#x7591;&amp;#x95EE;&amp;#xFF1A; 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  &amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;left &amp;#x548C;">
+<meta name="description" content="做题的时候突然产生的疑问： 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  为什么left 和 right 的改变会影响dumpy? 变量和引用 在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; du">
 <meta property="og:type" content="article">
 <meta property="og:title" content="指针问题">
 <meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/index.html">
 <meta property="og:site_name" content="杨">
-<meta property="og:description" content="&amp;#x505A;&amp;#x9898;&amp;#x7684;&amp;#x65F6;&amp;#x5019;&amp;#x7A81;&amp;#x7136;&amp;#x4EA7;&amp;#x751F;&amp;#x7684;&amp;#x7591;&amp;#x95EE;&amp;#xFF1A; 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  &amp;#x4E3A;&amp;#x4EC0;&amp;#x4E48;left &amp;#x548C;">
+<meta property="og:description" content="做题的时候突然产生的疑问： 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  为什么left 和 right 的改变会影响dumpy? 变量和引用 在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; du">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-18T09:05:55.000Z">
 <meta property="article:modified_time" content="2024-07-18T09:17:31.490Z">
@@ -161,18 +161,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-count">6</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -258,28 +258,28 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>&#x505A;&#x9898;&#x7684;&#x65F6;&#x5019;&#x7A81;&#x7136;&#x4EA7;&#x751F;&#x7684;&#x7591;&#x95EE;&#xFF1A;</p>
+        <p>做题的时候突然产生的疑问：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
-<p>&#x4E3A;&#x4EC0;&#x4E48;left &#x548C; right &#x7684;&#x6539;&#x53D8;&#x4F1A;&#x5F71;&#x54CD;dumpy?</p>
-<p><strong>&#x53D8;&#x91CF;&#x548C;&#x5F15;&#x7528;</strong></p>
-<p>&#x5728;Python&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x53D8;&#x91CF;&#x90FD;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;&#x5F53;&#x4F60;&#x6267;&#x884C;&#x8D4B;&#x503C;&#x64CD;&#x4F5C;&#x65F6;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5C06;&#x53D8;&#x91CF;&#x540D;&#x7ED1;&#x5B9A;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x3002;</p>
+<p>为什么left 和 right 的改变会影响dumpy?</p>
+<p><strong>变量和引用</strong></p>
+<p>在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
-<p><code>dumpy = ListNode(next=head)</code>&#xFF1A;&#x8FD9;&#x91CC;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684; ListNode &#x5BF9;&#x8C61;&#xFF0C;&#x5E76;&#x5C06; dumpy &#x53D8;&#x91CF;&#x6307;&#x5411;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;<br><code>left, right = dumpy, dumpy</code>&#xFF1A;&#x8FD9;&#x91CC;&#x5C06; left &#x548C; right &#x90FD;&#x6307;&#x5411; dumpy &#x6240;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x5373;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684; ListNode &#x5BF9;&#x8C61;&#x3002;</p>
-<p><strong>&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x793A;&#x4F8B;</strong></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># &#x8F93;&#x51FA;: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+<p><code>dumpy = ListNode(next=head)</code>：这里创建了一个新的 ListNode 对象，并将 dumpy 变量指向这个对象。<br><code>left, right = dumpy, dumpy</code>：这里将 left 和 right 都指向 dumpy 所指向的对象，即刚刚创建的 ListNode 对象。</p>
+<p><strong>变量赋值示例</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
 
-<p>&#x5F53; b = a &#x65F6;&#xFF0C;b &#x548C; a &#x90FD;&#x6307;&#x5411;&#x540C;&#x4E00;&#x4E2A;&#x5217;&#x8868;&#x5BF9;&#x8C61;&#x3002;<br>&#x5BF9; b &#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF08;&#x5982; b.append(4)&#xFF09;&#x4E5F;&#x4F1A;&#x5F71;&#x54CD; a&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4EEC;&#x6307;&#x5411;&#x7684;&#x662F;&#x540C;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
-<p>&#x540C;&#x7406;&#xFF0C;&#x5728;&#x94FE;&#x8868;&#x64CD;&#x4F5C;&#x4E2D;&#xFF1A;</p>
+<p>当 b &#x3D; a 时，b 和 a 都指向同一个列表对象。<br>对 b 进行操作（如 b.append(4)）也会影响 a，因为它们指向的是同一个对象。</p>
+<p>同理，在链表操作中：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><code>dumpy</code> &#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684; <code>ListNode</code> &#x5BF9;&#x8C61;&#x3002;</li>
-<li><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x6307;&#x5411;&#x8FD9;&#x4E2A; <code>dumpy</code> &#x5BF9;&#x8C61;&#x3002;</li>
-<li>&#x4EFB;&#x4F55;&#x5BF9; <code>left</code> &#x6216; <code>right</code> &#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x5982;&#x79FB;&#x52A8;&#x6307;&#x9488;&#xFF09;&#x90FD;&#x4F1A;&#x53CD;&#x6620;&#x5728;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x94FE;&#x8868;&#x8282;&#x70B9;&#x4E0A;&#x3002;</li>
+<li><code>dumpy</code> 是一个新的 <code>ListNode</code> 对象。</li>
+<li><code>left</code> 和 <code>right</code> 都指向这个 <code>dumpy</code> 对象。</li>
+<li>任何对 <code>left</code> 或 <code>right</code> 的操作（如移动指针）都会反映在它们所指向的链表节点上。</li>
 </ul>
-<p><code>left</code> &#x548C; <code>right</code> &#x90FD;&#x662F;&#x6307;&#x5411; <code>dumpy</code> &#x94FE;&#x8868;&#x4E2D;&#x7684;&#x8282;&#x70B9;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x79FB;&#x52A8;&#x5B83;&#x4EEC;&#x65F6;&#xFF0C;&#x5B83;&#x4EEC;&#x6240;&#x6307;&#x5411;&#x7684;&#x8282;&#x70B9;&#x5728;&#x94FE;&#x8868;&#x4E2D;&#x7684;&#x4F4D;&#x7F6E;&#x53D1;&#x751F;&#x4E86;&#x6539;&#x53D8;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x4FEE;&#x6539; <code>left.next</code> &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD9;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x5728;&#x4FEE;&#x6539; <code>dumpy</code> &#x94FE;&#x8868;&#x7684;&#x7ED3;&#x6784;&#x3002;</p>
+<p><code>left</code> 和 <code>right</code> 都是指向 <code>dumpy</code> 链表中的节点的指针，当我们移动它们时，它们所指向的节点在链表中的位置发生了改变。因此，当我们修改 <code>left.next</code> 的时候，这实际上是在修改 <code>dumpy</code> 链表的结构。</p>
 
     </div>
 
