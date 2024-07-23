@@ -20,29 +20,29 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"wanyun-yang-2002.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/./public/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="做题的时候突然产生的疑问： 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  为什么left 和 right 的改变会影响dumpy? 变量和引用 在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; du">
+<meta name="description" content="从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。假设有一个链表是1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None那么在Python中打印它的头节点会得到： 1ListNode&amp;#123;val: 1, next: ListNode&amp;#123;val: 2, next: ListN">
 <meta property="og:type" content="article">
-<meta property="og:title" content="指针问题">
-<meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="Python链表">
+<meta property="og:url" content="https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/index.html">
 <meta property="og:site_name" content="杨">
-<meta property="og:description" content="做题的时候突然产生的疑问： 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; dumpy, dumpy  为什么left 和 right 的改变会影响dumpy? 变量和引用 在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。 12dumpy &#x3D; ListNode(next&#x3D;head)left, right &#x3D; du">
+<meta property="og:description" content="从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。假设有一个链表是1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None那么在Python中打印它的头节点会得到： 1ListNode&amp;#123;val: 1, next: ListNode&amp;#123;val: 2, next: ListN">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-07-18T09:05:55.000Z">
-<meta property="article:modified_time" content="2024-07-18T09:17:31.490Z">
+<meta property="article:published_time" content="2024-07-23T11:12:43.000Z">
+<meta property="article:modified_time" content="2024-07-23T11:57:59.483Z">
 <meta property="article:author" content="Wanyun Yang">
 <meta property="article:tag" content="Python">
-<meta property="article:tag" content="指针">
+<meta property="article:tag" content="链表">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/">
+<link rel="canonical" href="https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/","path":"2024/07/18/指针问题/","title":"指针问题"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/","path":"2024/07/23/Python链表/","title":"Python链表"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>指针问题 | 杨</title>
+<title>Python链表 | 杨</title>
   
 
 
@@ -211,7 +211,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -224,7 +224,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          指针问题
+          Python链表
         </h1>
 
         <div class="post-meta-container">
@@ -236,7 +236,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-07-18 17:05:55 / 修改时间：17:17:31" itemprop="dateCreated datePublished" datetime="2024-07-18T17:05:55+08:00">2024-07-18</time>
+      <time title="创建时间：2024-07-23 19:12:43 / 修改时间：19:57:59" itemprop="dateCreated datePublished" datetime="2024-07-23T19:12:43+08:00">2024-07-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -258,28 +258,80 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>做题的时候突然产生的疑问：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
-<p>为什么left 和 right 的改变会影响dumpy?</p>
-<p><strong>变量和引用</strong></p>
-<p>在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
-<p><code>dumpy = ListNode(next=head)</code>：这里创建了一个新的 ListNode 对象，并将 dumpy 变量指向这个对象。<br><code>left, right = dumpy, dumpy</code>：这里将 left 和 right 都指向 dumpy 所指向的对象，即刚刚创建的 ListNode 对象。</p>
-<p><strong>变量赋值示例</strong></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
-
-<p>当 b &#x3D; a 时，b 和 a 都指向同一个列表对象。<br>对 b 进行操作（如 b.append(4)）也会影响 a，因为它们指向的是同一个对象。</p>
-<p>同理，在链表操作中：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
+        <p>从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。<br>假设有一个链表是<br><code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code><br>那么在Python中打印它的头节点会得到：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>把这个结果的格式修改一下，看起来就像是一环套一环：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ListNode&#123;</span><br><span class="line">  val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">    val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">      val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">        val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">          val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>用cur表示当前节点，从头节点开始向后：<br>这样看起来就像剥洋葱一样，一层一层的嵌套着，直到达到最后一个节点，只剩下None</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cur.val = 1</span></span><br><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 2</span></span><br><span class="line">ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 3</span></span><br><span class="line">ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 4</span></span><br><span class="line">ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 5 </span></span><br><span class="line">ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;</span><br><span class="line"><span class="comment"># cur 到最后</span></span><br><span class="line"><span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<p>如果<code>cur</code>节点的样子是<code>ListNode&#123;val: 3, next: ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;&#125;</code>，那么<code>cur.next</code>的节点就是:<code>ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;</code>。等到遍历到最后一个节点，就只剩一个<code>None</code>了。</p>
+<p>同理，如果<code>cur.val == 1</code>，那么<code>cur.next.val == 2</code></p>
+<p>依据以上的结果，就可以将它们对应起来：</p>
+<table>
+<thead>
+<tr>
+<th>节点&#x2F;链表</th>
+<th><code>1</code></th>
+<th><code>-&gt; 2</code></th>
+<th><code>-&gt; 3</code></th>
+<th><code>-&gt; 4</code></th>
+<th><code>-&gt; 5</code></th>
+<th><code>-&gt; None</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>节点1</td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点2</td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点3</td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点4</td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+</tr>
+<tr>
+<td>节点5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+</tr>
+</tbody></table>
+<p>（这样看更直观一点？）</p>
 <ul>
-<li><code>dumpy</code> 是一个新的 <code>ListNode</code> 对象。</li>
-<li><code>left</code> 和 <code>right</code> 都指向这个 <code>dumpy</code> 对象。</li>
-<li>任何对 <code>left</code> 或 <code>right</code> 的操作（如移动指针）都会反映在它们所指向的链表节点上。</li>
+<li><code>当前节点.next</code>就是指向后面的所有，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
+<li><code>节点5.next.val</code>不存在，在运行代码会报错<code>AttributeError: &#39;NoneType&#39; object has no attribute &#39;val&#39;</code>。</li>
+<li>所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
 </ul>
-<p><code>left</code> 和 <code>right</code> 都是指向 <code>dumpy</code> 链表中的节点的指针，当我们移动它们时，它们所指向的节点在链表中的位置发生了改变。因此，当我们修改 <code>left.next</code> 的时候，这实际上是在修改 <code>dumpy</code> 链表的结构。</p>
+<p>差不多就这样，后面如果再遇到问题再补充。</p>
 
     </div>
 
@@ -297,7 +349,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://wanyun-yang-2002.github.io/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/" title="指针问题">https://wanyun-yang-2002.github.io/2024/07/18/指针问题/</a>
+      <a href="https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/" title="Python链表">https://wanyun-yang-2002.github.io/2024/07/23/Python链表/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -307,21 +359,18 @@
 
           <div class="post-tags">
               <a href="/tags/Python/" rel="tag"># Python</a>
-              <a href="/tags/%E6%8C%87%E9%92%88/" rel="tag"># 指针</a>
+              <a href="/tags/%E9%93%BE%E8%A1%A8/" rel="tag"># 链表</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/" rel="prev" title="Python中的深拷贝与浅拷贝">
-                  <i class="fa fa-chevron-left"></i> Python中的深拷贝与浅拷贝
+                <a href="/2024/07/22/KMP%E7%AE%97%E6%B3%95/" rel="prev" title="KMP算法">
+                  <i class="fa fa-chevron-left"></i> KMP算法
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2024/07/22/%E3%80%8A%E7%84%A6%E8%99%91%E6%98%AF%E4%B8%80%E7%A7%8D%E8%83%BD%E9%87%8F%E3%80%8B/" rel="next" title="《焦虑是一种能量》">
-                  《焦虑是一种能量》 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>

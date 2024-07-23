@@ -155,7 +155,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">10</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -166,7 +166,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -204,6 +204,153 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/23/Python%E9%93%BE%E8%A1%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Wanyun Yang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="杨">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2024/07/23/Python%E9%93%BE%E8%A1%A8/" class="post-title-link" itemprop="url">Python链表</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2024-07-23 19:12:43 / 修改时间：19:57:59" itemprop="dateCreated datePublished" datetime="2024-07-23T19:12:43+08:00">2024-07-23</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。<br>假设有一个链表是<br><code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code><br>那么在Python中打印它的头节点会得到：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>把这个结果的格式修改一下，看起来就像是一环套一环：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">ListNode&#123;</span><br><span class="line">  val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">    val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">      val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">        val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">          val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>用cur表示当前节点，从头节点开始向后：<br>这样看起来就像剥洋葱一样，一层一层的嵌套着，直到达到最后一个节点，只剩下None</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># cur.val = 1</span></span><br><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 2</span></span><br><span class="line">ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 3</span></span><br><span class="line">ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 4</span></span><br><span class="line">ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 5 </span></span><br><span class="line">ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;</span><br><span class="line"><span class="comment"># cur 到最后</span></span><br><span class="line"><span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<p>如果<code>cur</code>节点的样子是<code>ListNode&#123;val: 3, next: ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;&#125;</code>，那么<code>cur.next</code>的节点就是:<code>ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;</code>。等到遍历到最后一个节点，就只剩一个<code>None</code>了。</p>
+<p>同理，如果<code>cur.val == 1</code>，那么<code>cur.next.val == 2</code></p>
+<p>依据以上的结果，就可以将它们对应起来：</p>
+<table>
+<thead>
+<tr>
+<th>节点&#x2F;链表</th>
+<th><code>1</code></th>
+<th><code>-&gt; 2</code></th>
+<th><code>-&gt; 3</code></th>
+<th><code>-&gt; 4</code></th>
+<th><code>-&gt; 5</code></th>
+<th><code>-&gt; None</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>节点1</td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点2</td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点3</td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点4</td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+</tr>
+<tr>
+<td>节点5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+</tr>
+</tbody></table>
+<p>（这样看更直观一点？）</p>
+<ul>
+<li><code>当前节点.next</code>就是指向后面的所有，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
+<li><code>节点5.next.val</code>不存在，在运行代码会报错<code>AttributeError: &#39;NoneType&#39; object has no attribute &#39;val&#39;</code>。</li>
+<li>所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
+</ul>
+<p>差不多就这样，后面如果再遇到问题再补充。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2024/07/22/KMP%E7%AE%97%E6%B3%95/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -229,7 +376,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-07-22 15:04:53 / 修改时间：19:55:39" itemprop="dateCreated datePublished" datetime="2024-07-22T15:04:53+08:00">2024-07-22</time>
+      <time title="创建时间：2024-07-22 15:04:53 / 修改时间：20:02:11" itemprop="dateCreated datePublished" datetime="2024-07-22T15:04:53+08:00">2024-07-22</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -344,7 +491,7 @@
 <h2 id="普通前缀表"><a href="#普通前缀表" class="headerlink" title="普通前缀表"></a>普通前缀表</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// c++</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">getNext</span><span class="params">(<span class="keyword">int</span>* next, <span class="keyword">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">        next[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="keyword">while</span> (j &gt; <span class="number">0</span> &amp;&amp; s[i] != s[j]) &#123;</span><br><span class="line">                j = next[j - <span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s[i] == s[j]) &#123;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            next[i] = j;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">strStr</span><span class="params">(string haystack, string needle)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (needle.<span class="built_in">size</span>() == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">next</span><span class="params">(needle.size())</span></span>;</span><br><span class="line">        <span class="built_in">getNext</span>(&amp;next[<span class="number">0</span>], needle);</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; haystack.<span class="built_in">size</span>(); i++) &#123;</span><br><span class="line">            <span class="keyword">while</span>(j &gt; <span class="number">0</span> &amp;&amp; haystack[i] != needle[j]) &#123;</span><br><span class="line">                j = next[j - <span class="number">1</span>];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (haystack[i] == needle[j]) &#123;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (j == needle.<span class="built_in">size</span>() ) &#123;</span><br><span class="line">                <span class="keyword">return</span> (i - needle.<span class="built_in">size</span>() + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params">self, <span class="built_in">next</span>, s</span>):</span></span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="built_in">next</span>[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(s)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> s[i] == s[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="built_in">next</span>[i] = j</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">strStr</span>(<span class="params">self, haystack: <span class="built_in">str</span>, needle: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> needle:</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span> = [<span class="number">0</span>] * <span class="built_in">len</span>(needle)</span><br><span class="line">        self.getNext(<span class="built_in">next</span>, needle)</span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(haystack)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> haystack[i] != needle[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> haystack[i] == needle[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> j == <span class="built_in">len</span>(needle):    <span class="comment"># 最后一次相等之后还有j+=1，所以判断的时候必须是 j == len(needle)</span></span><br><span class="line">                <span class="keyword">return</span> i - j + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p>自己定义的函数如果写在<code>class Solution</code>里面，就得写成<code>def getNext(self, next, s):</code>，引用的时候要写成<code>self.getNext(next, needle)</code><br>如果定义的函数写在外面，就直接写<code>def getNext(next, s):</code>，直接引用<code>getNext(next, needle)</code></p>
+<p>自己定义的函数如果写在<code>class Solution</code>里面，就得写成<code>def getNext(self, next, s):</code>，调用的时候要写成<code>self.getNext(next, needle)</code><br>如果定义的函数写在外面，就直接写<code>def getNext(next, s):</code>，直接调用<code>getNext(next, needle)</code></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">getNext</span>(<span class="params"><span class="built_in">next</span>, s</span>):</span></span><br><span class="line">    j = <span class="number">0</span></span><br><span class="line">    <span class="built_in">next</span>[<span class="number">0</span>] = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="built_in">len</span>(s)):</span><br><span class="line">        <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> s[i] != s[j]:</span><br><span class="line">            j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">        <span class="keyword">if</span> s[i] == s[j]:</span><br><span class="line">            j += <span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span>[i] = j</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">strStr</span>(<span class="params">self, haystack: <span class="built_in">str</span>, needle: <span class="built_in">str</span></span>) -&gt; <span class="built_in">int</span>:</span></span><br><span class="line">        <span class="keyword">if</span> <span class="keyword">not</span> needle:</span><br><span class="line">            <span class="keyword">return</span> -<span class="number">1</span></span><br><span class="line">        <span class="built_in">next</span> = [<span class="number">0</span>] * <span class="built_in">len</span>(needle)</span><br><span class="line">        getNext(<span class="built_in">next</span>, needle)</span><br><span class="line">        j = <span class="number">0</span></span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="built_in">len</span>(haystack)):</span><br><span class="line">            <span class="keyword">while</span> j &gt; <span class="number">0</span> <span class="keyword">and</span> haystack[i] != needle[j]:</span><br><span class="line">                j = <span class="built_in">next</span>[j - <span class="number">1</span>]</span><br><span class="line">            <span class="keyword">if</span> haystack[i] == needle[j]:</span><br><span class="line">                j += <span class="number">1</span></span><br><span class="line">            <span class="keyword">if</span> j == <span class="built_in">len</span>(needle):    <span class="comment"># 最后一次相等之后还有j+=1，所以判断的时候必须是 j == len(needle)</span></span><br><span class="line">                <span class="keyword">return</span> i - j + <span class="number">1</span></span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="前缀表统一减一"><a href="#前缀表统一减一" class="headerlink" title="前缀表统一减一"></a>前缀表统一减一</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// c++</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">getNext</span><span class="params">(<span class="keyword">int</span>* next, <span class="keyword">const</span> string&amp; s)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">-1</span>;</span><br><span class="line">        next[<span class="number">0</span>] = j;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; s.<span class="built_in">size</span>(); i++) &#123; <span class="comment">// 注意i从1开始</span></span><br><span class="line">            <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; s[i] != s[j + <span class="number">1</span>]) &#123; <span class="comment">// 前后缀不相同了</span></span><br><span class="line">                j = next[j]; <span class="comment">// 向前回退</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (s[i] == s[j + <span class="number">1</span>]) &#123; <span class="comment">// 找到相同的前后缀</span></span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">            next[i] = j; <span class="comment">// 将j（前缀的长度）赋给next[i]</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">strStr</span><span class="params">(string haystack, string needle)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (needle.<span class="built_in">size</span>() == <span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">		<span class="function">vector&lt;<span class="keyword">int</span>&gt; <span class="title">next</span><span class="params">(needle.size())</span></span>;</span><br><span class="line">		<span class="built_in">getNext</span>(&amp;next[<span class="number">0</span>], needle);</span><br><span class="line">        <span class="keyword">int</span> j = <span class="number">-1</span>; <span class="comment">// // 因为next数组里记录的起始位置为-1</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; haystack.<span class="built_in">size</span>(); i++) &#123; <span class="comment">// 注意i就从0开始</span></span><br><span class="line">            <span class="keyword">while</span>(j &gt;= <span class="number">0</span> &amp;&amp; haystack[i] != needle[j + <span class="number">1</span>]) &#123; <span class="comment">// 不匹配</span></span><br><span class="line">                j = next[j]; <span class="comment">// j 寻找之前匹配的位置</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (haystack[i] == needle[j + <span class="number">1</span>]) &#123; <span class="comment">// 匹配，j和i同时向后移动</span></span><br><span class="line">                j++; <span class="comment">// i的增加在for循环里</span></span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span> (j == (needle.<span class="built_in">size</span>() - <span class="number">1</span>) ) &#123; <span class="comment">// 文本串s里出现了模式串t</span></span><br><span class="line">                <span class="keyword">return</span> (i - needle.<span class="built_in">size</span>() + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
