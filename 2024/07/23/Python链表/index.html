@@ -28,7 +28,7 @@
 <meta property="og:description" content="从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。假设有一个链表是1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None那么在Python中打印它的头节点会得到： 1ListNode&amp;#123;val: 1, next: ListNode&amp;#123;val: 2, next: ListN">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-07-23T11:12:43.000Z">
-<meta property="article:modified_time" content="2024-07-23T11:57:59.483Z">
+<meta property="article:modified_time" content="2024-07-23T12:27:28.207Z">
 <meta property="article:author" content="Wanyun Yang">
 <meta property="article:tag" content="Python">
 <meta property="article:tag" content="链表">
@@ -236,7 +236,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2024-07-23 19:12:43 / 修改时间：19:57:59" itemprop="dateCreated datePublished" datetime="2024-07-23T19:12:43+08:00">2024-07-23</time>
+      <time title="创建时间：2024-07-23 19:12:43 / 修改时间：20:27:28" itemprop="dateCreated datePublished" datetime="2024-07-23T19:12:43+08:00">2024-07-23</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -272,11 +272,16 @@
 <tr>
 <th>节点&#x2F;链表</th>
 <th><code>1</code></th>
-<th><code>-&gt; 2</code></th>
-<th><code>-&gt; 3</code></th>
-<th><code>-&gt; 4</code></th>
-<th><code>-&gt; 5</code></th>
-<th><code>-&gt; None</code></th>
+<th><code>-&gt;</code></th>
+<th><code>2</code></th>
+<th><code>-&gt;</code></th>
+<th><code>3</code></th>
+<th><code>-&gt;</code></th>
+<th><code>4</code></th>
+<th><code>-&gt;</code></th>
+<th><code>5</code></th>
+<th><code>-&gt;</code></th>
+<th><code>None</code></th>
 </tr>
 </thead>
 <tbody><tr>
@@ -287,12 +292,22 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td>节点2</td>
 <td></td>
+<td></td>
 <td>.val</td>
 <td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -301,8 +316,13 @@
 <td>节点3</td>
 <td></td>
 <td></td>
+<td></td>
+<td></td>
 <td>.val</td>
 <td>.next</td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
@@ -311,8 +331,13 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
 <td>.val</td>
 <td>.next</td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
@@ -321,15 +346,22 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td>.val</td>
 <td>.next</td>
+<td></td>
 </tr>
 </tbody></table>
 <p>（这样看更直观一点？）</p>
 <ul>
-<li><code>当前节点.next</code>就是指向后面的所有，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
+<li><code>当前节点.next</code>就是指向后面的所有的箭头，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
 <li><code>节点5.next.val</code>不存在，在运行代码会报错<code>AttributeError: &#39;NoneType&#39; object has no attribute &#39;val&#39;</code>。</li>
-<li>所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
+<li><code>节点5.next</code>指向的是<code>None</code>，所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
+<li>创建虚拟头节点<code>dumpy = ListNode(next=head)</code>，就是在<code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code>前面再加一个<code>0</code>，就变成了<code>0 -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code></li>
+<li>假设要删掉<code>节点4</code>，那当<code>cur</code>走到<code>节点3</code>时，进行<code>cur.next = cur.next.next</code>操作，就成功删掉了<code>节点4</code></li>
 </ul>
 <p>差不多就这样，后面如果再遇到问题再补充。</p>
 
