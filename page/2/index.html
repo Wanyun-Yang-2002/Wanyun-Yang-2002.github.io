@@ -155,7 +155,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -195,6 +195,350 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Wanyun Yang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="杨">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">JS基础学习笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-12-26 20:01:29 / 修改时间：20:31:02" itemprop="dateCreated datePublished" datetime="2021-12-26T20:01:29+08:00">2021-12-26</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Javascript/" itemprop="url" rel="index"><span itemprop="name">Javascript</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><b> 看的视频是<a target="_blank" rel="noopener" href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习<br></b></p>
+<h1 id="一开始在代码中记的笔记"><a href="#一开始在代码中记的笔记" class="headerlink" title="一开始在代码中记的笔记:"></a>一开始在代码中记的笔记:</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>JS学习<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">body</span> <span class="attr">onload</span>=<span class="string">&quot;alert(&#x27;hi&#x27;)&quot;</span>&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- 网页打开出现hi的提示 --&gt;</span></span><br><span class="line">        <span class="comment">&lt;!-- alert产生对话框 --&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(<span class="string">&quot;hello world!&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="comment">// document是浏览器的页面（称为对象）</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// .表示左边的做右边的动作</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">// write表示“写”</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//hello 是字符串，放在&quot;&quot;里面</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//结尾要加分号</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> hello;</span></span><br><span class="line"><span class="javascript">            <span class="comment">//一个名叫hello的变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//var 定义变量</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中变量没有类型，赋给变量的值有类型</span></span></span><br><span class="line"><span class="javascript">            hello = <span class="string">&quot;hello&quot;</span>;    <span class="comment">//赋值</span></span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello+<span class="string">&quot;&lt;br/&gt;&quot;</span>);</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age = <span class="number">16</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> ot = <span class="literal">true</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(hello + age+<span class="string">&quot;&lt;br/&gt;&quot;</span>);    <span class="comment">//对于字符串“+”就是字符串连接，输出hello16</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//加减乘除取模，比较大小，++--什么的都和C差不多</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//JS中数字不区分整数浮点数啥的，但是内部有范围</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age1 = <span class="number">20</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> age2 = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            <span class="built_in">document</span>.write(age1 &lt;= age2+<span class="string">&quot;&lt;br/&gt;&quot;</span>);   <span class="comment">//输出true</span></span></span><br><span class="line"><span class="javascript">            </span></span><br><span class="line"><span class="javascript">            <span class="comment">//判断语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//if-else语句</span></span></span><br><span class="line"><span class="javascript">            <span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;成年啦&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span>&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;还小呢&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span></span><br><span class="line"><span class="javascript">            <span class="comment">//switch-case语句</span></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> t = <span class="number">2</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">switch</span> (t) &#123;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">1</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;你好&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">case</span> <span class="number">2</span>:</span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;早&quot;</span>);</span></span><br><span class="line"><span class="javascript">                    <span class="keyword">break</span>;</span></span><br><span class="line"><span class="javascript">                <span class="keyword">default</span>:    <span class="comment">//默认</span></span></span><br><span class="line"><span class="javascript">                    alert(<span class="string">&quot;WTF???&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span></span><br><span class="line"><span class="javascript">            o.name = <span class="string">&quot;John&quot;</span>;</span></span><br><span class="line"><span class="javascript">            o.age = <span class="number">30</span>;</span></span><br><span class="line"><span class="javascript">            o.salary = <span class="number">300</span>;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span></span><br><span class="line"><span class="javascript">                alert(x);</span></span><br><span class="line"><span class="javascript">                alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript"></span></span><br><span class="line"><span class="javascript">            <span class="keyword">if</span> (confirm(<span class="string">&quot;还继续吗？&quot;</span>))&#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;继续&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">else</span> &#123;</span></span><br><span class="line"><span class="javascript">                alert(<span class="string">&quot;再见&quot;</span>);</span></span><br><span class="line"><span class="javascript">            &#125;</span></span><br><span class="line"><span class="javascript">            <span class="keyword">var</span> name = prompt(<span class="string">&quot;你的名字是： &quot;</span>);</span></span><br><span class="line"><span class="javascript">            alert(<span class="string">&quot;hello&quot;</span>+name);</span></span><br><span class="line"><span class="javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h1 id="JavaScript介绍-后面用markdown做的笔记"><a href="#JavaScript介绍-后面用markdown做的笔记" class="headerlink" title="JavaScript介绍(后面用markdown做的笔记)"></a>JavaScript介绍(后面用markdown做的笔记)</h1><ul>
+<li>是一种可以在浏览器中运行的脚本语言</li>
+<li>主要用来实现在浏览器端的动作<ul>
+<li>用户交互</li>
+<li>数据处理</li>
+</ul>
+</li>
+<li>JavaScript是解释性语言</li>
+<li>HTML中的js<ul>
+<li>在head中定义函数<ul>
+<li>&lt;script languang &#x3D; “JavaScript”&gt;</li>
+</ul>
+</li>
+<li>在相应标记中定义动作<ul>
+<li>&lt;onXXX&#x3D;””&gt;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="变量和计算"><a href="#变量和计算" class="headerlink" title="变量和计算"></a>变量和计算</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><ul>
+<li>用于存放数据的东西</li>
+<li>var：用于定义变量</li>
+</ul>
+<h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><h1 id="控制"><a href="#控制" class="headerlink" title="控制"></a>控制</h1><h2 id="判断"><a href="#判断" class="headerlink" title="判断"></a>判断</h2><ul>
+<li>if-else语句<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//建议在if和else后面永远放一对&#123;&#125;，可以保证不犯错误</span></span><br><span class="line">  <span class="keyword">if</span> (age &gt; <span class="number">18</span>)&#123;</span><br><span class="line">      alert(<span class="string">&quot;成年啦&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">else</span>&#123;</span><br><span class="line">      alert(<span class="string">&quot;还小呢&quot;</span>);</span><br><span class="line">  &#125;</span><br><span class="line">  alert(<span class="string">&quot;好啦好啦知道辣&quot;</span>)</span><br></pre></td></tr></table></figure></li>
+<li>switch-case语句<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> t = <span class="number">2</span>;</span><br><span class="line"><span class="keyword">switch</span> (t) &#123;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">        alert(<span class="string">&quot;你好&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">        alert(<span class="string">&quot;早&quot;</span>);</span><br><span class="line">            <span class="keyword">break</span>;</span><br><span class="line">    <span class="keyword">default</span>:    <span class="comment">//默认</span></span><br><span class="line">        alert(<span class="string">&quot;WTF???&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>逻辑计算<ul>
+<li>and：&amp;&amp;</li>
+<li>or：||</li>
+<li>not：!</li>
+</ul>
+</li>
+<li>优先级<ul>
+<li>所有的逻辑运算符的优先级都低于关系运算符</li>
+<li>! &gt; &amp;&amp; &gt; ||</li>
+</ul>
+</li>
+<li>条件运算符（三元运算符）<ul>
+<li>格式：&lt;exp&gt;?&lt;v1&gt;:&lt;v2&gt;</li>
+<li>解释：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">if (exp)&#123;</span><br><span class="line">    v1;</span><br><span class="line">&#125;</span><br><span class="line">else&#123;</span><br><span class="line">    v2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><ul>
+<li>while语句<ul>
+<li>while语句让同一段代码可以重复执行很多次<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//先判断再循环</span></span><br><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">var</span> count = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">var</span> LIMIT = <span class="number">5</span>;</span><br><span class="line"><span class="keyword">while</span> (count &lt;= LIMIT)&#123;</span><br><span class="line">    alert(count);</span><br><span class="line">    count = count + <span class="number">1</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>do-while语句<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//循环一次之后才开始判断</span></span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line"></span><br><span class="line">&#125;<span class="keyword">while</span>();</span><br></pre></td></tr></table></figure></li>
+<li>for语句<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//举例</span></span><br><span class="line"><span class="keyword">for</span> (i=<span class="number">0</span>; i&lt;<span class="number">5</span>; i=i+<span class="number">1</span>)&#123;</span><br><span class="line">    alert(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><ul>
+<li>函数就是一段代码，我们给它起个名字，放起来，以后可以用</li>
+<li>JavaScript有很多内置函数，能帮助我们实现很多有用的功能</li>
+<li>定义函数<ul>
+<li>function fun_name(){}</li>
+<li>var f &#x3D; new Function(“x”,”y”,”return x*y”); 等价于 function f(x,y){return x*y;}</li>
+<li>其他的和其他语言都差不多的样子…</li>
+</ul>
+</li>
+<li>变量空间<ul>
+<li>定义在函数外的变量在整个页面中都有效</li>
+<li>定义在函数内部的变量只在函数内有效</li>
+</ul>
+</li>
+</ul>
+<h1 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h1><ul>
+<li>var marks &#x3D; new Array(); 创建一个数组marks</li>
+<li>marks[0] ：[]可以访问数组，数组从0开始</li>
+<li>数组长度：marks.length给出数组marks的长度<ul>
+<li>.length可写</li>
+</ul>
+</li>
+<li>堆栈操作<ul>
+<li>.push</li>
+<li>.pop</li>
+</ul>
+</li>
+<li>队列操作<ul>
+<li>.push</li>
+<li>.shift</li>
+</ul>
+</li>
+<li>排序操作<ul>
+<li>.sort</li>
+<li>.reverse    按顺序颠倒</li>
+</ul>
+</li>
+<li>其他操作<ul>
+<li>.concat 连接</li>
+<li>.slice 取出某一部分作为新数组</li>
+<li>.splice(开始位置，删除个数，插入元素)</li>
+</ul>
+</li>
+</ul>
+<h1 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h1><ul>
+<li>对象是JavaScript的一种复合数据类型，它可以把多个数据集中在一个变量中，并且给其中的每个数据起名字</li>
+<li>或者说，对象是一个属性集合，每个属性有自己的名字和值<ul>
+<li>JavaScript并不像其他OOP语言那样有类的概念，不是先设计类再制造对象</li>
+</ul>
+</li>
+<li>创建对象<ul>
+<li>var o &#x3D; new Object();</li>
+<li>var ciclr &#x3D; {x:0,y:0,radius:2};</li>
+</ul>
+</li>
+<li>访问对象属性<ul>
+<li>.运算符</li>
+</ul>
+</li>
+<li>删除对象属性<ul>
+<li>delete book.chapter1;</li>
+</ul>
+</li>
+<li>遍历所有属性<ul>
+<li>for (var x in o)…<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> o = <span class="keyword">new</span> <span class="built_in">Object</span>();</span><br><span class="line">o.name = <span class="string">&quot;John&quot;</span>;</span><br><span class="line">o.age = <span class="number">30</span>;</span><br><span class="line">o.salary = <span class="number">300</span>;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> x <span class="keyword">in</span> o)&#123;</span><br><span class="line">  alert(x);</span><br><span class="line">  alert(x + <span class="string">&quot;=&quot;</span> + o[x]);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<h1 id="浏览器里的JavaScript"><a href="#浏览器里的JavaScript" class="headerlink" title="浏览器里的JavaScript"></a>浏览器里的JavaScript</h1><h2 id="window"><a href="#window" class="headerlink" title="window"></a>window</h2><ul>
+<li>浏览器的全局对象是window</li>
+<li>所有全局的变量实际上是window的成员<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">var answer = 12;</span><br><span class="line">alert(window.answer);</span><br></pre></td></tr></table></figure></li>
+<li>window.document表示浏览器窗口中的HTML页面</li>
+<li>document.write()将内容写入页面</li>
+<li>页面中的元素就是document里的成员</li>
+<li>HTML中的JavaScript<ul>
+<li>在&lt;script&gt;&lt;&#x2F;script&gt;标记中</li>
+<li>在&lt;script&gt;的src属性或archive指定的外部文件中<ul>
+<li>&lt;script src &#x3D; “”&gt;&lt;&#x2F;script&gt;</li>
+<li>一个纯粹的代码文件，没有HTML标记</li>
+</ul>
+</li>
+<li>在某个HTML标记的事件处理器中<ul>
+<li>&lt;p onMouseOver &#x3D; “”&gt;   鼠标移动到上面时</li>
+<li>body事件<ul>
+<li>onLoad 页面显示之前</li>
+<li>onUnload 页面关掉之前</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>简单对话框<ul>
+<li>alert</li>
+<li>confirm</li>
+<li>prompt</li>
+</ul>
+</li>
+<li>状态栏（在页面最下面（左下角？））<ul>
+<li>status &#x3D; </li>
+<li>defaultStatus &#x3D;</li>
+</ul>
+</li>
+<li>定时器<ul>
+<li>setInterval()</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>window的控制方法<ul>
+<li>window.open()</li>
+<li>windoe.close()</li>
+</ul>
+</li>
+<li>location对象<ul>
+<li>window.location代表当前文档的URL</li>
+</ul>
+</li>
+</ul>
+<h2 id="document"><a href="#document" class="headerlink" title="document"></a>document</h2><ul>
+<li>document的成员<ul>
+<li>anchors[]</li>
+<li>forms[]</li>
+<li>images[]</li>
+<li>cookie</li>
+<li>title</li>
+<li>bgColor</li>
+<li>fgColor</li>
+<li>linkColor</li>
+<li>alinkColor</li>
+<li>vlinkColor</li>
+</ul>
+</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://wanyun-yang-2002.github.io/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Wanyun Yang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="杨">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/" class="post-title-link" itemprop="url">Blog搭建过程(Hexo)</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2021-12-14 21:01:29" itemprop="dateCreated datePublished" datetime="2021-12-14T21:01:29+08:00">2021-12-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-25 17:29:27" itemprop="dateModified" datetime="2021-12-25T17:29:27+08:00">2021-12-25</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Hexo/" itemprop="url" rel="index"><span itemprop="name">Hexo</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>一开始是按照网上搜索到的教程开始制作的，中途出了不少差错，于是便搁置了，直到今天才想起来。</p>
+<h1 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h1><p>分享一个很实用的教程：<a target="_blank" rel="noopener" href="http://www.wxylyw.com/2018/10/25/hexo%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/#more">hexo 从零搭建全过程</a><br>基本上如果没有什么其他问题的话一次性就搭建好了</p>
+<h1 id="主题安装及美化"><a href="#主题安装及美化" class="headerlink" title="主题安装及美化"></a>主题安装及美化</h1><h2 id="基本安装及基础美化"><a href="#基本安装及基础美化" class="headerlink" title="基本安装及基础美化"></a>基本安装及基础美化</h2><p>关于主题页面设置的一些方法：<a target="_blank" rel="noopener" href="https://haomingzhang.com/hexo_2/">hexo主题安装以及next8.0主题美化</a></p>
+<h2 id="进阶美化参考"><a href="#进阶美化参考" class="headerlink" title="进阶美化参考"></a>进阶美化参考</h2><h3 id="包括了很多方面的美化，但对我而言用处并没有很大"><a href="#包括了很多方面的美化，但对我而言用处并没有很大" class="headerlink" title="包括了很多方面的美化，但对我而言用处并没有很大"></a>包括了很多方面的美化，但对我而言用处并没有很大</h3><p><a target="_blank" rel="noopener" href="https://qianling.pw/hexo-optimization/">Hexo 优化汇总</a></p>
+<h3 id="内容也比较丰富，有很多实用性强的美化"><a href="#内容也比较丰富，有很多实用性强的美化" class="headerlink" title="内容也比较丰富，有很多实用性强的美化"></a>内容也比较丰富，有很多实用性强的美化</h3><p><a target="_blank" rel="noopener" href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">Hexo博客优化之Next主题美化</a><br><a target="_blank" rel="noopener" href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT主题自定义配置高阶教程</a></p>
+<h3 id="设置背景图片"><a href="#设置背景图片" class="headerlink" title="设置背景图片"></a>设置背景图片</h3><p>这个单拎出来推荐，是因为一开始搜了很多教程，但是尝试过之后都没有用，最终找到了这个教程，试了一次就成功了。<br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/cscshi/p/15196114.html">Hexo-NexT 设置博客背景图片</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
