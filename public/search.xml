@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Blog搭建过程(Hexo)</title>
-    <url>/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/</url>
-    <content><![CDATA[<p>一开始是按照网上搜索到的教程开始制作的，中途出了不少差错，于是便搁置了，直到今天才想起来。</p>
-<h1 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h1><p>分享一个很实用的教程：<a href="http://www.wxylyw.com/2018/10/25/hexo%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/#more">hexo 从零搭建全过程</a><br>基本上如果没有什么其他问题的话一次性就搭建好了</p>
-<h1 id="主题安装及美化"><a href="#主题安装及美化" class="headerlink" title="主题安装及美化"></a>主题安装及美化</h1><h2 id="基本安装及基础美化"><a href="#基本安装及基础美化" class="headerlink" title="基本安装及基础美化"></a>基本安装及基础美化</h2><p>关于主题页面设置的一些方法：<a href="https://haomingzhang.com/hexo_2/">hexo主题安装以及next8.0主题美化</a></p>
-<h2 id="进阶美化参考"><a href="#进阶美化参考" class="headerlink" title="进阶美化参考"></a>进阶美化参考</h2><h3 id="包括了很多方面的美化，但对我而言用处并没有很大"><a href="#包括了很多方面的美化，但对我而言用处并没有很大" class="headerlink" title="包括了很多方面的美化，但对我而言用处并没有很大"></a>包括了很多方面的美化，但对我而言用处并没有很大</h3><p><a href="https://qianling.pw/hexo-optimization/">Hexo 优化汇总</a></p>
-<h3 id="内容也比较丰富，有很多实用性强的美化"><a href="#内容也比较丰富，有很多实用性强的美化" class="headerlink" title="内容也比较丰富，有很多实用性强的美化"></a>内容也比较丰富，有很多实用性强的美化</h3><p><a href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">Hexo博客优化之Next主题美化</a><br><a href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT主题自定义配置高阶教程</a></p>
-<h3 id="设置背景图片"><a href="#设置背景图片" class="headerlink" title="设置背景图片"></a>设置背景图片</h3><p>这个单拎出来推荐，是因为一开始搜了很多教程，但是尝试过之后都没有用，最终找到了这个教程，试了一次就成功了。<br><a href="https://www.cnblogs.com/cscshi/p/15196114.html">Hexo-NexT 设置博客背景图片</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Golang基础学习笔记</title>
     <url>/2023/05/13/Golang%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Golang"><a href="#Golang" class="headerlink" title="Golang"></a>Golang</h1><p>💡<a href="https://www.youtube.com/watch?v=yyUHQIec83I&t=72s">Golang Tutorial for Beginners | Full Go Course</a></p>
@@ -274,6 +256,142 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog搭建过程(Hexo)</title>
+    <url>/2021/12/14/Blog%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B(Hexo)/</url>
+    <content><![CDATA[<p>一开始是按照网上搜索到的教程开始制作的，中途出了不少差错，于是便搁置了，直到今天才想起来。</p>
+<h1 id="搭建教程"><a href="#搭建教程" class="headerlink" title="搭建教程"></a>搭建教程</h1><p>分享一个很实用的教程：<a href="http://www.wxylyw.com/2018/10/25/hexo%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BA%E5%85%A8%E8%BF%87%E7%A8%8B/#more">hexo 从零搭建全过程</a><br>基本上如果没有什么其他问题的话一次性就搭建好了</p>
+<h1 id="主题安装及美化"><a href="#主题安装及美化" class="headerlink" title="主题安装及美化"></a>主题安装及美化</h1><h2 id="基本安装及基础美化"><a href="#基本安装及基础美化" class="headerlink" title="基本安装及基础美化"></a>基本安装及基础美化</h2><p>关于主题页面设置的一些方法：<a href="https://haomingzhang.com/hexo_2/">hexo主题安装以及next8.0主题美化</a></p>
+<h2 id="进阶美化参考"><a href="#进阶美化参考" class="headerlink" title="进阶美化参考"></a>进阶美化参考</h2><h3 id="包括了很多方面的美化，但对我而言用处并没有很大"><a href="#包括了很多方面的美化，但对我而言用处并没有很大" class="headerlink" title="包括了很多方面的美化，但对我而言用处并没有很大"></a>包括了很多方面的美化，但对我而言用处并没有很大</h3><p><a href="https://qianling.pw/hexo-optimization/">Hexo 优化汇总</a></p>
+<h3 id="内容也比较丰富，有很多实用性强的美化"><a href="#内容也比较丰富，有很多实用性强的美化" class="headerlink" title="内容也比较丰富，有很多实用性强的美化"></a>内容也比较丰富，有很多实用性强的美化</h3><p><a href="https://vic.kim/2019/05/25/Hexo%E5%8D%9A%E5%AE%A2%E4%BC%98%E5%8C%96%E4%B9%8BNext%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/">Hexo博客优化之Next主题美化</a><br><a href="https://blog.bill.moe/hexo-theme-next-config-optimization/">Hexo-NexT主题自定义配置高阶教程</a></p>
+<h3 id="设置背景图片"><a href="#设置背景图片" class="headerlink" title="设置背景图片"></a>设置背景图片</h3><p>这个单拎出来推荐，是因为一开始搜了很多教程，但是尝试过之后都没有用，最终找到了这个教程，试了一次就成功了。<br><a href="https://www.cnblogs.com/cscshi/p/15196114.html">Hexo-NexT 设置博客背景图片</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python链表</title>
+    <url>/2024/07/23/Python%E9%93%BE%E8%A1%A8/</url>
+    <content><![CDATA[<p>从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。<br>假设有一个链表是<br><code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code><br>那么在Python中打印它的头节点会得到：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>把这个结果的格式修改一下，看起来就像是一环套一环：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ListNode&#123;</span><br><span class="line">  val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">    val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">      val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">        val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">          val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>用cur表示当前节点，从头节点开始向后：<br>这样看起来就像剥洋葱一样，一层一层的嵌套着，直到达到最后一个节点，只剩下None</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># cur.val = 1</span></span><br><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 2</span></span><br><span class="line">ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 3</span></span><br><span class="line">ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 4</span></span><br><span class="line">ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 5 </span></span><br><span class="line">ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;</span><br><span class="line"><span class="comment"># cur 到最后</span></span><br><span class="line"><span class="literal">None</span></span><br></pre></td></tr></table></figure>
+<p>如果<code>cur</code>节点的样子是<code>ListNode&#123;val: 3, next: ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;&#125;</code>，那么<code>cur.next</code>的节点就是:<code>ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;</code>。等到遍历到最后一个节点，就只剩一个<code>None</code>了。</p>
+<p>同理，如果<code>cur.val == 1</code>，那么<code>cur.next.val == 2</code></p>
+<p>依据以上的结果，就可以将它们对应起来：</p>
+<table>
+<thead>
+<tr>
+<th>节点&#x2F;链表</th>
+<th><code>1</code></th>
+<th><code>-&gt;</code></th>
+<th><code>2</code></th>
+<th><code>-&gt;</code></th>
+<th><code>3</code></th>
+<th><code>-&gt;</code></th>
+<th><code>4</code></th>
+<th><code>-&gt;</code></th>
+<th><code>5</code></th>
+<th><code>-&gt;</code></th>
+<th><code>None</code></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>节点1</td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点2</td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点3</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点4</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>节点5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>.val</td>
+<td>.next</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>（这样看更直观一点？）</p>
+<ul>
+<li><code>当前节点.next</code>就是指向后面的所有的箭头，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
+<li><code>节点5.next.val</code>不存在，在运行代码会报错<code>AttributeError: &#39;NoneType&#39; object has no attribute &#39;val&#39;</code>。</li>
+<li><code>节点5.next</code>指向的是<code>None</code>，所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
+<li>创建虚拟头节点<code>dumpy = ListNode(next=head)</code>，就是在<code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code>前面再加一个<code>0</code>，就变成了<code>0 -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code></li>
+<li>假设要删掉<code>节点4</code>，那当<code>cur</code>走到<code>节点3</code>时，进行<code>cur.next = cur.next.next</code>操作，就成功删掉了<code>节点4</code></li>
+</ul>
+<p>差不多就这样，后面如果再遇到问题再补充。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>链表</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JS基础学习笔记</title>
     <url>/2021/12/26/JS%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<p><b> 看的视频是<a href="https://study.163.com/course/courseLearn.htm?coursejsId=195001#/learn/video?lessonId=2004&courseId=195001">翁恺老师讲的Javascript</a>,视频不是很长，不过了解js基础足够了，想深入学还得看别的+多多练习<br></b></p>
@@ -472,31 +590,40 @@
       </tags>
   </entry>
   <entry>
-    <title>Python中的深拷贝与浅拷贝</title>
-    <url>/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
-    <content><![CDATA[<ul>
-<li>浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。</li>
-<li>深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。</li>
-</ul>
-<p><strong>可变对象 vs 不可变对象</strong></p>
-<ul>
-<li>不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: 4</span></span><br></pre></td></tr></table></figure>
-<ul>
-<li>可变对象：如列表、字典、集合等，可以修改它们的内容。多个引用指向同一个可变对象时，对该对象的任何修改都会反映到所有引用中。</li>
-</ul>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
-
-<p>对于不可变对象，重新赋值会创建一个新的对象引用，不会影响原对象。<br>对于可变对象，修改对象内容会影响所有引用，因为它们指向的是同一个对象。</p>
+    <title>《早起的奇迹》</title>
+    <url>/2024/10/24/%E3%80%8A%E6%97%A9%E8%B5%B7%E7%9A%84%E5%A5%87%E8%BF%B9%E3%80%8B/</url>
+    <content><![CDATA[<p><strong>人生最大的奇迹，就是成为梦想中的自己。</strong></p>
+<p><strong>奇迹的发生并不违反大自然的定律，只不过是违反了我们目前所知的大自然。  ————圣·奥古斯丁</strong></p>
+<p><strong>早起的行动将影响你的思维和心态，决定你一整天的表现。</strong></p>
+<p><strong>重要的不是睡多久，而是你以为自己睡了多久。</strong></p>
+<p><strong>我们早晨醒来时的具体感受并不单纯的取决于睡眠时间的长短，而是收到自我暗示的影响。</strong></p>
+<p><em>以上几句话按照在书中出现顺序摘录</em></p>
+<p>其实在看到第二句的时候就觉得不对劲了，看到后面果然如此。<br>整本书都在告诉读者，只要对自己做出积极的暗示，每天坚持对美好未来的想象，那么未来一定会变成想象中的样子。<br>很像是显化和吸引力法则，只要心中不断强化自己的念头，那么那个念头就会成真。<br>这书挺无聊的……但我确实是相信吸引力法则的。</p>
 ]]></content>
       <categories>
-        <category>Python</category>
+        <category>读书</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>Python</tag>
+        <tag>读书</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/12/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>KMP算法</title>
@@ -611,6 +738,93 @@
       </tags>
   </entry>
   <entry>
+    <title>《硅谷是个什么谷》</title>
+    <url>/2024/08/08/%E3%80%8A%E7%A1%85%E8%B0%B7%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E8%B0%B7%E3%80%8B/</url>
+    <content><![CDATA[<p>书名：硅谷是个什么谷<br>作者：虎皮妈</p>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>《硅谷是个什么谷》写的是从07年到17年的故事，准确一点的话，最后结尾的部分也简略写到了19年。<br>六个主要角色贯穿全文，着重描写的程悦欣算是女主吧。<br>程悦欣一开始的个性不是很讨喜，至少我不喜欢，等看到后面的时候，才渐渐品出了这个角色身上吸引人的地方。</p>
+<blockquote>
+<p>“其实跟你现在做的事情差不多，”林锐忽然说，“你不是喜欢当售票员，你是喜欢跟人打交道，做协调工作。怪不得你会那么热衷政治。”</p>
+</blockquote>
+<p>直到看到这里，我才恍然意识到，人都是复杂的，如果从另一个角度看，程悦欣身上也有很多可取的点。</p>
+<h1 id="句评"><a href="#句评" class="headerlink" title="句评"></a>句评</h1><p>以前玩和平精英，一直不知道“大吉大利今晚吃鸡”这句话是哪来的，原来是从这句英语传来的：</p>
+<blockquote>
+<p>winner winner chicken dinner</p>
+</blockquote>
+<hr>
+<p>作者写到金融危机那一年时，看到书里的郑懿在美国找工作看得我想哭（虽然行业不同）</p>
+<blockquote>
+<p>郑懿的时间全部被排满了。下课跑各个教授办公室，混个脸熟然后套磁看能否替她引荐谁；报名各个律师协会的各种活动，社交假笑哈哈哈，手边随时带着一份简历；手机通讯录翻了又翻，从前收的名片找了又找，雪花般的E-mail发出去，开头都是客气的寒暄“好久不联系，最近怎么样”，最后都是巧妙的提问：“有些职业发展上的问题，可不可以出来喝杯咖啡聊一聊？”脚不沾地，在家的时间越来越少</p>
+</blockquote>
+<hr>
+<p>虽然我没去过美国，更没在美国留过学，但看到林锐为了在opt到期前找到工作，也有种感同身受的绝望。</p>
+<blockquote>
+<p>从找工作谈到经济形势再谈到朋友近况，这顿午饭一直吃到下午两点，这时林锐才恋恋不舍地往回开。回去，就是回到睁眼闭眼刷题写代码的日子，回到对着日历数自己还剩多少时间可以合法留在美国的日子，回到越来越没自信能拿钱砸郑懿的日子。</p>
+</blockquote>
+<p>这下真是同行业了，可惜我bg不如林锐，最近刷题写代码也有些力不从心(T_T)<br>不知何时才能找到工作</p>
+<hr>
+<p>看程悦欣从刚到美国看到游行队伍又怂又害怕，到七年后举着标语参加游行活动，有点感动。<br>原来她高中时也参与过，人选择的路、会做的事冥冥之中是注定的</p>
+<blockquote>
+<p>那是程悦欣刚到美国的第二天，在伯克利校园里，纤细的她在人群里好奇而恐惧地看着眼前经过的游行队伍。张思禹让她去向别人要传单，她说，我不敢，你去。</p>
+</blockquote>
+<blockquote>
+<p>安安很好奇，扭头看着程悦欣，妈妈的脸上有一种令他不熟悉的表情。于是他更安静了。大家都很喜欢这个镜头，一个推车里的小孩和他背后的标语，于是每隔几分钟，都有人上来给安安拍照。咔嚓咔嚓，安安更觉得，或许自己很重要，不哭不闹，瞪大眼睛，一张小脸颇为严肃。</p>
+<p>湾区本地电视台和报纸报道游行时，不约而同都用了程悦欣一手推安安，一手举标语的镜头。</p>
+<p>照片上程悦欣背后的人山人海被虚化了，她整个人肌肉紧绷，一手推车，一手高举标语，嘴里正大声疾呼，整个人有一种一往无前的力量感。</p>
+</blockquote>
+<blockquote>
+<p>程悦欣的父母对所有的社会活动都特别警惕，资本主义国家的社会运动也不行。高中时程悦欣跟着去抗议北约轰炸中国驻南斯拉夫大使馆，就被逮回来一顿臭骂。</p>
+</blockquote>
+<hr>
+<p>同样的道理放在郝会会身上也是一样的，冥冥之中她们过去的经历在影响着她们未来的生活</p>
+<blockquote>
+<p>郝会会说：“你不给我弄好散伙就散伙！”想想窝火，转头对老罗再骂回去：“我去你妈的。”<br>旁边两个小工看得目瞪口呆，鼓掌：“郝姐，现在厉害啊！”<br>听完程悦欣抱怨，郝会会对着红绿灯发了会儿呆。<br>小时候，她觉得村里的女人都粗俗，村头村尾都喧嚣，为一点家长里短一哭二闹三上吊，不是悍妇就是泼妇。郝会会不喜欢，她喜欢镇上学校里说话轻声慢气的女老师，她喜欢斯斯文文架副眼镜的男老师。媒人给她介绍胡金柱，她看一眼，就觉得喜欢。那是博士啊。<br>跟博士结婚那十来年，郝会会永远赔笑脸，轻声细语，有委屈也往肚子里咽。哪怕离婚了，胡金柱也要感慨，郝会会是个贤惠媳妇。如果胡金柱现在再遇到自己呢？郝会会想想要发笑，胡金柱能认识叉着腰指着老罗鼻子骂的泼妇吗？他如果看到，恐怕不会后悔自己离婚了吧。郝会会有些伤感，活了半辈子，活成了自己小时候最不想成为的人。</p>
+</blockquote>
+<h1 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h1><p>其实今天看了两本书，先看了L分享给我的《回国33天》，看到小红书评论区有人推荐《硅谷是个什么谷》，看完第一本之后就直接又看了第二本。<br>《回国33天》写的也还行，有种看剧情片的感觉，故事写的很有生活感也很drama。<br>但是很明显，《硅谷是个什么谷》写的更好，比《回国33天》好多了。</p>
+<p>《硅谷是个什么谷》里，每个人都有血有肉的，每个人的选择都和性格、过去的经历联系在一起，冥冥之中他们都过上了意料之外情理之中的生活（其实并不那么意料之外）。写的真的好真实，看的过程仿佛真的和他们一起经历了那些事情一样，像是他们身边的某个不起眼的朋友，虽然没在文中出现，但切切实实的见证了他们这么多年的生活。</p>
+<h1 id="角色点评（不分先后顺序）"><a href="#角色点评（不分先后顺序）" class="headerlink" title="角色点评（不分先后顺序）"></a>角色点评（不分先后顺序）</h1><h2 id="郑懿"><a href="#郑懿" class="headerlink" title="郑懿"></a>郑懿</h2><p>小说里其实更喜欢郑懿这个大女主一般的角色，原生家庭糟糕，却能一步步闯出来，为自己律所合伙人的目标而努力奋斗，且不会为了男人停留。<br>但太拼了，后来得了乳腺癌，手术成功，希望她在平行世界里生活得越来越好。</p>
+<h2 id="冷敏"><a href="#冷敏" class="headerlink" title="冷敏"></a>冷敏</h2><p>冷敏在文中也是一个很强大的女角色，但对她的描写太少了，不喜欢这种过于冷漠过于不近人情过于不择手段的人。<br>是，为了上司的赏识抢功劳、盗用化用同事辛苦做好的PPT，确实有胆有谋，不想承认但是某种程度上这种人就是更容易混得好。<br>独自创业，拉人入伙，在cto退出时不近人情的让他签下竞业协议，让他放弃股权。在国内创业出现问题时，利用自己孩子哭声逼迫员工高强度加班；裁掉一路跟着走来的鹏哥（实话，对这个角色没啥印象）；后面又毫不手软裁掉员工。<br>作为一个员工，不择手段往上爬，没毛病。<br>作为一个老板，创业红火的时候没亏待员工，这点没话说；在创业寒冬时，为了减小成本，裁员似乎也没问题。<br>人很复杂，看待角度不同，感受也不同。<br>我还是不太喜欢这个角色。</p>
+<h2 id="林锐"><a href="#林锐" class="headerlink" title="林锐"></a>林锐</h2><p>这个角色，就像作者在后记里说的那样，写的太理想化了。现实中恐怕没有这样的男人。<br>近朱者赤近墨者黑，我不信他没有受到胡金柱的影响，更何况他后来回国创业，花花世界迷人眼，真有人能一直把握住底线吗？我不信。<br>不做点评了。</p>
+<h2 id="郝会会"><a href="#郝会会" class="headerlink" title="郝会会"></a>郝会会</h2><p>一开始，确实怒其不争。<br>但是每个人的人生经历不同，她能做的也是她能想到的最好的解决办法。<br>虽然人蠢，但愿意听周围人的建议，踏实肯干。没有在离婚后只顾自怨自艾，而是听取了建议，为自己而活，逐渐将日子过得好了起来。</p>
+<h2 id="程悦欣"><a href="#程悦欣" class="headerlink" title="程悦欣"></a>程悦欣</h2><p>打眼一看，这是个娇妻角色。一句“我养你”就被骗到了美国，和张思禹住在合租房里。不愿意学英语、不愿意考gre，梦想就是找个好老公养着自己。<br>嗯，确实找了个好老公。如果忽略张思禹精神出轨+差点肉体出轨的话。<br>好在后来终于自立自强起来，重新念了大学（也得亏她周围有郝会会和郑懿，有俩能参照的榜样，能让她意识到要自强），找到了热爱的事业。<br>感情丰富、娇生惯养长大，这确实让程悦欣有些做作，但这同样让她富有同情心。<br>她和郑懿、郝会会，有着截然不同的成长经历，却成为了很好的朋友。这三个人的友谊能够保持这么多年，我认为程悦欣起到了很大的作用。<br>本性不坏，单纯可爱。</p>
+<h2 id="张思禹"><a href="#张思禹" class="headerlink" title="张思禹"></a>张思禹</h2><p>好吧，整本书看下来，能做到张思禹这个程度的男的恐怕也是超过了80%的♂。<br>会反思自己，会承担家务，会说到做到（还真做到了养程悦欣）。<br>可这又怎样呢，还是对冷敏动心了。一开始因为同事间的竞争还恨冷敏，结果呢？冷敏解释几句，故作心动一下，张思禹就精神出轨了。喝酒喝多了，和冷敏亲了，如果不是突然想到程悦欣，恐怕半推半就的就做了。<br>能否忍受一个对你很好但是精神出轨的♂？<br>反正这问题和我无关。</p>
+<h2 id="胡金柱"><a href="#胡金柱" class="headerlink" title="胡金柱"></a>胡金柱</h2><p>整本书最让人恶心的人。<br>抛妻弃子、回国当教授后勾引学生（还不止一个）<br>恶心！他的父母也恶心！恶心的父母养出了恶心的胡金柱。</p>
+<h2 id="冯品芝"><a href="#冯品芝" class="headerlink" title="冯品芝"></a>冯品芝</h2><p>老移民，20世纪偷渡来的美国。<br>一开始六个人就租住在冯品芝的房子里。<br>是个本性不坏的老太太。<br>会给郝会会、程悦欣出主意，会给郝会会25万刀的启动资金，会帮忙照顾郝会会的孩子……<br>挺善良的。</p>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+      <tags>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python中的深拷贝与浅拷贝</title>
+    <url>/2024/07/18/Python%E4%B8%AD%E7%9A%84%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
+    <content><![CDATA[<ul>
+<li>浅拷贝：复制对象，但不复制包含的子对象。修改复制后的子对象会影响原始对象。</li>
+<li>深拷贝：递归地复制对象及其包含的所有子对象。复制后的对象与原始对象完全独立。</li>
+</ul>
+<p><strong>可变对象 vs 不可变对象</strong></p>
+<ul>
+<li>不可变对象：如整数、字符串、元组等，不能修改它们的内容。对它们的重新赋值只会改变引用，不会影响原对象。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = <span class="number">3</span></span><br><span class="line">b = a</span><br><span class="line">b = <span class="number">4</span></span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: 3</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: 4</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>可变对象：如列表、字典、集合等，可以修改它们的内容。多个引用指向同一个可变对象时，对该对象的任何修改都会反映到所有引用中。</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br><span class="line"><span class="built_in">print</span>(b)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+
+<p>对于不可变对象，重新赋值会创建一个新的对象引用，不会影响原对象。<br>对于可变对象，修改对象内容会影响所有引用，因为它们指向的是同一个对象。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo博客使用方法</title>
     <url>/2022/05/04/hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
     <content><![CDATA[<p>今天想给博客里加内容的时候，完全忘记了要怎么做，所以赶紧搜了一下怎么增加、上传文章，顺便给自己做了一个教程。</p>
@@ -633,142 +847,6 @@
         <tag>教程</tag>
         <tag>Hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Python链表</title>
-    <url>/2024/07/23/Python%E9%93%BE%E8%A1%A8/</url>
-    <content><![CDATA[<p>从学c语言的时候就对链表很恐惧，现在跟着做题倒也能做，画图也能画，但是写代码的时候还是会害怕会心虚，所以想把链表的样子彻底搞懂。<br>假设有一个链表是<br><code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code><br>那么在Python中打印它的头节点会得到：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>把这个结果的格式修改一下，看起来就像是一环套一环：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ListNode&#123;</span><br><span class="line">  val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">    val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">      val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">        val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;</span><br><span class="line">          val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>用cur表示当前节点，从头节点开始向后：<br>这样看起来就像剥洋葱一样，一层一层的嵌套着，直到达到最后一个节点，只剩下None</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># cur.val = 1</span></span><br><span class="line">ListNode&#123;val: <span class="number">1</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 2</span></span><br><span class="line">ListNode&#123;val: <span class="number">2</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 3</span></span><br><span class="line">ListNode&#123;val: <span class="number">3</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 4</span></span><br><span class="line">ListNode&#123;val: <span class="number">4</span>, <span class="built_in">next</span>: ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;&#125;</span><br><span class="line"><span class="comment"># cur.val = 5 </span></span><br><span class="line">ListNode&#123;val: <span class="number">5</span>, <span class="built_in">next</span>: <span class="literal">None</span>&#125;</span><br><span class="line"><span class="comment"># cur 到最后</span></span><br><span class="line"><span class="literal">None</span></span><br></pre></td></tr></table></figure>
-<p>如果<code>cur</code>节点的样子是<code>ListNode&#123;val: 3, next: ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;&#125;</code>，那么<code>cur.next</code>的节点就是:<code>ListNode&#123;val: 4, next: ListNode&#123;val: 5, next: None&#125;&#125;</code>。等到遍历到最后一个节点，就只剩一个<code>None</code>了。</p>
-<p>同理，如果<code>cur.val == 1</code>，那么<code>cur.next.val == 2</code></p>
-<p>依据以上的结果，就可以将它们对应起来：</p>
-<table>
-<thead>
-<tr>
-<th>节点&#x2F;链表</th>
-<th><code>1</code></th>
-<th><code>-&gt;</code></th>
-<th><code>2</code></th>
-<th><code>-&gt;</code></th>
-<th><code>3</code></th>
-<th><code>-&gt;</code></th>
-<th><code>4</code></th>
-<th><code>-&gt;</code></th>
-<th><code>5</code></th>
-<th><code>-&gt;</code></th>
-<th><code>None</code></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>节点1</td>
-<td>.val</td>
-<td>.next</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>节点2</td>
-<td></td>
-<td></td>
-<td>.val</td>
-<td>.next</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>节点3</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>.val</td>
-<td>.next</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>节点4</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>.val</td>
-<td>.next</td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>节点5</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td>.val</td>
-<td>.next</td>
-<td></td>
-</tr>
-</tbody></table>
-<p>（这样看更直观一点？）</p>
-<ul>
-<li><code>当前节点.next</code>就是指向后面的所有的箭头，<code>当前节点.next.val</code>就是指向后面的第一个的节点的值。</li>
-<li><code>节点5.next.val</code>不存在，在运行代码会报错<code>AttributeError: &#39;NoneType&#39; object has no attribute &#39;val&#39;</code>。</li>
-<li><code>节点5.next</code>指向的是<code>None</code>，所以<code>while</code>循环遍历链表的时候，都是<code>while cur:</code>，如果为<code>None</code>就说明到最后了。</li>
-<li>创建虚拟头节点<code>dumpy = ListNode(next=head)</code>，就是在<code>1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code>前面再加一个<code>0</code>，就变成了<code>0 -&gt; 1 -&gt; 2 -&gt; 3 -&gt; 4 -&gt; 5 -&gt; None</code></li>
-<li>假设要删掉<code>节点4</code>，那当<code>cur</code>走到<code>节点3</code>时，进行<code>cur.next = cur.next.next</code>操作，就成功删掉了<code>节点4</code></li>
-</ul>
-<p>差不多就这样，后面如果再遇到问题再补充。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>链表</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/12/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
   <entry>
     <title>《焦虑是一种能量》</title>
@@ -872,66 +950,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《硅谷是个什么谷》</title>
-    <url>/2024/08/08/%E3%80%8A%E7%A1%85%E8%B0%B7%E6%98%AF%E4%B8%AA%E4%BB%80%E4%B9%88%E8%B0%B7%E3%80%8B/</url>
-    <content><![CDATA[<p>书名：硅谷是个什么谷<br>作者：虎皮妈</p>
-<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>《硅谷是个什么谷》写的是从07年到17年的故事，准确一点的话，最后结尾的部分也简略写到了19年。<br>六个主要角色贯穿全文，着重描写的程悦欣算是女主吧。<br>程悦欣一开始的个性不是很讨喜，至少我不喜欢，等看到后面的时候，才渐渐品出了这个角色身上吸引人的地方。</p>
-<blockquote>
-<p>“其实跟你现在做的事情差不多，”林锐忽然说，“你不是喜欢当售票员，你是喜欢跟人打交道，做协调工作。怪不得你会那么热衷政治。”</p>
-</blockquote>
-<p>直到看到这里，我才恍然意识到，人都是复杂的，如果从另一个角度看，程悦欣身上也有很多可取的点。</p>
-<h1 id="句评"><a href="#句评" class="headerlink" title="句评"></a>句评</h1><p>以前玩和平精英，一直不知道“大吉大利今晚吃鸡”这句话是哪来的，原来是从这句英语传来的：</p>
-<blockquote>
-<p>winner winner chicken dinner</p>
-</blockquote>
-<hr>
-<p>作者写到金融危机那一年时，看到书里的郑懿在美国找工作看得我想哭（虽然行业不同）</p>
-<blockquote>
-<p>郑懿的时间全部被排满了。下课跑各个教授办公室，混个脸熟然后套磁看能否替她引荐谁；报名各个律师协会的各种活动，社交假笑哈哈哈，手边随时带着一份简历；手机通讯录翻了又翻，从前收的名片找了又找，雪花般的E-mail发出去，开头都是客气的寒暄“好久不联系，最近怎么样”，最后都是巧妙的提问：“有些职业发展上的问题，可不可以出来喝杯咖啡聊一聊？”脚不沾地，在家的时间越来越少</p>
-</blockquote>
-<hr>
-<p>虽然我没去过美国，更没在美国留过学，但看到林锐为了在opt到期前找到工作，也有种感同身受的绝望。</p>
-<blockquote>
-<p>从找工作谈到经济形势再谈到朋友近况，这顿午饭一直吃到下午两点，这时林锐才恋恋不舍地往回开。回去，就是回到睁眼闭眼刷题写代码的日子，回到对着日历数自己还剩多少时间可以合法留在美国的日子，回到越来越没自信能拿钱砸郑懿的日子。</p>
-</blockquote>
-<p>这下真是同行业了，可惜我bg不如林锐，最近刷题写代码也有些力不从心(T_T)<br>不知何时才能找到工作</p>
-<hr>
-<p>看程悦欣从刚到美国看到游行队伍又怂又害怕，到七年后举着标语参加游行活动，有点感动。<br>原来她高中时也参与过，人选择的路、会做的事冥冥之中是注定的</p>
-<blockquote>
-<p>那是程悦欣刚到美国的第二天，在伯克利校园里，纤细的她在人群里好奇而恐惧地看着眼前经过的游行队伍。张思禹让她去向别人要传单，她说，我不敢，你去。</p>
-</blockquote>
-<blockquote>
-<p>安安很好奇，扭头看着程悦欣，妈妈的脸上有一种令他不熟悉的表情。于是他更安静了。大家都很喜欢这个镜头，一个推车里的小孩和他背后的标语，于是每隔几分钟，都有人上来给安安拍照。咔嚓咔嚓，安安更觉得，或许自己很重要，不哭不闹，瞪大眼睛，一张小脸颇为严肃。</p>
-<p>湾区本地电视台和报纸报道游行时，不约而同都用了程悦欣一手推安安，一手举标语的镜头。</p>
-<p>照片上程悦欣背后的人山人海被虚化了，她整个人肌肉紧绷，一手推车，一手高举标语，嘴里正大声疾呼，整个人有一种一往无前的力量感。</p>
-</blockquote>
-<blockquote>
-<p>程悦欣的父母对所有的社会活动都特别警惕，资本主义国家的社会运动也不行。高中时程悦欣跟着去抗议北约轰炸中国驻南斯拉夫大使馆，就被逮回来一顿臭骂。</p>
-</blockquote>
-<hr>
-<p>同样的道理放在郝会会身上也是一样的，冥冥之中她们过去的经历在影响着她们未来的生活</p>
-<blockquote>
-<p>郝会会说：“你不给我弄好散伙就散伙！”想想窝火，转头对老罗再骂回去：“我去你妈的。”<br>旁边两个小工看得目瞪口呆，鼓掌：“郝姐，现在厉害啊！”<br>听完程悦欣抱怨，郝会会对着红绿灯发了会儿呆。<br>小时候，她觉得村里的女人都粗俗，村头村尾都喧嚣，为一点家长里短一哭二闹三上吊，不是悍妇就是泼妇。郝会会不喜欢，她喜欢镇上学校里说话轻声慢气的女老师，她喜欢斯斯文文架副眼镜的男老师。媒人给她介绍胡金柱，她看一眼，就觉得喜欢。那是博士啊。<br>跟博士结婚那十来年，郝会会永远赔笑脸，轻声细语，有委屈也往肚子里咽。哪怕离婚了，胡金柱也要感慨，郝会会是个贤惠媳妇。如果胡金柱现在再遇到自己呢？郝会会想想要发笑，胡金柱能认识叉着腰指着老罗鼻子骂的泼妇吗？他如果看到，恐怕不会后悔自己离婚了吧。郝会会有些伤感，活了半辈子，活成了自己小时候最不想成为的人。</p>
-</blockquote>
-<h1 id="读后感"><a href="#读后感" class="headerlink" title="读后感"></a>读后感</h1><p>其实今天看了两本书，先看了L分享给我的《回国33天》，看到小红书评论区有人推荐《硅谷是个什么谷》，看完第一本之后就直接又看了第二本。<br>《回国33天》写的也还行，有种看剧情片的感觉，故事写的很有生活感也很drama。<br>但是很明显，《硅谷是个什么谷》写的更好，比《回国33天》好多了。</p>
-<p>《硅谷是个什么谷》里，每个人都有血有肉的，每个人的选择都和性格、过去的经历联系在一起，冥冥之中他们都过上了意料之外情理之中的生活（其实并不那么意料之外）。写的真的好真实，看的过程仿佛真的和他们一起经历了那些事情一样，像是他们身边的某个不起眼的朋友，虽然没在文中出现，但切切实实的见证了他们这么多年的生活。</p>
-<h1 id="角色点评（不分先后顺序）"><a href="#角色点评（不分先后顺序）" class="headerlink" title="角色点评（不分先后顺序）"></a>角色点评（不分先后顺序）</h1><h2 id="郑懿"><a href="#郑懿" class="headerlink" title="郑懿"></a>郑懿</h2><p>小说里其实更喜欢郑懿这个大女主一般的角色，原生家庭糟糕，却能一步步闯出来，为自己律所合伙人的目标而努力奋斗，且不会为了男人停留。<br>但太拼了，后来得了乳腺癌，手术成功，希望她在平行世界里生活得越来越好。</p>
-<h2 id="冷敏"><a href="#冷敏" class="headerlink" title="冷敏"></a>冷敏</h2><p>冷敏在文中也是一个很强大的女角色，但对她的描写太少了，不喜欢这种过于冷漠过于不近人情过于不择手段的人。<br>是，为了上司的赏识抢功劳、盗用化用同事辛苦做好的PPT，确实有胆有谋，不想承认但是某种程度上这种人就是更容易混得好。<br>独自创业，拉人入伙，在cto退出时不近人情的让他签下竞业协议，让他放弃股权。在国内创业出现问题时，利用自己孩子哭声逼迫员工高强度加班；裁掉一路跟着走来的鹏哥（实话，对这个角色没啥印象）；后面又毫不手软裁掉员工。<br>作为一个员工，不择手段往上爬，没毛病。<br>作为一个老板，创业红火的时候没亏待员工，这点没话说；在创业寒冬时，为了减小成本，裁员似乎也没问题。<br>人很复杂，看待角度不同，感受也不同。<br>我还是不太喜欢这个角色。</p>
-<h2 id="林锐"><a href="#林锐" class="headerlink" title="林锐"></a>林锐</h2><p>这个角色，就像作者在后记里说的那样，写的太理想化了。现实中恐怕没有这样的男人。<br>近朱者赤近墨者黑，我不信他没有受到胡金柱的影响，更何况他后来回国创业，花花世界迷人眼，真有人能一直把握住底线吗？我不信。<br>不做点评了。</p>
-<h2 id="郝会会"><a href="#郝会会" class="headerlink" title="郝会会"></a>郝会会</h2><p>一开始，确实怒其不争。<br>但是每个人的人生经历不同，她能做的也是她能想到的最好的解决办法。<br>虽然人蠢，但愿意听周围人的建议，踏实肯干。没有在离婚后只顾自怨自艾，而是听取了建议，为自己而活，逐渐将日子过得好了起来。</p>
-<h2 id="程悦欣"><a href="#程悦欣" class="headerlink" title="程悦欣"></a>程悦欣</h2><p>打眼一看，这是个娇妻角色。一句“我养你”就被骗到了美国，和张思禹住在合租房里。不愿意学英语、不愿意考gre，梦想就是找个好老公养着自己。<br>嗯，确实找了个好老公。如果忽略张思禹精神出轨+差点肉体出轨的话。<br>好在后来终于自立自强起来，重新念了大学（也得亏她周围有郝会会和郑懿，有俩能参照的榜样，能让她意识到要自强），找到了热爱的事业。<br>感情丰富、娇生惯养长大，这确实让程悦欣有些做作，但这同样让她富有同情心。<br>她和郑懿、郝会会，有着截然不同的成长经历，却成为了很好的朋友。这三个人的友谊能够保持这么多年，我认为程悦欣起到了很大的作用。<br>本性不坏，单纯可爱。</p>
-<h2 id="张思禹"><a href="#张思禹" class="headerlink" title="张思禹"></a>张思禹</h2><p>好吧，整本书看下来，能做到张思禹这个程度的男的恐怕也是超过了80%的♂。<br>会反思自己，会承担家务，会说到做到（还真做到了养程悦欣）。<br>可这又怎样呢，还是对冷敏动心了。一开始因为同事间的竞争还恨冷敏，结果呢？冷敏解释几句，故作心动一下，张思禹就精神出轨了。喝酒喝多了，和冷敏亲了，如果不是突然想到程悦欣，恐怕半推半就的就做了。<br>能否忍受一个对你很好但是精神出轨的♂？<br>反正这问题和我无关。</p>
-<h2 id="胡金柱"><a href="#胡金柱" class="headerlink" title="胡金柱"></a>胡金柱</h2><p>整本书最让人恶心的人。<br>抛妻弃子、回国当教授后勾引学生（还不止一个）<br>恶心！他的父母也恶心！恶心的父母养出了恶心的胡金柱。</p>
-<h2 id="冯品芝"><a href="#冯品芝" class="headerlink" title="冯品芝"></a>冯品芝</h2><p>老移民，20世纪偷渡来的美国。<br>一开始六个人就租住在冯品芝的房子里。<br>是个本性不坏的老太太。<br>会给郝会会、程悦欣出主意，会给郝会会25万刀的启动资金，会帮忙照顾郝会会的孩子……<br>挺善良的。</p>
-]]></content>
-      <categories>
-        <category>读书</category>
-      </categories>
-      <tags>
-        <tag>读书</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>回溯算法</title>
     <url>/2024/08/07/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/</url>
     <content><![CDATA[<h1 id="回溯法"><a href="#回溯法" class="headerlink" title="回溯法"></a>回溯法</h1><p>回溯法也叫回溯搜索法，是一种搜索的方式。<br>回溯是递归的副产品，只要有递归就会有回溯。</p>
@@ -986,6 +1004,40 @@
       <tags>
         <tag>笔记</tag>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>指针问题</title>
+    <url>/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>做题的时候突然产生的疑问：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<p>为什么left 和 right 的改变会影响dumpy?</p>
+<p><strong>变量和引用</strong></p>
+<p>在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<p><code>dumpy = ListNode(next=head)</code>：这里创建了一个新的 ListNode 对象，并将 dumpy 变量指向这个对象。<br><code>left, right = dumpy, dumpy</code>：这里将 left 和 right 都指向 dumpy 所指向的对象，即刚刚创建的 ListNode 对象。</p>
+<p><strong>变量赋值示例</strong></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
+
+<p>当 b &#x3D; a 时，b 和 a 都指向同一个列表对象。<br>对 b 进行操作（如 b.append(4)）也会影响 a，因为它们指向的是同一个对象。</p>
+<p>同理，在链表操作中：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><code>dumpy</code> 是一个新的 <code>ListNode</code> 对象。</li>
+<li><code>left</code> 和 <code>right</code> 都指向这个 <code>dumpy</code> 对象。</li>
+<li>任何对 <code>left</code> 或 <code>right</code> 的操作（如移动指针）都会反映在它们所指向的链表节点上。</li>
+</ul>
+<p><code>left</code> 和 <code>right</code> 都是指向 <code>dumpy</code> 链表中的节点的指针，当我们移动它们时，它们所指向的节点在链表中的位置发生了改变。因此，当我们修改 <code>left.next</code> 的时候，这实际上是在修改 <code>dumpy</code> 链表的结构。</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+        <tag>指针</tag>
       </tags>
   </entry>
   <entry>
@@ -1376,40 +1428,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>指针问题</title>
-    <url>/2024/07/18/%E6%8C%87%E9%92%88%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>做题的时候突然产生的疑问：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
-<p>为什么left 和 right 的改变会影响dumpy?</p>
-<p><strong>变量和引用</strong></p>
-<p>在Python中，所有变量都是对象的引用。当你执行赋值操作时，实际上是将变量名绑定到对象的引用。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
-<p><code>dumpy = ListNode(next=head)</code>：这里创建了一个新的 ListNode 对象，并将 dumpy 变量指向这个对象。<br><code>left, right = dumpy, dumpy</code>：这里将 left 和 right 都指向 dumpy 所指向的对象，即刚刚创建的 ListNode 对象。</p>
-<p><strong>变量赋值示例</strong></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">a = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">b = a</span><br><span class="line">b.append(<span class="number">4</span>)</span><br><span class="line"><span class="built_in">print</span>(a)  <span class="comment"># 输出: [1, 2, 3, 4]</span></span><br></pre></td></tr></table></figure>
-
-<p>当 b &#x3D; a 时，b 和 a 都指向同一个列表对象。<br>对 b 进行操作（如 b.append(4)）也会影响 a，因为它们指向的是同一个对象。</p>
-<p>同理，在链表操作中：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">dumpy = ListNode(<span class="built_in">next</span>=head)</span><br><span class="line">left, right = dumpy, dumpy</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>dumpy</code> 是一个新的 <code>ListNode</code> 对象。</li>
-<li><code>left</code> 和 <code>right</code> 都指向这个 <code>dumpy</code> 对象。</li>
-<li>任何对 <code>left</code> 或 <code>right</code> 的操作（如移动指针）都会反映在它们所指向的链表节点上。</li>
-</ul>
-<p><code>left</code> 和 <code>right</code> 都是指向 <code>dumpy</code> 链表中的节点的指针，当我们移动它们时，它们所指向的节点在链表中的位置发生了改变。因此，当我们修改 <code>left.next</code> 的时候，这实际上是在修改 <code>dumpy</code> 链表的结构。</p>
-]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>指针</tag>
       </tags>
   </entry>
 </search>
